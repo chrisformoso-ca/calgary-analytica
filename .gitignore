@@ -1,3 +1,6 @@
 
 # YoYo AI version control directory
 .yoyo/
+
+# Claude MCP config (sensitive information)
+.claude/

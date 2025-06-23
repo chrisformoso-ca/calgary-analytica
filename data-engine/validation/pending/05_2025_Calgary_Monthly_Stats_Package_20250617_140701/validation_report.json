@@ -1,0 +1,17 @@
+{
+  "extraction_results": {
+    "pdf_file": "05_2025_Calgary_Monthly_Stats_Package.pdf",
+    "city_data": "/home/chris/calgary-analytica/data/extracted/Calgary_CREB_Data.csv",
+    "district_data": "/home/chris/calgary-analytica/data/extracted/calgary_housing_master_dataset.csv",
+    "status": "success",
+    "errors": []
+  },
+  "validation_results": {
+    "city_records": 5,
+    "district_records": 0,
+    "confidence_score": 0.13513513513513514,
+    "issues": []
+  },
+  "timestamp": "20250617_140701",
+  "recommendation": "review"
+}

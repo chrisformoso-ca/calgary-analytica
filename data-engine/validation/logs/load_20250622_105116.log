@@ -1,0 +1,5 @@
+2025-06-22 10:51:16,900 - INFO - 🔧 Database Loader initialized
+2025-06-22 10:51:16,900 - INFO -    Database: /home/chris/calgary-analytica/data-lake/calgary_data.db
+2025-06-22 10:51:16,900 - INFO -    Approved CSV dir: /home/chris/calgary-analytica/data-engine/validation/approved
+2025-06-22 10:51:16,900 - INFO -    Archive dir: /home/chris/calgary-analytica/data-engine/validation/approved/loaded
+2025-06-22 10:51:16,900 - INFO - 📄 No CSV files found in approved directory

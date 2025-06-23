@@ -1,0 +1,57 @@
+{
+  "successful_extractions": [
+    {
+      "filename": "05_2025_Calgary_Monthly_Stats_Package.pdf",
+      "target_month": "2025-05",
+      "agent": "PDFPlumber",
+      "confidence": 1.0,
+      "records_found": 32,
+      "extraction_method": "enhanced_pdfplumber_v2",
+      "timestamp": "2025-06-18T21:52:09.224213"
+    },
+    {
+      "filename": "05_2025_Calgary_Monthly_Stats_Package.pdf",
+      "target_month": "2025-05",
+      "agent": "PDFPlumber",
+      "confidence": 1.0,
+      "records_found": 32,
+      "extraction_method": "enhanced_pdfplumber_v2",
+      "timestamp": "2025-06-18T21:52:25.530544"
+    },
+    {
+      "filename": "05_2025_Calgary_Monthly_Stats_Package.pdf",
+      "target_month": "2025-05",
+      "agent": "PDFPlumber",
+      "confidence": 1.0,
+      "records_found": 32,
+      "extraction_method": "enhanced_pdfplumber_v2",
+      "timestamp": "2025-06-19T09:51:11.865384"
+    },
+    {
+      "filename": "03_2025_Calgary_Monthly_Stats_Package.pdf",
+      "target_month": "2025-03",
+      "agent": "PDFPlumber",
+      "confidence": 1.0,
+      "records_found": 32,
+      "extraction_method": "enhanced_pdfplumber_v2",
+      "timestamp": "2025-06-19T09:52:12.193564"
+    }
+  ],
+  "agent_stats": {
+    "PDFPlumber": {
+      "success_rate": 1.0,
+      "total_attempts": 1,
+      "success_count": 1
+    },
+    "Firecrawl": {
+      "success_rate": 0.0,
+      "total_attempts": 0,
+      "success_count": 0
+    },
+    "OCR": {
+      "success_rate": 0.0,
+      "total_attempts": 0,
+      "success_count": 0
+    }
+  }
+}

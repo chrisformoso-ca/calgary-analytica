@@ -1,0 +1,17 @@
+date,indicator_type,indicator_name,value,unit,yoy_change,mom_change,category,source_file,confidence_score
+2025-01-01,generic_indicator_1,Unnamed: 0,1.0,unknown,,,economy,Current-Economic-Indicators-2025-01.xlsx,0.6
+2025-01-01,generic_indicator_2,Unnamed: 5,2022.0,unknown,,,economy,Current-Economic-Indicators-2025-01.xlsx,0.6
+2025-01-01,generic_indicator_3,Unnamed: 6,2023.0,unknown,,,economy,Current-Economic-Indicators-2025-01.xlsx,0.6
+2025-01-01,generic_indicator_4,Unnamed: 7,2024.0,unknown,,,economy,Current-Economic-Indicators-2025-01.xlsx,0.6
+2025-02-01,generic_indicator_1,Unnamed: 0,1.0,unknown,,,economy,Current-Economic-Indicators-2025-02.xlsx,0.6
+2025-02-01,generic_indicator_2,Unnamed: 5,2023.0,unknown,,,economy,Current-Economic-Indicators-2025-02.xlsx,0.6
+2025-02-01,generic_indicator_3,Unnamed: 6,2024.0,unknown,,,economy,Current-Economic-Indicators-2025-02.xlsx,0.6
+2025-04-01,generic_indicator_1,Unnamed: 0,1.0,unknown,,,economy,Current-Economic-Indicators-2025-04 (2).xlsx,0.6
+2025-04-01,generic_indicator_2,Unnamed: 5,2023.0,unknown,,,economy,Current-Economic-Indicators-2025-04 (2).xlsx,0.6
+2025-04-01,generic_indicator_3,Unnamed: 6,2024.0,unknown,,,economy,Current-Economic-Indicators-2025-04 (2).xlsx,0.6
+2025-05-01,generic_indicator_1,Unnamed: 0,1.0,unknown,,,economy,Current-Economic-Indicators-2025-05.xlsx,0.6
+2025-05-01,generic_indicator_2,Unnamed: 5,2023.0,unknown,,,economy,Current-Economic-Indicators-2025-05.xlsx,0.6
+2025-05-01,generic_indicator_3,Unnamed: 6,2024.0,unknown,,,economy,Current-Economic-Indicators-2025-05.xlsx,0.6
+2025-03-01,generic_indicator_1,Unnamed: 0,1.0,unknown,,,economy,current-economic-indicators-2025-03-updated-april-15-2025.xlsx,0.6
+2025-03-01,generic_indicator_2,Unnamed: 5,2023.0,unknown,,,economy,current-economic-indicators-2025-03-updated-april-15-2025.xlsx,0.6
+2025-03-01,generic_indicator_3,Unnamed: 6,2024.0,unknown,,,economy,current-economic-indicators-2025-03-updated-april-15-2025.xlsx,0.6

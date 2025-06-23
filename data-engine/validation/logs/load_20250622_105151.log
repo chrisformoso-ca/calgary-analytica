@@ -1,0 +1,11 @@
+2025-06-22 10:51:51,077 - INFO - 🔧 Database Loader initialized
+2025-06-22 10:51:51,077 - INFO -    Database: /home/chris/calgary-analytica/data-lake/calgary_data.db
+2025-06-22 10:51:51,077 - INFO -    Approved CSV dir: /home/chris/calgary-analytica/data-engine/validation/approved
+2025-06-22 10:51:51,077 - INFO -    Archive dir: /home/chris/calgary-analytica/data-engine/validation/approved/loaded
+2025-06-22 10:51:51,078 - INFO - 📄 Found 1 CSV files to process
+2025-06-22 10:51:51,078 - INFO - 
+🔄 Processing test_housing_city.csv
+2025-06-22 10:51:51,083 - INFO - 📋 Analyzing test_housing_city.csv with columns: ['benchmark_price', 'date', 'days_on_market', 'inventory', 'new_listings', 'property_type', 'sales']
+2025-06-22 10:51:51,083 - INFO -    ✅ Best match: housing_city_monthly (score: 0.86)
+2025-06-22 10:51:51,109 - INFO -    📦 Archived to test_housing_city.csv
+2025-06-22 10:51:51,109 - INFO -    ✅ Loaded 2 records to housing_city_monthly from test_housing_city.csv

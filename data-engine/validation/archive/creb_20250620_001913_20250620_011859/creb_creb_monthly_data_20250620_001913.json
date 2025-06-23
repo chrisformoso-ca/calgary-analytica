@@ -1,0 +1,44 @@
+{
+  "extractor_name": "creb",
+  "extraction_timestamp": "2025-06-20T00:19:13.957697",
+  "source_files": [
+    "/home/chris/calgary-analytica/data-engine/data/raw/creb_pdfs/01_2024_Calgary_Monthly_Stats_Package.pdf",
+    "/home/chris/calgary-analytica/data-engine/data/raw/creb_pdfs/01_2025_Calgary_Monthly_Stats_Package.pdf",
+    "/home/chris/calgary-analytica/data-engine/data/raw/creb_pdfs/02_2024_Calgary_Monthly_Stats_Package.pdf",
+    "/home/chris/calgary-analytica/data-engine/data/raw/creb_pdfs/02_2025_Calgary_Monthly_Stats_Package.pdf",
+    "/home/chris/calgary-analytica/data-engine/data/raw/creb_pdfs/03_2024_Calgary_Monthly_Stats_Package.pdf",
+    "/home/chris/calgary-analytica/data-engine/data/raw/creb_pdfs/03_2025_Calgary_Monthly_Stats_Package.pdf",
+    "/home/chris/calgary-analytica/data-engine/data/raw/creb_pdfs/04_2024_Calgary_Monthly_Stats_Package.pdf",
+    "/home/chris/calgary-analytica/data-engine/data/raw/creb_pdfs/04_2025_Calgary_Monthly_Stats_Package.pdf",
+    "/home/chris/calgary-analytica/data-engine/data/raw/creb_pdfs/05_2024_Calgary_Monthly_Stats_Package.pdf",
+    "/home/chris/calgary-analytica/data-engine/data/raw/creb_pdfs/05_2025_Calgary_Monthly_Stats_Package.pdf",
+    "/home/chris/calgary-analytica/data-engine/data/raw/creb_pdfs/06_2024_Calgary_Monthly_Stats_Package.pdf",
+    "/home/chris/calgary-analytica/data-engine/data/raw/creb_pdfs/07_2024_Calgary_Monthly_Stats_Package.pdf",
+    "/home/chris/calgary-analytica/data-engine/data/raw/creb_pdfs/08_2024_Calgary_Monthly_Stats_Package.pdf",
+    "/home/chris/calgary-analytica/data-engine/data/raw/creb_pdfs/09_2024_Calgary_Monthly_Stats_Package.pdf",
+    "/home/chris/calgary-analytica/data-engine/data/raw/creb_pdfs/10_2024_Calgary_Monthly_Stats_Package.pdf",
+    "/home/chris/calgary-analytica/data-engine/data/raw/creb_pdfs/11_2024_Calgary_Monthly_Stats_Package.pdf",
+    "/home/chris/calgary-analytica/data-engine/data/raw/creb_pdfs/12_2024_Calgary_Monthly_Stats_Package.pdf"
+  ],
+  "output_file": "/home/chris/calgary-analytica/data-engine/staging/extracted/creb_creb_monthly_data_20250620_001913.csv",
+  "success": true,
+  "records_extracted": 153,
+  "confidence_score": 0.7444444444444445,
+  "error_message": null,
+  "warnings": [],
+  "metadata": {
+    "property_types_extracted": [
+      "Total",
+      "Detached",
+      "Semi_Detached",
+      "Apartment",
+      "Row"
+    ],
+    "date_range": "2024-01-01 to 2025-05-01",
+    "districts_extracted": [
+      "City Centre",
+      "North West"
+    ],
+    "extraction_method": "pdfplumber"
+  }
+}

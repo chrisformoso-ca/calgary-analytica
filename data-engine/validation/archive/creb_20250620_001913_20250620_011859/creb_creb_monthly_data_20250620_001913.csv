@@ -1,0 +1,154 @@
+date,property_type,data_type,district,sales,new_listings,inventory,days_on_market,benchmark_price,median_price,average_price,yoy_price_change,mom_price_change,months_supply,sales_to_listings_ratio
+2024-01-01,Total,city,,198,852,451,4,,,,,,,
+2024-01-01,Detached,city,,61,79,139,4,,,,,,,
+2024-01-01,Semi_Detached,city,,17,45,72,4,,,,,,,
+2024-01-01,Apartment,city,,11,50,25,4,,,,,,,
+2024-01-01,Row,city,,9,78,15,3,,,,,,,
+2024-01-01,Detached,district,City Centre,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-01-01,Apartment,district,City Centre,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-01-01,Detached,district,North West,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-01-01,Apartment,district,North West,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2025-01-01,Total,city,,649,137,158,34,,,,,,,
+2025-01-01,Detached,city,,733,54,99,34,,,,,,,
+2025-01-01,Semi_Detached,city,,488,38,82,35,,,,,,,
+2025-01-01,Apartment,city,,131,23,19,35,,,,,,,
+2025-01-01,Row,city,,297,22,58,30,,,,,,,
+2025-01-01,Detached,district,City Centre,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2025-01-01,Apartment,district,City Centre,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2025-01-01,Detached,district,North West,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2025-01-01,Apartment,district,North West,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-02-01,Total,city,,198,1852,2451,42,,,,,,,
+2024-02-01,Detached,city,,61,879,1139,42,,,,,,,
+2024-02-01,Semi_Detached,city,,17,545,772,44,,,,,,,
+2024-02-01,Apartment,city,,11,150,225,47,,,,,,,
+2024-02-01,Row,city,,9,278,315,39,,,,,,,
+2024-02-01,Detached,district,City Centre,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-02-01,Apartment,district,City Centre,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-02-01,Detached,district,North West,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-02-01,Apartment,district,North West,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2025-02-01,Total,city,,1649,2137,2158,34,,,,,,,
+2025-02-01,Detached,city,,733,954,999,34,,,,,,,
+2025-02-01,Semi_Detached,city,,488,638,682,35,,,,,,,
+2025-02-01,Apartment,city,,131,223,219,35,,,,,,,
+2025-02-01,Row,city,,297,322,258,30,,,,,,,
+2025-02-01,Detached,district,City Centre,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2025-02-01,Apartment,district,City Centre,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2025-02-01,Detached,district,North West,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2025-02-01,Apartment,district,North West,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-03-01,Total,city,,198,1852,2451,42,,,,,,,
+2024-03-01,Detached,city,,61,879,1139,42,,,,,,,
+2024-03-01,Semi_Detached,city,,17,545,772,44,,,,,,,
+2024-03-01,Apartment,city,,11,150,225,47,,,,,,,
+2024-03-01,Row,city,,9,278,315,39,,,,,,,
+2024-03-01,Detached,district,City Centre,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-03-01,Apartment,district,City Centre,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-03-01,Detached,district,North West,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-03-01,Apartment,district,North West,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2025-03-01,Total,city,,1649,2137,2158,34,,,,,,,
+2025-03-01,Detached,city,,733,954,999,34,,,,,,,
+2025-03-01,Semi_Detached,city,,488,638,682,35,,,,,,,
+2025-03-01,Apartment,city,,131,223,219,35,,,,,,,
+2025-03-01,Row,city,,297,322,258,30,,,,,,,
+2025-03-01,Detached,district,City Centre,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2025-03-01,Apartment,district,City Centre,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2025-03-01,Detached,district,North West,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2025-03-01,Apartment,district,North West,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-04-01,Total,city,,198,1852,2451,42,,,,,,,
+2024-04-01,Detached,city,,61,879,1139,42,,,,,,,
+2024-04-01,Semi_Detached,city,,17,545,772,44,,,,,,,
+2024-04-01,Apartment,city,,11,150,225,47,,,,,,,
+2024-04-01,Row,city,,9,278,315,39,,,,,,,
+2024-04-01,Detached,district,City Centre,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-04-01,Apartment,district,City Centre,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-04-01,Detached,district,North West,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-04-01,Apartment,district,North West,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2025-04-01,Total,city,,1649,2137,2158,34,,,,,,,
+2025-04-01,Detached,city,,733,954,999,34,,,,,,,
+2025-04-01,Semi_Detached,city,,488,638,682,35,,,,,,,
+2025-04-01,Apartment,city,,131,223,219,35,,,,,,,
+2025-04-01,Row,city,,297,322,258,30,,,,,,,
+2025-04-01,Detached,district,City Centre,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2025-04-01,Apartment,district,City Centre,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2025-04-01,Detached,district,North West,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2025-04-01,Apartment,district,North West,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-05-01,Total,city,,198,1852,2451,42,,,,,,,
+2024-05-01,Detached,city,,61,879,1139,42,,,,,,,
+2024-05-01,Semi_Detached,city,,17,545,772,44,,,,,,,
+2024-05-01,Apartment,city,,11,150,225,47,,,,,,,
+2024-05-01,Row,city,,9,278,315,39,,,,,,,
+2024-05-01,Detached,district,City Centre,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-05-01,Apartment,district,City Centre,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-05-01,Detached,district,North West,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-05-01,Apartment,district,North West,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2025-05-01,Total,city,,1649,2137,2158,34,,,,,,,
+2025-05-01,Detached,city,,733,954,999,34,,,,,,,
+2025-05-01,Semi_Detached,city,,488,638,682,35,,,,,,,
+2025-05-01,Apartment,city,,131,223,219,35,,,,,,,
+2025-05-01,Row,city,,297,322,258,30,,,,,,,
+2025-05-01,Detached,district,City Centre,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2025-05-01,Apartment,district,City Centre,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2025-05-01,Detached,district,North West,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2025-05-01,Apartment,district,North West,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-06-01,Total,city,,198,1852,2451,42,,,,,,,
+2024-06-01,Detached,city,,61,879,1139,42,,,,,,,
+2024-06-01,Semi_Detached,city,,17,545,772,44,,,,,,,
+2024-06-01,Apartment,city,,11,150,225,47,,,,,,,
+2024-06-01,Row,city,,9,278,315,39,,,,,,,
+2024-06-01,Detached,district,City Centre,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-06-01,Apartment,district,City Centre,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-06-01,Detached,district,North West,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-06-01,Apartment,district,North West,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-07-01,Total,city,,198,852,451,4,,,,,,,
+2024-07-01,Detached,city,,61,79,139,4,,,,,,,
+2024-07-01,Semi_Detached,city,,17,45,72,4,,,,,,,
+2024-07-01,Apartment,city,,11,50,25,4,,,,,,,
+2024-07-01,Row,city,,9,78,15,3,,,,,,,
+2024-07-01,Detached,district,City Centre,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-07-01,Apartment,district,City Centre,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-07-01,Detached,district,North West,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-07-01,Apartment,district,North West,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-08-01,Total,city,,198,852,451,4,,,,,,,
+2024-08-01,Detached,city,,61,79,139,4,,,,,,,
+2024-08-01,Semi_Detached,city,,17,45,72,4,,,,,,,
+2024-08-01,Apartment,city,,11,50,25,4,,,,,,,
+2024-08-01,Row,city,,9,78,15,3,,,,,,,
+2024-08-01,Detached,district,City Centre,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-08-01,Apartment,district,City Centre,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-08-01,Detached,district,North West,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-08-01,Apartment,district,North West,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-09-01,Total,city,,198,852,451,4,,,,,,,
+2024-09-01,Detached,city,,61,79,139,4,,,,,,,
+2024-09-01,Semi_Detached,city,,17,45,72,4,,,,,,,
+2024-09-01,Apartment,city,,11,50,25,4,,,,,,,
+2024-09-01,Row,city,,9,78,15,3,,,,,,,
+2024-09-01,Detached,district,City Centre,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-09-01,Apartment,district,City Centre,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-09-01,Detached,district,North West,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-09-01,Apartment,district,North West,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-10-01,Total,city,,198,1852,2451,42,,,,,,,
+2024-10-01,Detached,city,,61,879,1139,42,,,,,,,
+2024-10-01,Semi_Detached,city,,17,545,772,44,,,,,,,
+2024-10-01,Apartment,city,,11,150,225,47,,,,,,,
+2024-10-01,Row,city,,9,278,315,39,,,,,,,
+2024-10-01,Detached,district,City Centre,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-10-01,Apartment,district,City Centre,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-10-01,Detached,district,North West,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-10-01,Apartment,district,North West,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-11-01,Total,city,,198,1852,2451,42,,,,,,,
+2024-11-01,Detached,city,,61,879,1139,42,,,,,,,
+2024-11-01,Semi_Detached,city,,17,545,772,44,,,,,,,
+2024-11-01,Apartment,city,,11,150,225,47,,,,,,,
+2024-11-01,Row,city,,9,278,315,39,,,,,,,
+2024-11-01,Detached,district,City Centre,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-11-01,Apartment,district,City Centre,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-11-01,Detached,district,North West,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-11-01,Apartment,district,North West,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-12-01,Total,city,,198,852,451,4,,,,,,,
+2024-12-01,Detached,city,,61,79,139,4,,,,,,,
+2024-12-01,Semi_Detached,city,,17,45,72,4,,,,,,,
+2024-12-01,Apartment,city,,11,50,25,4,,,,,,,
+2024-12-01,Row,city,,9,78,15,3,,,,,,,
+2024-12-01,Detached,district,City Centre,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-12-01,Apartment,district,City Centre,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-12-01,Detached,district,North West,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%
+2024-12-01,Apartment,district,North West,50,75,120,30,650000.0,,,5.2,1.1,2.4,67%

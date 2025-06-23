@@ -1,0 +1,48 @@
+{
+  "timestamp": "2025-06-20T01:34:16.876218",
+  "database": {
+    "status": "healthy",
+    "file_size_mb": 0.38,
+    "table_counts": {
+      "housing_city_monthly": 145,
+      "sqlite_sequence": 7,
+      "housing_district_monthly": 544,
+      "extraction_patterns": 0,
+      "extraction_log": 0,
+      "crime_statistics_monthly": 8,
+      "crime_analysis_monthly": 8,
+      "housing_crime_correlations": 105,
+      "housing_crime_insights": 5,
+      "economic_indicators_monthly": 451,
+      "economic_analysis_quarterly": 0,
+      "economic_metadata": 0
+    },
+    "total_records": 1273
+  },
+  "validation": {
+    "pending": 1,
+    "approved": 0,
+    "rejected": 0
+  },
+  "staging": {
+    "file_count": 0,
+    "total_size_mb": 0.0
+  },
+  "freshness": {
+    "housing_city_monthly": {
+      "latest_date": "2025-05-01",
+      "hours_old": 1201.6,
+      "status": "stale"
+    },
+    "housing_district_monthly": {
+      "latest_date": "2025-05-01",
+      "hours_old": 1201.6,
+      "status": "stale"
+    },
+    "economic_indicators_monthly": {
+      "latest_date": "2025-05-01",
+      "hours_old": 1201.6,
+      "status": "stale"
+    }
+  }
+}
