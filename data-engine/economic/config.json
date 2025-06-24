@@ -1,0 +1,29 @@
+{
+  "source_name": "Economic Indicators",
+  "description": "City of Calgary economic indicators and analysis",
+  "update_frequency": "monthly",
+  "data_formats": ["Excel", "PDF"],
+  "key_indicators": [
+    "unemployment_rate",
+    "population",
+    "gdp_estimate",
+    "housing_starts",
+    "building_permits",
+    "employment_by_sector",
+    "consumer_price_index",
+    "business_licenses"
+  ],
+  "validation_rules": {
+    "unemployment_rate": {
+      "min": 3,
+      "max": 15,
+      "unit": "percentage"
+    },
+    "population": {
+      "min": 1000000,
+      "max": 2000000,
+      "unit": "people"
+    }
+  },
+  "extraction_confidence_threshold": 0.85
+}

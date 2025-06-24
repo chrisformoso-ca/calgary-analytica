@@ -1,0 +1,29 @@
+{
+  "source_name": "Crime Statistics",
+  "description": "Calgary Police Service community crime and disorder statistics",
+  "update_frequency": "monthly",
+  "data_format": "Excel",
+  "data_categories": [
+    "person_crimes",
+    "property_crimes",
+    "disorder_events",
+    "traffic_incidents"
+  ],
+  "validation_rules": {
+    "community_count": {
+      "min": 150,
+      "max": 200
+    },
+    "crime_count": {
+      "min": 0,
+      "max": 10000
+    },
+    "year_over_year_change": {
+      "min": -50,
+      "max": 50,
+      "unit": "percentage"
+    }
+  },
+  "data_notes": "Some communities may have suppressed data for privacy (< 5 incidents)",
+  "extraction_confidence_threshold": 0.9
+}

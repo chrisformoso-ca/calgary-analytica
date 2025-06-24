@@ -21,16 +21,20 @@ class DataEngine:
     
     def __init__(self, base_path: str = None):
         self.base_path = Path(base_path) if base_path else Path(__file__).parent.parent
-        self.sources_path = self.base_path / "sources"
         
         # Use ConfigManager for all paths
         self.config = ConfigManager()
         self.database_path = self.config.get_database_path()
         
-        # Raw data paths from config
-        self.creb_pdf_dir = self.config.get_creb_pdf_dir()
-        self.economic_data_dir = self.config.get_economic_data_dir()
-        self.crime_data_dir = self.config.get_crime_data_dir()
+        # Source-based paths
+        self.creb_path = self.base_path / "creb"
+        self.economic_path = self.base_path / "economic"
+        self.police_path = self.base_path / "police"
+        
+        # Raw data paths (now within each source)
+        self.creb_pdf_dir = self.creb_path / "raw"
+        self.economic_data_dir = self.economic_path / "raw"
+        self.crime_data_dir = self.police_path / "raw"
         
         # Output paths for validation
         self.validation_dir = self.config.get_pending_review_dir()
@@ -38,7 +42,9 @@ class DataEngine:
         
         logger.info(f"🏗️  Data Engine initialized")
         logger.info(f"   Database: {self.database_path}")
-        logger.info(f"   Sources: {self.sources_path}")
+        logger.info(f"   CREB: {self.creb_path}")
+        logger.info(f"   Economic: {self.economic_path}")
+        logger.info(f"   Police: {self.police_path}")
         logger.info(f"   Validation: {self.validation_dir}")
     
     def extract_creb(self, pdf_path: str = None, month: str = None) -> Dict[str, Any]:
@@ -46,8 +52,8 @@ class DataEngine:
         try:
             logger.info("🔄 Starting CREB extraction")
             
-            # Use existing CREB extractor
-            extractor_script = self.base_path.parent / "extractors" / "creb_reports" / "update_calgary_creb_data.py"
+            # Use CREB extractor from new location
+            extractor_script = self.creb_path / "scripts" / "extractor.py"
             if not extractor_script.exists():
                 return {"success": False, "error": "CREB extractor script not found"}
             
@@ -107,8 +113,8 @@ class DataEngine:
         try:
             logger.info("🔄 Starting economic indicators extraction")
             
-            # Use existing economic extractor
-            extractor_script = self.sources_path / "economic" / "extractor.py"
+            # Use economic extractor from new location
+            extractor_script = self.economic_path / "scripts" / "extractor.py"
             if not extractor_script.exists():
                 return {"success": False, "error": "Economic extractor script not found"}
             
@@ -167,8 +173,8 @@ class DataEngine:
         try:
             logger.info("🔄 Starting crime statistics extraction")
             
-            # Use existing crime extractor
-            extractor_script = self.sources_path / "police" / "extractor.py"
+            # Use police extractor from new location
+            extractor_script = self.police_path / "scripts" / "extractor.py"
             if not extractor_script.exists():
                 return {"success": False, "error": "Crime extractor script not found"}
             

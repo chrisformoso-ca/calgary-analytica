@@ -4,3 +4,40 @@
 
 # Claude MCP config (sensitive information)
 .claude/
+
+# Database files
+data-lake/*.db
+data-lake/*.db-journal
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+.Python
+
+# Environment variables
+.env
+.env.local
+
+# Validation/processing directories (temporary files)
+data-engine/validation/pending/
+data-engine/validation/processed/
+data-engine/validation/rejected/
+
+# Generated reports (optional - remove this line if you want to track reports)
+reports/
+
+# MacOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log

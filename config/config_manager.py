@@ -54,17 +54,17 @@ primary_db = {self.project_root}/data-lake/calgary_data.db
 backup_db = {self.project_root}/data-lake/backups/calgary_data_backup.db
 
 [data_sources]
-creb_pdf_dir = {self.project_root}/data/raw/creb_pdfs
-economic_data_dir = {self.project_root}/data/raw/calgary_economic_indicators
-crime_data_dir = {self.project_root}/data/raw/calgary_police_service
-raw_data = {self.project_root}/data/raw
+creb_pdf_dir = {self.project_root}/data-engine/creb/raw
+economic_data_dir = {self.project_root}/data-engine/economic/raw
+crime_data_dir = {self.project_root}/data-engine/police/raw
+raw_data = {self.project_root}/data-engine
 
 [validation]
-validation_base = {self.project_root}/validation
-pending_review = {self.project_root}/validation/pending
-approved_data = {self.project_root}/validation/approved
-rejected_data = {self.project_root}/validation/rejected
-audit_logs = {self.project_root}/validation/logs
+validation_base = {self.project_root}/data-engine/validation
+pending_review = {self.project_root}/data-engine/validation/pending
+approved_data = {self.project_root}/data-engine/validation/approved
+rejected_data = {self.project_root}/data-engine/validation/rejected
+audit_logs = {self.project_root}/data-engine/validation/logs
 
 [thresholds]
 auto_approve_confidence = 0.90
@@ -195,6 +195,70 @@ rejection_confidence = 0.50
                 results[name] = False
                 
         return results
+    
+    # Data Engine specific validation methods
+    def validate_extractors(self) -> Dict[str, bool]:
+        """Validate that all required extractor scripts exist."""
+        extractors = {
+            'creb': self.project_root / 'data-engine' / 'sources' / 'creb' / 'extractor.py',
+            'economic': self.project_root / 'data-engine' / 'sources' / 'economic' / 'extractor.py',
+            'crime': self.project_root / 'data-engine' / 'sources' / 'police' / 'crime_extractor.py',
+        }
+        
+        results = {}
+        for name, path in extractors.items():
+            results[f'extractor_{name}'] = path.exists()
+            
+        return results
+    
+    def validate_data_pipeline(self) -> Dict[str, Any]:
+        """Comprehensive validation of data pipeline components."""
+        results = {
+            'database_exists': self.get_database_path().exists(),
+            'validation_dirs': {},
+            'extractors': self.validate_extractors(),
+            'pending_count': 0,
+            'approved_count': 0,
+        }
+        
+        # Check validation directories
+        validation_dirs = {
+            'pending': self.get_pending_review_dir(),
+            'approved': self.get_approved_data_dir(),
+            'rejected': self.get_rejected_data_dir(),
+            'processed': self.get_approved_data_dir().parent / 'processed',
+            'logs': self.get_audit_logs_dir(),
+        }
+        
+        for name, path in validation_dirs.items():
+            results['validation_dirs'][name] = path.exists()
+            
+        # Count pending and approved files
+        try:
+            if self.get_pending_review_dir().exists():
+                results['pending_count'] = len(list(self.get_pending_review_dir().glob('*.csv')))
+            if self.get_approved_data_dir().exists():
+                results['approved_count'] = len(list(self.get_approved_data_dir().iterdir()))
+        except Exception:
+            pass
+            
+        return results
+    
+    def get_extraction_script(self, source: str) -> Optional[Path]:
+        """Get the path to an extraction script by source name."""
+        script_map = {
+            'creb': self.project_root / 'data-engine' / 'sources' / 'creb' / 'extractor.py',
+            'economic': self.project_root / 'data-engine' / 'sources' / 'economic' / 'extractor.py',
+            'crime': self.project_root / 'data-engine' / 'sources' / 'police' / 'crime_extractor.py',
+        }
+        
+        return script_map.get(source)
+    
+    def log_config_usage(self, component: str, action: str):
+        """Log configuration usage for tracking which components use the config."""
+        import logging
+        logger = logging.getLogger('config_manager')
+        logger.info(f"Config used by {component} for {action}")
 
 
 # Global instance for easy access

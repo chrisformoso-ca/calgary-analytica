@@ -1,0 +1,20 @@
+{
+  "source_name": "CREB",
+  "description": "Calgary Real Estate Board monthly housing statistics",
+  "update_frequency": "monthly",
+  "data_format": "PDF",
+  "expected_records_per_month": {
+    "city_wide": 5,
+    "district": 32,
+    "total": 37
+  },
+  "validation_rules": {
+    "price_range": {
+      "min": 200000,
+      "max": 1500000
+    },
+    "districts": 8,
+    "property_types": ["Detached", "Semi-detached", "Apartment", "Row"]
+  },
+  "extraction_confidence_threshold": 0.9
+}
