@@ -46,9 +46,9 @@ Keep it simple. No autonomous agents. No LLM involvement in data processing. Jus
 python3 data-engine/cli/monthly_update.py --month 6 --year 2025
 
 # Or run specific extractors directly
-python3 data-engine/core/data_engine.py creb
-python3 data-engine/core/data_engine.py economic
-python3 data-engine/core/data_engine.py crime
+python3 data-engine/creb/scripts/extractor.py
+python3 data-engine/economic/scripts/extractor_timeseries.py
+python3 data-engine/police/scripts/extractor.py
 ```
 
 **What happens**: 
@@ -75,16 +75,28 @@ python3 data-engine/cli/validate_pending.py --interactive
 - Press `q` to quit
 
 #### Step 3: Load to Database
+
+**Option A - Load with full validation structure** (for monthly updates):
 ```bash
-# Load all approved data
 cd data-engine/core && python3 load_approved_data.py
+```
+
+**Option B - Direct CSV load** (for simple CSVs):
+```bash
+cd data-engine/core && python3 load_csv_direct.py
 ```
 
 **What happens**:
 - Reads CSVs from `/validation/approved/`
+- Auto-detects which table based on column names
 - Loads data into SQLite database
-- Moves processed files to `/validation/processed/`
+- Moves processed CSV files to `/validation/processed/`
+- Archives JSON reports to `/validation/reports/YYYY/MM/`
 - Shows summary of what was loaded
+
+**Which loader to use?**
+- `load_approved_data.py`: For data with validation subdirectories and JSON reports
+- `load_csv_direct.py`: For simple CSV files placed directly in approved/ (recommended for most cases)
 
 ### That's It!
 No agents. No automation. You control every step.
@@ -172,7 +184,8 @@ calgary-analytica/
 │       ├── pending/       # Awaiting review
 │       ├── approved/      # Ready to load
 │       ├── rejected/      # Failed review
-│       └── processed/     # Successfully loaded
+│       ├── processed/     # Successfully loaded
+│       └── reports/       # JSON validation reports (YYYY/MM/)
 ├── data-lake/
 │   └── calgary_data.db     # Central SQLite database
 ├── dashboards/             # Web applications
@@ -186,6 +199,14 @@ calgary-analytica/
 │   └── config_manager.py # Centralized path management
 └── docs/                # Project documentation
 ```
+
+## 📊 Expected Data Volumes
+
+Per update:
+- **Housing City**: ~5 records/month (5 property types)
+- **Housing District**: ~32 records/month (8 districts × 4 types)
+- **Economic Indicators**: ~10-15 records/month
+- **Crime Statistics**: ~200,000+ total records (all years, includes 'UNKNOWN' community for privacy-protected domestic violence data)
 
 ## 🎯 Decision Framework
 
@@ -234,14 +255,45 @@ Track and report on:
 - **Content Performance**: Engagement metrics
 - **Data Quality**: Errors caught in review
 
-## 🚨 Error Handling
+## 🚨 Error Handling & Troubleshooting
 
-When extraction fails:
+### When extraction fails:
 1. Check error logs in `/data-engine/validation/logs/`
 2. Human reviews the problematic file manually
 3. Claude Code helps debug and fix the script
 4. Test fix on the failed file
 5. Update script for future runs
+
+### Database Queries:
+```bash
+# Check data volumes
+cd data-lake
+sqlite3 calgary_data.db "SELECT COUNT(*) FROM housing_city_monthly;"
+sqlite3 calgary_data.db "SELECT COUNT(*) FROM crime_statistics_monthly;"
+sqlite3 calgary_data.db "SELECT COUNT(*) FROM crime_statistics_monthly WHERE community = 'UNKNOWN';"
+
+# Check date ranges
+sqlite3 calgary_data.db "SELECT MIN(date), MAX(date) FROM economic_indicators_monthly;"
+
+# Generate comprehensive database catalog
+sqlite3 calgary_data.db < db_catalog.sql
+# Or save to file: sqlite3 calgary_data.db < db_catalog.sql > catalog.txt
+```
+
+### Data Loading Notes:
+- Column names are automatically lowercased (preserving underscores)
+- JSON validation reports are archived to `/validation/reports/YYYY/MM/`
+- Null communities in crime data become 'UNKNOWN' (for privacy-protected domestic violence data)
+- The `load_csv_direct.py` auto-detects table type from column names
+
+### Database Catalog:
+The `db_catalog.sql` script provides a comprehensive overview of the database:
+- Table summaries with record counts and date ranges
+- Schema details for each table including all fields
+- Data distributions (property types, crime categories, economic indicators)
+- Geographic coverage (districts, communities)
+- Temporal alignment showing which datasets overlap
+- Sample queries for common analyses
 
 ## 💡 Key Principles
 

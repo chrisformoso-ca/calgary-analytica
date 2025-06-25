@@ -18,8 +18,8 @@ import sys
 import os
 import json
 
-# Add parent directory to path to import from config
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+# Add project root to path for imports
+sys.path.append(str(Path(__file__).resolve().parents[3]))
 from config.config_manager import get_config
 
 logging.basicConfig(level=logging.INFO)
@@ -627,19 +627,10 @@ class CalgaryDataUpdater:
                 "extraction_date": datetime.now().isoformat(),
                 "records_extracted": len(df),
                 "date_range": f"{df['date'].min() if 'date' in df else df['Date'].min()} to {df['date'].max() if 'date' in df else df['Date'].max()}",
-                "confidence_metrics": {},
                 "property_types": {},
                 "sample_records": []
             }
             
-            # Get confidence score summary if available
-            if 'confidence_score' in df.columns:
-                validation_report["confidence_metrics"] = {
-                    "mean": float(df['confidence_score'].mean()),
-                    "min": float(df['confidence_score'].min()),
-                    "max": float(df['confidence_score'].max()),
-                    "low_confidence_count": int((df['confidence_score'] < 0.9).sum())
-                }
             
             # Property type breakdown
             prop_col = 'property_type' if 'property_type' in df.columns else 'Property_Type'

@@ -20,10 +20,10 @@ python3 data-engine/cli/validate_pending.py --list          # List pending items
 python3 data-engine/cli/validate_pending.py --interactive   # Manual review
 
 # Load approved data
-cd data-engine/core && python3 load_approved_data.py
+cd data-engine/cli && python3 load_approved_data.py
 
 # Alternative: Direct CSV load (for simple CSVs without validation structure)
-cd data-engine/core && python3 load_csv_direct.py
+cd data-engine/cli && python3 load_csv_direct.py
 
 # Database status check
 cd data-lake && sqlite3 calgary_data.db "SELECT COUNT(*) FROM housing_city_monthly;"
@@ -52,8 +52,8 @@ cd data-lake && sqlite3 calgary_data.db "SELECT COUNT(*) FROM housing_city_month
    - Always use: `from config.config_manager import get_config`
    - Never hardcode paths
 
-2. **Data Engine** (`/data-engine/core/data_engine.py`)
-   - Orchestrates extraction from multiple sources
+2. **Data Engine** (extractors in each source directory)
+   - Each source has its own extraction scripts
    - Outputs CSVs with confidence scores to validation queue
    - Simple, manual process - no autonomous agents
 
@@ -85,7 +85,7 @@ Each source contains:
 ## Critical Data Pipeline Rules
 
 1. **NEVER bypass validation** - All data goes through `/validation/pending/`
-2. **NEVER write directly to database** - Only `load_approved_data.py` does this
+2. **NEVER write directly to database** - Only `load_approved_data.py` or `load_csv_direct.py` does this
 3. **ALWAYS use ConfigManager** - No hardcoded paths
 4. **ALWAYS check confidence scores** - Review carefully when < 90%
 5. **ALWAYS preserve audit trail** - Archive processed files
@@ -118,6 +118,14 @@ Per month:
 - `/specs/data-flow.md`: Complete pipeline documentation
 - `/data-engine/CLAUDE.md`: Data engine specific instructions
 - `/README.md`: Project overview and workflows
+
+## Data Loading and Audit Trail
+
+When using `load_csv_direct.py`:
+- CSV files are moved from `/validation/approved/` to `/validation/processed/`
+- JSON validation reports are archived to `/validation/reports/YYYY/MM/`
+- This provides a complete audit trail of all data loads
+- Reports are organized by year and month for easy access
 
 ## Validation Guidelines
 

@@ -392,9 +392,7 @@ class CalgaryEconomicTimeSeriesExtractor:
                             'unit': config['unit'],
                             'value_type': config['value_type'],
                             'category': config['category'],
-                            'source_file': file_path.name,
-                            'extraction_date': datetime.now().isoformat(),
-                            'confidence_score': 0.95 if config['value_type'] == 'absolute' else 0.90
+                            '_source_file': file_path.name  # Temporary for deduplication
                         }
                         
                         # Add YoY change if available
@@ -505,13 +503,18 @@ class CalgaryEconomicTimeSeriesExtractor:
                 grouped[key] = record
             else:
                 # Keep record from newer file
-                existing_file_date = file_dates.get(grouped[key]['source_file'])
-                new_file_date = file_dates.get(record['source_file'])
+                existing_file_date = file_dates.get(grouped[key]['_source_file'])
+                new_file_date = file_dates.get(record['_source_file'])
                 
                 if existing_file_date and new_file_date and new_file_date > existing_file_date:
                     grouped[key] = record
         
         unique_records = list(grouped.values())
+        
+        # Remove temporary source_file field
+        for record in unique_records:
+            record.pop('_source_file', None)
+        
         logger.info(f"Deduplicated: {len(records)} -> {len(unique_records)} records")
         
         return unique_records
@@ -552,7 +555,7 @@ class CalgaryEconomicTimeSeriesExtractor:
             'extraction_date': datetime.now().isoformat(),
             'records_extracted': len(records),
             'date_range': self._get_date_range(records),
-            'files_processed': len(set(r['source_file'] for r in records)),
+            'files_processed': 'N/A',  # Source file info removed for simplicity
             'indicators_summary': {},
             'value_types': {},
             'sample_records': []

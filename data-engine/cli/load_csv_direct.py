@@ -27,9 +27,11 @@ class SimpleCSVLoader:
         self.db_path = self.config.get_database_path()
         self.approved_dir = self.config.get_approved_data_dir()
         self.processed_dir = self.approved_dir.parent / "processed"
+        self.reports_dir = self.approved_dir.parent / "reports"
         
-        # Create processed directory if it doesn't exist
+        # Create directories if they don't exist
         self.processed_dir.mkdir(exist_ok=True)
+        self.reports_dir.mkdir(exist_ok=True)
         
         # Create database connection
         self.conn = sqlite3.connect(self.db_path)
@@ -55,10 +57,10 @@ class SimpleCSVLoader:
                 result = self._load_single_csv(csv_file)
                 if result["success"]:
                     total_loaded += result["records_loaded"]
-                    logger.info(f"✅ Loaded {result['records_loaded']} records from {csv_file.name}")
+                    logger.info(f"✅ Loaded {result['records_loaded']} records from {csv_file.name} to {result['table']}")
                     
-                    # Archive the processed file
-                    self._archive_csv(csv_file)
+                    # Archive the processed files (CSV and JSON)
+                    self._archive_files(csv_file)
                 else:
                     error_count += 1
                     logger.error(f"❌ Failed to load {csv_file.name}: {result['error']}")
@@ -80,7 +82,7 @@ class SimpleCSVLoader:
                 return {"success": False, "error": "Empty CSV file"}
             
             # Standardize column names (handle case variations)
-            df.columns = df.columns.str.lower().str.replace('_', '')
+            df.columns = df.columns.str.lower()
             
             # Determine target table
             target_table = self._determine_target_table(df, csv_file.name)
@@ -100,7 +102,7 @@ class SimpleCSVLoader:
             self.conn.commit()
             
             logger.info(f"📊 Loaded {records_loaded} records to {target_table}")
-            return {"success": True, "records_loaded": records_loaded}
+            return {"success": True, "records_loaded": records_loaded, "table": target_table}
             
         except Exception as e:
             return {"success": False, "error": str(e)}
@@ -175,8 +177,10 @@ class SimpleCSVLoader:
             df_prepared.rename(columns={'Date': 'date'}, inplace=True)
         
         # Add metadata columns (table-specific)
-        if target_table in ['housing_city_monthly', 'housing_district_monthly', 'crime_statistics_monthly']:
+        if target_table in ['housing_city_monthly', 'housing_district_monthly']:
             df_prepared['source_pdf'] = filename
+        elif target_table == 'crime_statistics_monthly':
+            df_prepared['source_file'] = filename
         
         # Only add these if they don't already exist (economic data may already have them)
         if 'extracted_date' not in df_prepared.columns:
@@ -223,6 +227,12 @@ class SimpleCSVLoader:
                 except:
                     pass
         
+        elif target_table == 'crime_statistics_monthly':
+            # Replace null communities with 'UNKNOWN' (for privacy-protected domestic violence data)
+            if 'community' in df_prepared.columns:
+                df_prepared['community'] = df_prepared['community'].fillna('UNKNOWN')
+                logger.info(f"Replaced null community values with 'UNKNOWN'")
+        
         elif target_table == 'economic_indicators_monthly':
             # Economic data already has source_file from extraction
             pass
@@ -231,14 +241,29 @@ class SimpleCSVLoader:
         # This handles cases where some columns might be missing
         return df_prepared
     
-    def _archive_csv(self, csv_file: Path):
-        """Move processed CSV to processed directory."""
+    def _archive_files(self, csv_file: Path):
+        """Move processed CSV and its JSON report to appropriate directories."""
         timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-        target_name = f"{csv_file.stem}_{timestamp}.csv"
-        target_path = self.processed_dir / target_name
         
-        shutil.move(str(csv_file), str(target_path))
+        # Archive CSV to processed/
+        csv_target_name = f"{csv_file.stem}_{timestamp}.csv"
+        csv_target_path = self.processed_dir / csv_target_name
+        shutil.move(str(csv_file), str(csv_target_path))
         logger.info(f"📦 Archived {csv_file.name} to processed/")
+        
+        # Archive JSON to reports/YYYY/MM/ if it exists
+        json_file = csv_file.with_suffix('.json')
+        if json_file.exists():
+            # Create year/month subdirectory
+            now = datetime.now()
+            year_month_dir = self.reports_dir / str(now.year) / f"{now.month:02d}"
+            year_month_dir.mkdir(parents=True, exist_ok=True)
+            
+            # Move JSON file
+            json_target_name = f"{csv_file.stem}_{timestamp}.json"
+            json_target_path = year_month_dir / json_target_name
+            shutil.move(str(json_file), str(json_target_path))
+            logger.info(f"📋 Archived {json_file.name} to reports/{now.year}/{now.month:02d}/")
     
     def get_database_summary(self):
         """Get summary of database contents after loading."""
@@ -278,11 +303,20 @@ def main():
         # Load all CSV files
         result = loader.load_all_csvs()
         
+        # Show results
+        if result['loaded'] > 0:
+            print(f"\n✅ Successfully loaded {result['loaded']} records")
+        if result['errors'] > 0:
+            print(f"❌ Failed to load {result['errors']} files")
+        
         # Show database summary
         print("\n📊 Database Summary After Loading:")
         summary = loader.get_database_summary()
         for table, info in summary.items():
             print(f"  {table}: {info['records']} records ({info['date_range']})")
+        
+        # Show where reports were archived
+        print(f"\n📋 JSON reports archived to: {loader.reports_dir}/YYYY/MM/")
         
         return result
         
