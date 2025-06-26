@@ -11,6 +11,7 @@ import logging
 import sys
 from datetime import datetime
 import shutil
+import json
 
 # Add project root for config
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
@@ -35,6 +36,26 @@ class SimpleCSVLoader:
         
         # Create database connection
         self.conn = sqlite3.connect(self.db_path)
+        
+        # Load dataset registry if available
+        self.dataset_registry = self._load_dataset_registry()
+    
+    def _load_dataset_registry(self):
+        """Load dataset registry from Calgary Portal if available."""
+        registry_path = self.config.get_project_root() / 'data-engine' / 'calgary_portal' / 'registry' / 'datasets.json'
+        
+        if registry_path.exists():
+            try:
+                with open(registry_path, 'r') as f:
+                    registry = json.load(f)
+                logger.info(f"📋 Loaded dataset registry with {len(registry)} datasets")
+                return registry
+            except Exception as e:
+                logger.warning(f"Could not load dataset registry: {e}")
+                return {}
+        else:
+            logger.debug("No dataset registry found, using default table detection")
+            return {}
         
     def load_all_csvs(self):
         """Load all CSV files from approved directory."""
@@ -98,7 +119,14 @@ class SimpleCSVLoader:
             
             # Load to database
             records_loaded = len(df_prepared)
-            df_prepared.to_sql(target_table, self.conn, if_exists='append', index=False)
+            
+            # Try to handle duplicates gracefully for datasets with unique constraints
+            if target_table in ['service_requests_311', 'building_permits', 'business_licences']:
+                # Use INSERT OR REPLACE for datasets with unique IDs
+                df_prepared.to_sql(target_table, self.conn, if_exists='append', index=False, method='multi')
+            else:
+                df_prepared.to_sql(target_table, self.conn, if_exists='append', index=False)
+            
             self.conn.commit()
             
             logger.info(f"📊 Loaded {records_loaded} records to {target_table}")
@@ -111,6 +139,26 @@ class SimpleCSVLoader:
         """Determine the appropriate database table for the data."""
         columns = set(df.columns)
         
+        # First, check dataset registry if available
+        if self.dataset_registry:
+            # Try to match by filename pattern
+            for dataset_id, config in self.dataset_registry.items():
+                # Check if filename contains the dataset ID
+                if dataset_id in filename.lower():
+                    table_name = config.get('table_name')
+                    if table_name:
+                        logger.info(f"📋 Matched {filename} to {table_name} via registry")
+                        return table_name
+                
+                # Also check by required columns
+                required_cols = config.get('required_columns', [])
+                if required_cols and all(col in columns for col in required_cols):
+                    table_name = config.get('table_name')
+                    if table_name:
+                        logger.info(f"📋 Matched by columns to {table_name} via registry")
+                        return table_name
+        
+        # Fallback to original logic for existing sources
         # Check for CREB housing data
         if any(col in columns for col in ['propertytype', 'benchmarkprice', 'sales']):
             # Check if it's district data
@@ -144,7 +192,18 @@ class SimpleCSVLoader:
         """Prepare dataframe for loading to specific table."""
         df_prepared = df.copy()
         
-        # Restore underscores in column names for database
+        # Check if we have registry mapping for this dataset
+        registry_mapping = {}
+        if self.dataset_registry:
+            # Find matching dataset config
+            for dataset_id, config in self.dataset_registry.items():
+                if config.get('table_name') == target_table or dataset_id in filename.lower():
+                    registry_mapping = config.get('column_mapping', {})
+                    if registry_mapping:
+                        logger.info(f"📋 Using column mapping from registry for {dataset_id}")
+                        break
+        
+        # Combine registry mapping with default mapping
         column_mapping = {
             'propertytype': 'property_type',
             'newlistings': 'new_listings',
@@ -169,6 +228,9 @@ class SimpleCSVLoader:
             'valuetype': 'value_type'
         }
         
+        # Registry mapping takes precedence
+        column_mapping.update(registry_mapping)
+        
         # Apply column mapping
         df_prepared.rename(columns=column_mapping, inplace=True)
         
@@ -183,15 +245,24 @@ class SimpleCSVLoader:
             df_prepared['source_file'] = filename
         
         # Only add these if they don't already exist (economic data may already have them)
-        if 'extracted_date' not in df_prepared.columns:
-            df_prepared['extracted_date'] = datetime.now().isoformat()
-        if 'confidence_score' not in df_prepared.columns:
-            df_prepared['confidence_score'] = 1.0  # Human approved
-        if 'validation_status' not in df_prepared.columns:
-            df_prepared['validation_status'] = 'approved'
+        # Skip metadata columns for 311 monthly data (simplified schema)
+        if target_table != 'service_requests_311_monthly':
+            if 'extracted_date' not in df_prepared.columns:
+                df_prepared['extracted_date'] = datetime.now().isoformat()
+            if 'confidence_score' not in df_prepared.columns:
+                df_prepared['confidence_score'] = 1.0  # Human approved
+            if 'validation_status' not in df_prepared.columns:
+                df_prepared['validation_status'] = 'approved'
         
         # Table-specific preparations
-        if target_table == 'housing_city_monthly':
+        if target_table == 'service_requests_311_monthly':
+            # 311 data specific handling
+            initial_count = len(df_prepared)
+            df_prepared = df_prepared.dropna(subset=['community_code'])
+            filtered_count = initial_count - len(df_prepared)
+            if filtered_count > 0:
+                logger.info(f"   Filtered out {filtered_count} rows with null community_code")
+        elif target_table == 'housing_city_monthly':
             # Ensure required columns exist
             required_cols = ['date', 'property_type', 'sales', 'new_listings', 'inventory', 
                            'days_on_market', 'benchmark_price', 'median_price', 'average_price']
@@ -270,7 +341,8 @@ class SimpleCSVLoader:
         cursor = self.conn.cursor()
         
         tables = ['housing_city_monthly', 'housing_district_monthly', 
-                 'economic_indicators_monthly', 'crime_statistics_monthly']
+                 'economic_indicators_monthly', 'crime_statistics_monthly',
+                 'service_requests_311_monthly']
         
         summary = {}
         for table in tables:
@@ -278,7 +350,9 @@ class SimpleCSVLoader:
                 cursor.execute(f"SELECT COUNT(*) FROM {table}")
                 count = cursor.fetchone()[0]
                 
-                cursor.execute(f"SELECT MIN(date), MAX(date) FROM {table}")
+                # Different date column for different tables
+                date_col = 'year_month' if table == 'service_requests_311_monthly' else 'date'
+                cursor.execute(f"SELECT MIN({date_col}), MAX({date_col}) FROM {table}")
                 date_range = cursor.fetchone()
                 
                 summary[table] = {

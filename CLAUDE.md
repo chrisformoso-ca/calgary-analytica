@@ -82,6 +82,73 @@ Each source contains:
 - `notes.md` - Source-specific documentation
 - `config.json` - Source configuration
 
+## Documentation Structure & Conventions
+
+### Directory Documentation Rules
+- **One notes.md per data source** - All documentation for a source stays in its directory
+- **No separate docs/ directories** - Avoid scattered documentation
+- **Methodology sections** - Complex transformations go in source's notes.md
+
+### Documentation Hierarchy
+```
+/data-engine/[source]/
+├── notes.md           # Primary documentation for this source
+│   ├── Overview
+│   ├── Data Sources
+│   ├── Extraction Methods
+│   ├── Data Quality Notes
+│   └── Methodology (if complex transformations)
+├── patterns/          # Successful extraction patterns
+└── config.json        # Source configuration
+```
+
+### Naming Conventions
+
+#### Extractors
+- Main: `extractor.py`
+- Variants: `extractor_[type].py` (e.g., `extractor_311_monthly.py`)
+- Analysis: `analyze_[purpose].py` (e.g., `analyze_categories.py`)
+
+#### Output Files
+- CSV: `[source]_[type]_[timestamp].csv`
+- JSON: `[source]_[type]_[timestamp].json` (validation report)
+- Examples:
+  - `creb_housing_city_20250625_143022.csv`
+  - `calgary_portal_311_monthly_20250625_143022.csv`
+
+#### Database Tables
+- Monthly aggregates: `[domain]_[type]_monthly`
+- Raw data: `[domain]_[type]`
+- Examples:
+  - `service_requests_311_monthly`
+  - `housing_city_monthly`
+
+### notes.md Template
+```markdown
+# [Source Name] Notes
+
+## Overview
+Brief description of data source and purpose
+
+## Data Sources
+- Primary source: [URL/location]
+- Update frequency: [monthly/daily/etc]
+- Historical coverage: [date range]
+
+## Extraction Methods
+- Tool/library used
+- Key challenges
+- Success patterns
+
+## Data Quality Notes
+- Known issues
+- Filtering decisions
+- Validation thresholds
+
+## [Methodology] (if applicable)
+For complex transformations like aggregations
+```
+
 ## Critical Data Pipeline Rules
 
 1. **NEVER bypass validation** - All data goes through `/validation/pending/`

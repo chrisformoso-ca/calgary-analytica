@@ -1,0 +1,343 @@
+{
+  "311_monthly_summary": {
+    "api_dataset_id": "iahh-g8bj",
+    "table_name": "service_requests_311_monthly",
+    "description": "Monthly aggregated 311 data by community and category - housing and economic indicators",
+    "update_frequency": "monthly",
+    "id_columns": ["year_month", "community_code", "service_category"],
+    "date_column": "year_month",
+    "required_columns": [
+      "year_month",
+      "community_code",
+      "service_category",
+      "total_requests"
+    ],
+    "column_mapping": {
+      "year_month": "year_month",
+      "community_code": "community_code",
+      "community_name": "community_name",
+      "service_category": "service_category"
+    },
+    "data_types": {
+      "year_month": "TEXT",
+      "year": "INTEGER",
+      "month": "INTEGER",
+      "community_code": "TEXT",
+      "community_name": "TEXT",
+      "service_category": "TEXT",
+      "total_requests": "INTEGER",
+      "avg_days_to_close": "REAL",
+      "median_days_to_close": "REAL"
+    }
+  },
+  
+  "311_service_requests_current": {
+    "api_dataset_id": "arf6-qysm",
+    "table_name": "service_requests_311",
+    "description": "Current year 311 requests only",
+    "update_frequency": "daily",
+    "id_columns": ["service_request_id"],
+    "date_column": "requested_date",
+    "required_columns": [
+      "service_request_id",
+      "requested_date",
+      "service_name",
+      "status_description"
+    ],
+    "column_mapping": {
+      "comm_code": "community_code",
+      "comm_name": "community_name",
+      "requested_date": "date"
+    }
+  },
+  
+  "building_permits": {
+    "api_dataset_id": "c2es-76ed",
+    "table_name": "building_permits",
+    "description": "All building permit applications since 1999",
+    "update_frequency": "daily",
+    "id_columns": ["permitnum"],
+    "date_column": "applieddate",
+    "required_columns": [
+      "permitnum",
+      "applieddate",
+      "permittype",
+      "workclass"
+    ],
+    "column_mapping": {
+      "permitnum": "permit_number",
+      "statuscurrent": "status_current",
+      "applieddate": "applied_date",
+      "issueddate": "issued_date",
+      "completeddate": "completed_date",
+      "permittype": "permit_type",
+      "permitclass": "permit_class",
+      "workclass": "work_class",
+      "estprojectcost": "estimated_project_cost",
+      "totalsqft": "total_sqft",
+      "housingunits": "housing_units",
+      "communitycode": "community_code",
+      "communityname": "community_name",
+      "originaladdress": "original_address"
+    },
+    "data_types": {
+      "permit_number": "TEXT",
+      "status_current": "TEXT",
+      "applied_date": "TEXT",
+      "issued_date": "TEXT",
+      "completed_date": "TEXT",
+      "permit_type": "TEXT",
+      "permit_class": "TEXT",
+      "work_class": "TEXT",
+      "description": "TEXT",
+      "applicant_name": "TEXT",
+      "estimated_project_cost": "REAL",
+      "total_sqft": "REAL",
+      "housing_units": "INTEGER",
+      "community_code": "TEXT",
+      "community_name": "TEXT",
+      "original_address": "TEXT",
+      "latitude": "REAL",
+      "longitude": "REAL"
+    }
+  },
+  
+  "business_licences": {
+    "api_dataset_id": "vdjc-pybd",
+    "table_name": "business_licences",
+    "description": "All active business licences in Calgary",
+    "update_frequency": "monthly",
+    "id_columns": ["licence_number"],
+    "date_column": "issue_date",
+    "required_columns": [
+      "business_name",
+      "licence_type",
+      "issue_date"
+    ],
+    "column_mapping": {
+      "licencenumber": "licence_number",
+      "businessname": "business_name",
+      "licencetype": "licence_type",
+      "issuedate": "issue_date",
+      "expirydate": "expiry_date",
+      "businesstype": "business_type",
+      "businesscategory": "business_category"
+    },
+    "data_types": {
+      "licence_number": "TEXT",
+      "business_name": "TEXT",
+      "licence_type": "TEXT",
+      "business_type": "TEXT",
+      "business_category": "TEXT",
+      "address": "TEXT",
+      "issue_date": "TEXT",
+      "expiry_date": "TEXT",
+      "latitude": "REAL",
+      "longitude": "REAL"
+    }
+  },
+  
+  "development_permits": {
+    "api_dataset_id": "6933-unw5",
+    "table_name": "development_permits",
+    "description": "Land use and development applications",
+    "update_frequency": "daily",
+    "id_columns": ["development_permit_number"],
+    "date_column": "submitted_date",
+    "required_columns": [
+      "development_permit_number",
+      "submitted_date",
+      "permit_type"
+    ],
+    "column_mapping": {
+      "developmentpermitnumber": "development_permit_number",
+      "submitteddate": "submitted_date",
+      "releaseddate": "released_date",
+      "completeddate": "completed_date",
+      "permittype": "permit_type",
+      "permitclass": "permit_class",
+      "applicantname": "applicant_name",
+      "communitycode": "community_code",
+      "communityname": "community_name"
+    }
+  },
+  
+  "community_boundaries": {
+    "api_dataset_id": "surr-xmvs",
+    "table_name": "community_boundaries",
+    "description": "Official community boundaries with geospatial data",
+    "update_frequency": "quarterly",
+    "id_columns": ["comm_code"],
+    "required_columns": [
+      "comm_code",
+      "name",
+      "multipolygon"
+    ],
+    "column_mapping": {
+      "comm_code": "community_code",
+      "class": "community_class",
+      "class_code": "class_code",
+      "sector": "community_sector"
+    },
+    "data_types": {
+      "community_code": "TEXT",
+      "name": "TEXT",
+      "community_class": "TEXT",
+      "class_code": "TEXT",
+      "community_sector": "TEXT",
+      "area_hectares": "REAL",
+      "res_units": "INTEGER",
+      "multipolygon": "TEXT"
+    },
+    "geospatial": true,
+    "priority": "high"
+  },
+  
+  "community_districts": {
+    "api_dataset_id": "86mc-9jh2",
+    "table_name": "community_districts",
+    "description": "Calgary's 14 community districts (larger groupings of communities)",
+    "update_frequency": "quarterly",
+    "id_columns": ["district"],
+    "required_columns": [
+      "district",
+      "label",
+      "multipolygon"
+    ],
+    "column_mapping": {
+      "district": "district_code",
+      "label": "district_name"
+    },
+    "data_types": {
+      "district_code": "TEXT",
+      "district_name": "TEXT",
+      "multipolygon": "TEXT",
+      "modified_date": "TEXT"
+    },
+    "geospatial": true,
+    "priority": "high"
+  },
+  
+  "community_sectors": {
+    "api_dataset_id": "mz2j-7eb5",
+    "table_name": "community_sectors",
+    "description": "Community sectors (Northwest, Northeast, etc.) with boundaries",
+    "update_frequency": "quarterly",
+    "id_columns": ["sector"],
+    "required_columns": [
+      "sector",
+      "polygon"
+    ],
+    "column_mapping": {
+      "sector": "sector_code",
+      "polygon": "multipolygon"
+    },
+    "data_types": {
+      "sector_code": "TEXT",
+      "communities": "TEXT",
+      "multipolygon": "TEXT"
+    },
+    "geospatial": true,
+    "priority": "high"
+  },
+  
+  "short_term_rentals": {
+    "api_dataset_id": "gzkz-5k9a",
+    "table_name": "short_term_rentals",
+    "description": "Licensed short-term rental properties",
+    "update_frequency": "monthly",
+    "id_columns": ["licence_number"],
+    "date_column": "issue_date",
+    "required_columns": [
+      "licence_number",
+      "property_type",
+      "issue_date"
+    ],
+    "column_mapping": {
+      "licencenumber": "licence_number",
+      "propertytype": "property_type",
+      "issuedate": "issue_date",
+      "expirydate": "expiry_date",
+      "licencestatus": "licence_status",
+      "communitycode": "community_code",
+      "communityname": "community_name"
+    }
+  },
+  
+  "parks_off_leash": {
+    "api_dataset_id": "enr4-crti",
+    "table_name": "parks_off_leash_areas",
+    "description": "All off-leash dog areas with boundaries",
+    "update_frequency": "weekly",
+    "id_columns": ["off_leash_area_id"],
+    "required_columns": [
+      "off_leash_area_id",
+      "category",
+      "status"
+    ],
+    "column_mapping": {
+      "off_leash_area_id": "area_id",
+      "parcel_location": "location",
+      "fencing_info": "fencing_info"
+    },
+    "geospatial": true
+  },
+  
+  "recreation_facilities": {
+    "api_dataset_id": "hxfu-6d96",
+    "table_name": "recreation_facilities",
+    "description": "All city recreation centers, pools, arenas",
+    "update_frequency": "monthly",
+    "id_columns": ["facility_id"],
+    "required_columns": [
+      "facility_name",
+      "facility_type",
+      "address"
+    ],
+    "column_mapping": {
+      "facility_name": "name",
+      "facility_type": "type",
+      "facility_subtype": "subtype"
+    }
+  },
+  
+  "road_construction": {
+    "api_dataset_id": "sizs-hgef",
+    "table_name": "road_construction_projects",
+    "description": "Current and planned road construction",
+    "update_frequency": "weekly",
+    "id_columns": ["project_id"],
+    "date_column": "start_date",
+    "required_columns": [
+      "project_name",
+      "location",
+      "status"
+    ],
+    "column_mapping": {
+      "project_name": "name",
+      "start_date": "start_date",
+      "end_date": "end_date",
+      "impact_level": "impact_level"
+    }
+  },
+  
+  "city_events": {
+    "api_dataset_id": "n625-9k5x",
+    "table_name": "city_events",
+    "description": "Public meetings, recreation events, city activities",
+    "update_frequency": "daily",
+    "id_columns": ["event_id"],
+    "date_column": "next_date_times",
+    "required_columns": [
+      "title",
+      "event_type",
+      "next_date_times"
+    ],
+    "column_mapping": {
+      "host_organization": "host_org",
+      "more_info_url": "info_url",
+      "all_dates": "dates",
+      "next_date_times": "next_date"
+    }
+  }
+}

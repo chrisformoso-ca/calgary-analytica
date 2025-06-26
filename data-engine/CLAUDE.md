@@ -39,11 +39,8 @@ data-engine/
 │   ├── approved/         # Human-approved, ready to load
 │   ├── rejected/         # Failed validation
 │   └── processed/        # Successfully loaded to DB
-├── core/                  # Core functionality
-│   ├── data_engine.py    # Orchestrates extraction
-│   ├── load_approved_data.py # Loads to database (expects validation structure)
-│   └── load_csv_direct.py # Simple CSV loader (direct from approved/)
 └── cli/                   # Command line scripts
+    ├── load_csv_direct.py # Simple CSV loader (direct from approved/)
     ├── monthly_update.py  # Main update script
     └── validate_pending.py # Review pending CSVs
 ```
@@ -63,7 +60,7 @@ python cli/validate_pending.py --list
 python cli/validate_pending.py --interactive
 
 # 5. Load approved data
-cd core && python load_approved_data.py
+python cli/load_csv_direct.py # Simple CSV loader (direct from approved/)
 ```
 
 ### Check What's Pending
@@ -76,11 +73,8 @@ ls -la validation/pending/
 # If CSV looks good, move it
 mv validation/pending/[filename] validation/approved/
 
-# Then load it
-cd core && python load_approved_data.py
-
-# OR use the simple loader for CSVs directly in approved/
-cd core && python load_csv_direct.py
+# Then load it once approved use the simple loader for CSVs directly in approved/
+python cli/load_csv_direct.py
 ```
 
 ## Important Rules
@@ -98,12 +92,6 @@ Per month:
 - Economic: ~10-15 indicators
 - Total: ~50 records/month
 
-## Which Loader to Use?
-
-**load_approved_data.py**: 
-- For data processed through the full validation pipeline
-- Expects subdirectories in approved/ with validation_report.json files
-- Used by automated workflows
 
 **load_csv_direct.py**:
 - For simple CSV files placed directly in approved/
@@ -114,9 +102,8 @@ Per month:
 ## Troubleshooting
 
 **Extraction failed?**
-- Check the PDF exists in the source's `/raw/` directory
-- Look at confidence score - if < 90%, extraction may have issues
-- Check logs in `/validation/logs/`
+- Check the data file exists in the source's `/raw/` directory
+- Check logs in `/validation/logs/` and `/validation/reports/`
 - Review source-specific notes in `/{source}/notes.md`
 
 **Wrong data in pending?**
@@ -238,7 +225,7 @@ print(f"\n📋 Next steps for validation:")
 print(f"  1. Review CSV:  less {csv_path}")
 print(f"  2. Check JSON:  less {json_path}")
 print(f"  3. If approved: mv {csv_path} {csv_path.parent.parent}/approved/")
-print(f"  4. Load to DB:  cd data-engine/core && python3 load_csv_direct.py")
+print(f"  4. Load to DB:  python3 cli/load_csv_direct.py")
 ```
 
 ### Data Schema Patterns
@@ -516,3 +503,9 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+## Calgary Portal Data Documentation
+
+- `/data-engine/calgary_portal/notes.md#311-data-aggregation-methodology`: Explains how 6.86M raw 311 requests → 191K monthly aggregated records
+  - Why we aggregate (trends vs incidents)
+  - 10 economic indicator categories
+  - Data quality and filtering decisions

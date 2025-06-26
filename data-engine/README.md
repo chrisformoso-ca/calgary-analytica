@@ -34,13 +34,10 @@ data-engine/
 │   ├── rejected/         # Failed validation
 │   └── processed/        # Successfully loaded
 │
-├── core/                  # Core functionality
-│   ├── data_engine.py    # Main orchestrator
-│   └── load_approved_data.py
-│
-└── cli/                   # Command line tools
-    ├── monthly_update.py
-    └── validate_pending.py
+└── cli/                   # Command line scripts
+    ├── load_csv_direct.py # Simple CSV loader (direct from approved/)
+    ├── monthly_update.py  # Main update script
+    └── validate_pending.py # Review pending CSVs
 ```
 
 ## Benefits of This Structure

@@ -1,0 +1,26 @@
+{
+  "source_name": "calgary_portal",
+  "description": "City of Calgary Open Data Portal",
+  "base_url": "https://data.calgary.ca/resource/",
+  "default_format": "json",
+  "api_limits": {
+    "default_limit": 1000,
+    "max_limit": 50000,
+    "rate_limit": "No official limit, but be respectful"
+  },
+  "extraction_settings": {
+    "batch_size": 10000,
+    "retry_attempts": 3,
+    "retry_delay": 5,
+    "timeout": 30,
+    "user_agent": "Calgary-Analytica/1.0"
+  },
+  "update_schedule": {
+    "311_service_requests": "daily",
+    "building_permits": "daily",
+    "business_licences": "monthly",
+    "development_permits": "daily",
+    "short_term_rentals": "monthly",
+    "community_boundaries": "quarterly"
+  }
+}
