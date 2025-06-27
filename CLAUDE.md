@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Calgary Analytica transforms Calgary's fragmented data landscape into actionable intelligence through AI-augmented development delivering value through its thre engine system. The data-engine aggregates data from CREB, City of Calgary, and other sources into a single source of truth. The product-engine utilizes data into data tools, apps and dashboards for different stakeholders. And the content-engine utilizes the aggregated data to create content for data-driven decision making and awareness.
 
-**Tech Stack**: Python (extraction) + SQLite (storage) + PHP/D3.js (web) + Boring technology that works
+**Tech Stack**: Python (extraction) + SQLite (storage) + HTML/JS/D3.js (web) + Boring technology that works
 
 ## Common Commands
 

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calgary Housing Dashboard - Static Version</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Calgary Housing Market Dashboard</h1>
+            <p class="subtitle">Static Version - No Server Required</p>
+        </header>
+
+        <div class="controls">
+            <div class="filter-group">
+                <label>Property Type:</label>
+                <select id="propertyFilter">
+                    <option value="all">All Types</option>
+                    <option value="Detached">Detached</option>
+                    <option value="Semi-Detached">Semi-Detached</option>
+                    <option value="Row">Row House</option>
+                    <option value="Apartment">Apartment/Condo</option>
+                </select>
+            </div>
+            
+            <div class="filter-group">
+                <label>Metric:</label>
+                <select id="metricFilter">
+                    <option value="benchmark_price">Benchmark Price</option>
+                    <option value="total_sales">Total Sales</option>
+                    <option value="price_change_yoy">Year-over-Year Change %</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <button id="refreshBtn">Refresh Data</button>
+            </div>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <h3>Average Price</h3>
+                <p class="stat-value" id="avgPrice">Loading...</p>
+                <p class="stat-change" id="avgChange">--</p>
+            </div>
+            <div class="stat-card">
+                <h3>Total Sales</h3>
+                <p class="stat-value" id="totalSales">Loading...</p>
+                <p class="stat-change" id="salesChange">--</p>
+            </div>
+            <div class="stat-card">
+                <h3>Market Trend</h3>
+                <p class="stat-value" id="marketTrend">Loading...</p>
+                <p class="stat-change" id="trendDirection">--</p>
+            </div>
+        </div>
+
+        <div class="chart-container">
+            <div id="chart"></div>
+            <div id="tooltip" class="tooltip"></div>
+        </div>
+
+        <footer>
+            <p>This dashboard loads data from a static JSON file. No database or server required!</p>
+            <p>Data updates: Upload new JSON file to update the dashboard.</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -3,6 +3,23 @@
 ## Overview
 Calgary's Open Data Portal provides 400+ datasets via Socrata API. We're starting with high-value datasets that complement our existing housing, economic, and crime data.
 
+## Directory Structure
+As of June 2025, Calgary Portal datasets are organized by dataset in subdirectories:
+```
+calgary_portal/
+├── 311/              # Service requests dataset
+├── boundaries/       # Geographic boundaries (communities, districts, sectors)
+├── _shared/          # Shared utilities and templates
+├── registry/         # Dataset registry (datasets.json)
+├── scripts/          # Provider-level SQL scripts
+└── raw/              # Raw data storage (if needed)
+```
+
+Each dataset directory contains:
+- `extractor.py` - Main extraction script
+- `README.md` - Dataset-specific documentation
+- Any dataset-specific SQL or configuration files
+
 ## API Access
 - Base URL: `https://data.calgary.ca/resource/[DATASET_ID].[FORMAT]`
 - Formats: json, csv, xml
@@ -28,16 +45,21 @@ Calgary's Open Data Portal provides 400+ datasets via Socrata API. We're startin
 - **Note**: Cache locally - rarely changes
 
 #### 2. Community Districts (86mc-9jh2) 🗺️
-- **Records**: 14 districts
-- **Key fields**: district_code, district_name, multipolygon
-- **Use case**: Match CREB district data, aggregate community data
+- **Records**: 9 districts (Districts 1-8 + District P)
+- **Key fields**: code, name, multipolygon
+- **Use case**: City administrative boundaries (NOT used by CREB)
 - **Format**: GeoJSON multipolygon boundaries
+- **Note**: These are numbered administrative districts, different from CREB's geographic districts
 
 #### 3. Community Sectors (mz2j-7eb5) 🗺️
-- **Records**: 8 sectors (NW, NE, SW, SE, N, S, E, W)
-- **Key fields**: sector_code, sector_name, multipolygon
-- **Use case**: High-level geographic groupings
+- **Records**: 8 sectors (NORTH, NORTHEAST, EAST, SOUTHEAST, SOUTH, WEST, NORTHWEST, CENTRE)
+- **Key fields**: code, name, multipolygon
+- **Use case**: High-level geographic groupings, **matches CREB housing districts**
 - **Format**: GeoJSON multipolygon boundaries
+- **IMPORTANT**: These sectors = CREB districts with different naming:
+  - CENTRE → City Centre
+  - NORTHEAST → North East (CREB adds spaces)
+  - Other sectors → Direct match with title case
 
 ### Operational Data
 
@@ -98,6 +120,32 @@ curl "https://data.calgary.ca/resource/enr4-crti.json?$where=description like '%
 - Implement real-time update notifications
 - Create cross-dataset analysis (e.g., permits vs. 311 complaints)
 - Build geospatial visualization layer
+
+## Calgary Sectors = CREB Districts
+
+### Key Discovery
+CREB housing "districts" are actually Calgary's geographic "sectors" with different naming conventions. This enables joining CREB housing data with Calgary's official sector boundaries for geographic analysis.
+
+### Mapping Table
+A `sector_district_mapping` table was created to handle naming differences:
+```sql
+CENTRE → City Centre
+EAST → East  
+NORTH → North
+NORTHEAST → North East
+NORTHWEST → North West
+SOUTH → South
+SOUTHEAST → South East
+WEST → West
+```
+
+### Usage
+```sql
+-- Get CREB housing data with boundaries
+SELECT h.*, c.multipolygon
+FROM housing_district_monthly h
+JOIN creb_districts_with_boundaries c ON h.district = c.creb_district
+```
 
 ## 311 Data Aggregation Methodology
 
@@ -189,15 +237,14 @@ GROUP BY year;
 ### Extraction Commands
 
 ```bash
-# Extract specific month
-python3 extractor_311_monthly.py --year 2025 --month 7
+# Extract 311 data (monthly aggregation)
+cd 311
+python3 extractor_monthly.py --year 2025 --month 7
+python3 extractor_monthly.py --year 2024  # Full year
+python3 extractor_monthly.py --start-year 2017 --end-year 2022  # Range
 
-# Extract full year
-python3 extractor_311_monthly.py --year 2024
-
-# Extract multiple years
-python3 extractor_311_monthly.py --years 2023 2024
-
-# Extract year range
-python3 extractor_311_monthly.py --start-year 2017 --end-year 2022
+# Extract geographic boundaries
+cd boundaries
+python3 extractor_batch.py  # All boundaries at once
+python3 extractor_batch.py --test  # Test mode
 ```

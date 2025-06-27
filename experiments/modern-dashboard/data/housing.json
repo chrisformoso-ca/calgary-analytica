@@ -1,0 +1,201 @@
+{
+  "metadata": {
+    "source": "Calgary Real Estate Board",
+    "last_updated": "2025-01-01",
+    "description": "Sample housing market data for Calgary"
+  },
+  "data": [
+    {
+      "date": "2024-01",
+      "property_type": "Detached",
+      "benchmark_price": 742300,
+      "total_sales": 512,
+      "price_change_yoy": 8.2,
+      "inventory": 1243
+    },
+    {
+      "date": "2024-01",
+      "property_type": "Semi-Detached",
+      "benchmark_price": 641400,
+      "total_sales": 89,
+      "price_change_yoy": 9.1,
+      "inventory": 156
+    },
+    {
+      "date": "2024-01",
+      "property_type": "Row",
+      "benchmark_price": 413200,
+      "total_sales": 145,
+      "price_change_yoy": 10.5,
+      "inventory": 298
+    },
+    {
+      "date": "2024-01",
+      "property_type": "Apartment",
+      "benchmark_price": 336700,
+      "total_sales": 367,
+      "price_change_yoy": 12.3,
+      "inventory": 892
+    },
+    {
+      "date": "2024-02",
+      "property_type": "Detached",
+      "benchmark_price": 748900,
+      "total_sales": 623,
+      "price_change_yoy": 7.8,
+      "inventory": 1178
+    },
+    {
+      "date": "2024-02",
+      "property_type": "Semi-Detached",
+      "benchmark_price": 645200,
+      "total_sales": 102,
+      "price_change_yoy": 8.5,
+      "inventory": 143
+    },
+    {
+      "date": "2024-02",
+      "property_type": "Row",
+      "benchmark_price": 418100,
+      "total_sales": 178,
+      "price_change_yoy": 9.8,
+      "inventory": 276
+    },
+    {
+      "date": "2024-02",
+      "property_type": "Apartment",
+      "benchmark_price": 339400,
+      "total_sales": 421,
+      "price_change_yoy": 11.7,
+      "inventory": 834
+    },
+    {
+      "date": "2024-03",
+      "property_type": "Detached",
+      "benchmark_price": 755600,
+      "total_sales": 834,
+      "price_change_yoy": 7.2,
+      "inventory": 1345
+    },
+    {
+      "date": "2024-03",
+      "property_type": "Semi-Detached",
+      "benchmark_price": 649800,
+      "total_sales": 134,
+      "price_change_yoy": 7.9,
+      "inventory": 167
+    },
+    {
+      "date": "2024-03",
+      "property_type": "Row",
+      "benchmark_price": 422300,
+      "total_sales": 234,
+      "price_change_yoy": 9.1,
+      "inventory": 312
+    },
+    {
+      "date": "2024-03",
+      "property_type": "Apartment",
+      "benchmark_price": 342100,
+      "total_sales": 512,
+      "price_change_yoy": 10.9,
+      "inventory": 923
+    },
+    {
+      "date": "2024-04",
+      "property_type": "Detached",
+      "benchmark_price": 761200,
+      "total_sales": 923,
+      "price_change_yoy": 6.5,
+      "inventory": 1423
+    },
+    {
+      "date": "2024-04",
+      "property_type": "Semi-Detached",
+      "benchmark_price": 653600,
+      "total_sales": 145,
+      "price_change_yoy": 7.2,
+      "inventory": 189
+    },
+    {
+      "date": "2024-04",
+      "property_type": "Row",
+      "benchmark_price": 425800,
+      "total_sales": 267,
+      "price_change_yoy": 8.3,
+      "inventory": 334
+    },
+    {
+      "date": "2024-04",
+      "property_type": "Apartment",
+      "benchmark_price": 344500,
+      "total_sales": 589,
+      "price_change_yoy": 10.1,
+      "inventory": 1012
+    },
+    {
+      "date": "2024-05",
+      "property_type": "Detached",
+      "benchmark_price": 768400,
+      "total_sales": 1045,
+      "price_change_yoy": 5.9,
+      "inventory": 1567
+    },
+    {
+      "date": "2024-05",
+      "property_type": "Semi-Detached",
+      "benchmark_price": 658200,
+      "total_sales": 167,
+      "price_change_yoy": 6.5,
+      "inventory": 201
+    },
+    {
+      "date": "2024-05",
+      "property_type": "Row",
+      "benchmark_price": 429700,
+      "total_sales": 298,
+      "price_change_yoy": 7.6,
+      "inventory": 356
+    },
+    {
+      "date": "2024-05",
+      "property_type": "Apartment",
+      "benchmark_price": 347300,
+      "total_sales": 634,
+      "price_change_yoy": 9.3,
+      "inventory": 1089
+    },
+    {
+      "date": "2024-06",
+      "property_type": "Detached",
+      "benchmark_price": 773100,
+      "total_sales": 987,
+      "price_change_yoy": 5.2,
+      "inventory": 1623
+    },
+    {
+      "date": "2024-06",
+      "property_type": "Semi-Detached",
+      "benchmark_price": 661400,
+      "total_sales": 156,
+      "price_change_yoy": 5.8,
+      "inventory": 213
+    },
+    {
+      "date": "2024-06",
+      "property_type": "Row",
+      "benchmark_price": 432900,
+      "total_sales": 276,
+      "price_change_yoy": 6.9,
+      "inventory": 378
+    },
+    {
+      "date": "2024-06",
+      "property_type": "Apartment",
+      "benchmark_price": 349600,
+      "total_sales": 602,
+      "price_change_yoy": 8.5,
+      "inventory": 1134
+    }
+  ]
+}

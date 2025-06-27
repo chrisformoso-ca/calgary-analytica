@@ -14,6 +14,19 @@ Calgary Real Estate Board (CREB) provides monthly PDF reports with housing marke
   - Page 17: Apartments
   - Page 19: Row houses
 
+## Districts = Calgary Sectors
+CREB uses 8 "districts" that correspond to Calgary's official geographic sectors:
+- **City Centre** = CENTRE sector
+- **North** = NORTH sector
+- **North East** = NORTHEAST sector (note the space)
+- **East** = EAST sector
+- **South East** = SOUTHEAST sector
+- **South** = SOUTH sector
+- **West** = WEST sector
+- **North West** = NORTHWEST sector
+
+This mapping enables joining CREB housing data with Calgary's sector boundaries for geographic visualization.
+
 ## Known Issues
 1. **Multi-page Tables**: Some tables span multiple pages, requiring page concatenation
 2. **District Names**: Can have variations (e.g., "North East" vs "Northeast")

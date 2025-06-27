@@ -205,8 +205,8 @@
       "multipolygon"
     ],
     "column_mapping": {
-      "district": "district_code",
-      "label": "district_name"
+      "district": "code",
+      "label": "name"
     },
     "data_types": {
       "district_code": "TEXT",
@@ -229,7 +229,7 @@
       "polygon"
     ],
     "column_mapping": {
-      "sector": "sector_code",
+      "sector": "code",
       "polygon": "multipolygon"
     },
     "data_types": {

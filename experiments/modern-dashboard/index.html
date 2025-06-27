@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calgary Housing Intelligence - Modern Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Chart.js for different visualization style -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Custom animations library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <!-- Map visualization -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <!-- D3.js for data utilities -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <div class="dashboard">
+        <!-- Animated Header -->
+        <header class="header">
+            <div class="logo-container">
+                <div class="logo-icon"></div>
+                <h1 class="logo-text">Calgary Analytica</h1>
+            </div>
+            <div class="header-stats">
+                <div class="live-indicator">
+                    <span class="pulse"></span>
+                    <span>Live Market Data</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Grid Layout -->
+        <div class="dashboard-grid">
+            <!-- Key Metrics Cards with Animations -->
+            <div class="metric-card glassmorphism" id="priceCard">
+                <div class="metric-icon">
+                    <svg viewBox="0 0 24 24" width="24" height="24">
+                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                    </svg>
+                </div>
+                <div class="metric-content">
+                    <h3>Average Home Price</h3>
+                    <div class="metric-value">$<span id="avgPrice">0</span></div>
+                    <div class="metric-trend">
+                        <span class="trend-arrow">↗</span>
+                        <span class="trend-value">+8.5%</span>
+                        <span class="trend-label">YoY</span>
+                    </div>
+                </div>
+                <canvas class="mini-chart" id="miniPriceChart"></canvas>
+            </div>
+
+            <div class="metric-card glassmorphism" id="salesCard">
+                <div class="metric-icon">
+                    <svg viewBox="0 0 24 24" width="24" height="24">
+                        <path d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                    </svg>
+                </div>
+                <div class="metric-content">
+                    <h3>Monthly Sales</h3>
+                    <div class="metric-value"><span id="totalSales">0</span></div>
+                    <div class="metric-trend positive">
+                        <span class="trend-arrow">↗</span>
+                        <span class="trend-value">+124</span>
+                        <span class="trend-label">vs last month</span>
+                    </div>
+                </div>
+                <canvas class="mini-chart" id="miniSalesChart"></canvas>
+            </div>
+
+            <div class="metric-card glassmorphism" id="inventoryCard">
+                <div class="metric-icon">
+                    <svg viewBox="0 0 24 24" width="24" height="24">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                    </svg>
+                </div>
+                <div class="metric-content">
+                    <h3>Market Inventory</h3>
+                    <div class="metric-value"><span id="inventory">0</span></div>
+                    <div class="metric-trend negative">
+                        <span class="trend-arrow">↘</span>
+                        <span class="trend-value">-12%</span>
+                        <span class="trend-label">MoM</span>
+                    </div>
+                </div>
+                <canvas class="mini-chart" id="miniInventoryChart"></canvas>
+            </div>
+
+            <!-- Interactive Property Type Selector -->
+            <div class="property-selector glassmorphism">
+                <h3>Property Types</h3>
+                <div class="property-grid">
+                    <button class="property-btn active" data-type="all">
+                        <div class="property-icon">🏘️</div>
+                        <span>All Types</span>
+                    </button>
+                    <button class="property-btn" data-type="Detached">
+                        <div class="property-icon">🏠</div>
+                        <span>Detached</span>
+                    </button>
+                    <button class="property-btn" data-type="Semi-Detached">
+                        <div class="property-icon">🏡</div>
+                        <span>Semi</span>
+                    </button>
+                    <button class="property-btn" data-type="Row">
+                        <div class="property-icon">🏘️</div>
+                        <span>Row</span>
+                    </button>
+                    <button class="property-btn" data-type="Apartment">
+                        <div class="property-icon">🏢</div>
+                        <span>Condo</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Main Chart Area with Custom Styling -->
+            <div class="main-chart-container glassmorphism">
+                <div class="chart-header">
+                    <h3>Market Trends</h3>
+                    <div class="chart-controls">
+                        <button class="chart-type-btn active" data-chart="line">
+                            <svg width="20" height="20" viewBox="0 0 20 20">
+                                <path d="M2 15 L6 9 L10 12 L18 3" stroke="currentColor" fill="none" stroke-width="2"/>
+                            </svg>
+                        </button>
+                        <button class="chart-type-btn" data-chart="bar">
+                            <svg width="20" height="20" viewBox="0 0 20 20">
+                                <rect x="2" y="10" width="4" height="8"/>
+                                <rect x="8" y="6" width="4" height="12"/>
+                                <rect x="14" y="2" width="4" height="16"/>
+                            </svg>
+                        </button>
+                        <button class="chart-type-btn" data-chart="area">
+                            <svg width="20" height="20" viewBox="0 0 20 20">
+                                <path d="M2 15 L6 9 L10 12 L18 3 L18 18 L2 18 Z" fill="currentColor" opacity="0.5"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <canvas id="mainChart"></canvas>
+            </div>
+
+            <!-- Calgary Map with Districts -->
+            <div class="map-container glassmorphism">
+                <h3>District Heat Map</h3>
+                <div id="calgaryMap"></div>
+                <div class="map-legend">
+                    <span>Cold</span>
+                    <div class="gradient-bar"></div>
+                    <span>Hot</span>
+                </div>
+            </div>
+
+            <!-- Advanced Donut Chart -->
+            <div class="distribution-chart glassmorphism">
+                <h3>Market Share by Type</h3>
+                <canvas id="distributionChart"></canvas>
+                <div class="distribution-legend" id="distributionLegend"></div>
+            </div>
+
+            <!-- Time Range Selector -->
+            <div class="time-selector glassmorphism">
+                <h3>Time Period</h3>
+                <div class="time-buttons">
+                    <button class="time-btn" data-range="1M">1M</button>
+                    <button class="time-btn" data-range="3M">3M</button>
+                    <button class="time-btn active" data-range="6M">6M</button>
+                    <button class="time-btn" data-range="1Y">1Y</button>
+                    <button class="time-btn" data-range="ALL">ALL</button>
+                </div>
+                <div class="custom-range">
+                    <input type="range" id="timeSlider" min="0" max="100" value="50">
+                </div>
+            </div>
+        </div>
+
+        <!-- Floating Action Button -->
+        <button class="fab" id="fabMenu">
+            <svg width="24" height="24" viewBox="0 0 24 24">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/>
+            </svg>
+        </button>
+
+        <!-- Toast Notifications -->
+        <div class="toast-container" id="toastContainer"></div>
+    </div>
+
+    <script src="app-simple.js"></script>
+</body>
+</html>

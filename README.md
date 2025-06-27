@@ -126,15 +126,16 @@ No agents. No automation. You control every step.
 
 **Claude Code Actions**:
 1. Write SQL queries to extract needed data
-2. Create HTML/PHP dashboard structure
+2. Create static HTML/JS dashboard structure
 3. Implement D3.js visualizations
 4. Add interactive filters and controls
-5. Provide deployment instructions
+5. Generate JSON data files from SQLite
+6. Provide deployment instructions
 
 **Human Actions**:
 1. Review the code
-2. Test locally: `php -S localhost:8000`
-3. Deploy to production when satisfied
+2. Test locally: `python3 -m http.server 8000`
+3. Deploy static files to production when satisfied
 
 ### 3. Content Creation
 
@@ -150,6 +151,28 @@ No agents. No automation. You control every step.
 1. Review and edit the content
 2. Choose preferred version
 3. Post to LinkedIn
+
+## 🌐 Web Dashboard Architecture
+
+### Static Generation Approach
+- **Data Export**: Python scripts query SQLite and export JSON files
+- **Frontend**: Pure HTML/CSS/JavaScript with D3.js for visualizations
+- **Interactivity**: Full client-side interactivity without server requirements
+- **Hosting**: Any static file host (GitHub Pages, Netlify, S3, or traditional web hosting)
+- **Updates**: Monthly refresh by regenerating and uploading new JSON files
+
+### Benefits
+- **Cost**: $0-5/month hosting (vs $20+ for dynamic hosting)
+- **Performance**: Instant loading with CDN caching
+- **Reliability**: No server maintenance or downtime
+- **Security**: No database exposed to internet
+- **Simplicity**: Just files, no server configuration
+
+### Workflow
+1. Run Python data extraction → Updates SQLite
+2. Export data to JSON: `python3 export_dashboard_data.py`
+3. Test locally: `python3 -m http.server 8000`
+4. Deploy: Upload `/dashboards` folder to hosting
 
 ## 📁 Project Structure
 
@@ -222,7 +245,7 @@ Before any action, consider:
    - Clear documentation > clever code
 
 3. **Will this scale with our tech stack?**
-   - PHP + D3.js for web
+   - Static HTML/JS + D3.js for web
    - Python for data processing
    - SQLite for now, PostgreSQL ready when needed
 

@@ -133,6 +133,11 @@ class CalgaryGeospatialExtractor:
                         for key, value in record.items():
                             if key not in config['column_mapping']:
                                 mapped_record[key] = value
+                        
+                        # Special handling for sectors - duplicate code as name
+                        if dataset_id == 'community_sectors' and 'code' in mapped_record:
+                            mapped_record['name'] = mapped_record['code']
+                        
                         mapped_records.append(mapped_record)
                     records = mapped_records
                 
