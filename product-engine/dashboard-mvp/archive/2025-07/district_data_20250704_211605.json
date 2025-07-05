@@ -1,0 +1,2821 @@
+{
+  "metadata": {
+    "generated_at": "2025-07-04T20:24:13.626150",
+    "data_last_updated": "2025-05-01",
+    "version": "1.0",
+    "district_count": 8
+  },
+  "current_data": {
+    "City Centre": {
+      "district_name": "City Centre",
+      "property_types": {
+        "Apartment": {
+          "benchmark_price": 347700,
+          "sales": 235,
+          "inventory": 900,
+          "months_supply": 3.83,
+          "yoy_change": -1.11,
+          "mom_change": -0.09
+        },
+        "Detached": {
+          "benchmark_price": 993500,
+          "sales": 145,
+          "inventory": 353,
+          "months_supply": 2.43,
+          "yoy_change": 2.81,
+          "mom_change": 0.4
+        },
+        "Row House": {
+          "benchmark_price": 615700,
+          "sales": 65,
+          "inventory": 118,
+          "months_supply": 1.82,
+          "yoy_change": -0.39,
+          "mom_change": -0.1
+        },
+        "Semi-Detached": {
+          "benchmark_price": 967800,
+          "sales": 67,
+          "inventory": 158,
+          "months_supply": 2.36,
+          "yoy_change": 4.98,
+          "mom_change": 1.65
+        }
+      }
+    },
+    "East": {
+      "district_name": "East",
+      "property_types": {
+        "Apartment": {
+          "benchmark_price": 248800,
+          "sales": 17,
+          "inventory": 46,
+          "months_supply": 2.71,
+          "yoy_change": -3.79,
+          "mom_change": 0.16
+        },
+        "Detached": {
+          "benchmark_price": 525200,
+          "sales": 46,
+          "inventory": 115,
+          "months_supply": 2.5,
+          "yoy_change": -0.92,
+          "mom_change": -0.21
+        },
+        "Row House": {
+          "benchmark_price": 305300,
+          "sales": 18,
+          "inventory": 32,
+          "months_supply": 1.78,
+          "yoy_change": 0.53,
+          "mom_change": 1.29
+        },
+        "Semi-Detached": {
+          "benchmark_price": 401500,
+          "sales": 11,
+          "inventory": 21,
+          "months_supply": 1.91,
+          "yoy_change": -0.2,
+          "mom_change": -0.74
+        }
+      }
+    },
+    "North": {
+      "district_name": "North",
+      "property_types": {
+        "Apartment": {
+          "benchmark_price": 329900,
+          "sales": 47,
+          "inventory": 186,
+          "months_supply": 3.96,
+          "yoy_change": -2.91,
+          "mom_change": -0.09
+        },
+        "Detached": {
+          "benchmark_price": 682900,
+          "sales": 138,
+          "inventory": 429,
+          "months_supply": 3.11,
+          "yoy_change": -0.55,
+          "mom_change": -0.36
+        },
+        "Row House": {
+          "benchmark_price": 418800,
+          "sales": 69,
+          "inventory": 175,
+          "months_supply": 2.54,
+          "yoy_change": -4.38,
+          "mom_change": -1.81
+        },
+        "Semi-Detached": {
+          "benchmark_price": 523200,
+          "sales": 29,
+          "inventory": 67,
+          "months_supply": 2.31,
+          "yoy_change": -0.48,
+          "mom_change": 0.21
+        }
+      }
+    },
+    "North East": {
+      "district_name": "North East",
+      "property_types": {
+        "Apartment": {
+          "benchmark_price": 296600,
+          "sales": 34,
+          "inventory": 169,
+          "months_supply": 4.97,
+          "yoy_change": -4.51,
+          "mom_change": -0.13
+        },
+        "Detached": {
+          "benchmark_price": 593400,
+          "sales": 136,
+          "inventory": 532,
+          "months_supply": 3.91,
+          "yoy_change": -2.66,
+          "mom_change": -1.72
+        },
+        "Row House": {
+          "benchmark_price": 367800,
+          "sales": 67,
+          "inventory": 235,
+          "months_supply": 3.51,
+          "yoy_change": -3.79,
+          "mom_change": -1.1
+        },
+        "Semi-Detached": {
+          "benchmark_price": 434800,
+          "sales": 32,
+          "inventory": 89,
+          "months_supply": 2.78,
+          "yoy_change": -1.43,
+          "mom_change": -1.63
+        }
+      }
+    },
+    "North West": {
+      "district_name": "North West",
+      "property_types": {
+        "Apartment": {
+          "benchmark_price": 316400,
+          "sales": 45,
+          "inventory": 146,
+          "months_supply": 3.24,
+          "yoy_change": 1.77,
+          "mom_change": -0.03
+        },
+        "Detached": {
+          "benchmark_price": 811400,
+          "sales": 192,
+          "inventory": 314,
+          "months_supply": 1.64,
+          "yoy_change": 0.8,
+          "mom_change": 0.22
+        },
+        "Row House": {
+          "benchmark_price": 457900,
+          "sales": 38,
+          "inventory": 99,
+          "months_supply": 2.61,
+          "yoy_change": -1.86,
+          "mom_change": -0.93
+        },
+        "Semi-Detached": {
+          "benchmark_price": 681200,
+          "sales": 24,
+          "inventory": 35,
+          "months_supply": 1.46,
+          "yoy_change": 2.45,
+          "mom_change": 0.52
+        }
+      }
+    },
+    "South": {
+      "district_name": "South",
+      "property_types": {
+        "Apartment": {
+          "benchmark_price": 311600,
+          "sales": 75,
+          "inventory": 215,
+          "months_supply": 2.87,
+          "yoy_change": -2.04,
+          "mom_change": 0.26
+        },
+        "Detached": {
+          "benchmark_price": 741600,
+          "sales": 265,
+          "inventory": 508,
+          "months_supply": 1.92,
+          "yoy_change": 0.95,
+          "mom_change": -0.68
+        },
+        "Row House": {
+          "benchmark_price": 405800,
+          "sales": 68,
+          "inventory": 153,
+          "months_supply": 2.25,
+          "yoy_change": -1.43,
+          "mom_change": -1.27
+        },
+        "Semi-Detached": {
+          "benchmark_price": 548500,
+          "sales": 42,
+          "inventory": 78,
+          "months_supply": 1.86,
+          "yoy_change": 1.59,
+          "mom_change": -0.27
+        }
+      }
+    },
+    "South East": {
+      "district_name": "South East",
+      "property_types": {
+        "Apartment": {
+          "benchmark_price": 355700,
+          "sales": 69,
+          "inventory": 239,
+          "months_supply": 3.46,
+          "yoy_change": -4.3,
+          "mom_change": -1.5
+        },
+        "Detached": {
+          "benchmark_price": 727600,
+          "sales": 215,
+          "inventory": 435,
+          "months_supply": 2.02,
+          "yoy_change": -0.14,
+          "mom_change": -0.89
+        },
+        "Row House": {
+          "benchmark_price": 470200,
+          "sales": 80,
+          "inventory": 188,
+          "months_supply": 2.35,
+          "yoy_change": 0.17,
+          "mom_change": -0.68
+        },
+        "Semi-Detached": {
+          "benchmark_price": 526100,
+          "sales": 33,
+          "inventory": 49,
+          "months_supply": 1.48,
+          "yoy_change": 0.92,
+          "mom_change": -0.75
+        }
+      }
+    },
+    "West": {
+      "district_name": "West",
+      "property_types": {
+        "Apartment": {
+          "benchmark_price": 356400,
+          "sales": 56,
+          "inventory": 184,
+          "months_supply": 3.29,
+          "yoy_change": 1.54,
+          "mom_change": 0.03
+        },
+        "Detached": {
+          "benchmark_price": 1009000,
+          "sales": 135,
+          "inventory": 287,
+          "months_supply": 2.13,
+          "yoy_change": 3.74,
+          "mom_change": 2.18
+        },
+        "Row House": {
+          "benchmark_price": 472100,
+          "sales": 53,
+          "inventory": 107,
+          "months_supply": 2.02,
+          "yoy_change": 0.23,
+          "mom_change": -0.11
+        },
+        "Semi-Detached": {
+          "benchmark_price": 839600,
+          "sales": 18,
+          "inventory": 44,
+          "months_supply": 2.44,
+          "yoy_change": 3.49,
+          "mom_change": 2.68
+        }
+      }
+    }
+  },
+  "pricing_table": [
+    {
+      "district": "North West",
+      "detached": 811400,
+      "semi_detached": 681200,
+      "row_house": 457900,
+      "apartment": 316400,
+      "yoy_change": 0.8
+    },
+    {
+      "district": "North",
+      "detached": 682900,
+      "semi_detached": 523200,
+      "row_house": 418800,
+      "apartment": 329900,
+      "yoy_change": -2.1
+    },
+    {
+      "district": "North East",
+      "detached": 593400,
+      "semi_detached": 434800,
+      "row_house": 367800,
+      "apartment": 296600,
+      "yoy_change": -3.1
+    },
+    {
+      "district": "West",
+      "detached": 1009000,
+      "semi_detached": 839600,
+      "row_house": 472100,
+      "apartment": 356400,
+      "yoy_change": 2.2
+    },
+    {
+      "district": "City Centre",
+      "detached": 993500,
+      "semi_detached": 967800,
+      "row_house": 615700,
+      "apartment": 347700,
+      "yoy_change": 1.6
+    },
+    {
+      "district": "East",
+      "detached": 525200,
+      "semi_detached": 401500,
+      "row_house": 305300,
+      "apartment": 248800,
+      "yoy_change": -1.1
+    },
+    {
+      "district": "South",
+      "detached": 741600,
+      "semi_detached": 548500,
+      "row_house": 405800,
+      "apartment": 311600,
+      "yoy_change": -0.2
+    },
+    {
+      "district": "South East",
+      "detached": 727600,
+      "semi_detached": 526100,
+      "row_house": 470200,
+      "apartment": 355700,
+      "yoy_change": -0.8
+    }
+  ],
+  "district_averages": {
+    "City Centre": {
+      "average_price": 731175.0,
+      "average_yoy_change": 1.5725000000000002,
+      "prices_by_type": {
+        "Apartment": 347700,
+        "Detached": 993500,
+        "Row House": 615700,
+        "Semi-Detached": 967800
+      }
+    },
+    "East": {
+      "average_price": 370200.0,
+      "average_yoy_change": -1.095,
+      "prices_by_type": {
+        "Apartment": 248800,
+        "Detached": 525200,
+        "Row House": 305300,
+        "Semi-Detached": 401500
+      }
+    },
+    "North": {
+      "average_price": 488700.0,
+      "average_yoy_change": -2.08,
+      "prices_by_type": {
+        "Apartment": 329900,
+        "Detached": 682900,
+        "Row House": 418800,
+        "Semi-Detached": 523200
+      }
+    },
+    "North East": {
+      "average_price": 423150.0,
+      "average_yoy_change": -3.0975,
+      "prices_by_type": {
+        "Apartment": 296600,
+        "Detached": 593400,
+        "Row House": 367800,
+        "Semi-Detached": 434800
+      }
+    },
+    "North West": {
+      "average_price": 566725.0,
+      "average_yoy_change": 0.79,
+      "prices_by_type": {
+        "Apartment": 316400,
+        "Detached": 811400,
+        "Row House": 457900,
+        "Semi-Detached": 681200
+      }
+    },
+    "South": {
+      "average_price": 501875.0,
+      "average_yoy_change": -0.23249999999999998,
+      "prices_by_type": {
+        "Apartment": 311600,
+        "Detached": 741600,
+        "Row House": 405800,
+        "Semi-Detached": 548500
+      }
+    },
+    "South East": {
+      "average_price": 519900.0,
+      "average_yoy_change": -0.8374999999999999,
+      "prices_by_type": {
+        "Apartment": 355700,
+        "Detached": 727600,
+        "Row House": 470200,
+        "Semi-Detached": 526100
+      }
+    },
+    "West": {
+      "average_price": 669275.0,
+      "average_yoy_change": 2.25,
+      "prices_by_type": {
+        "Apartment": 356400,
+        "Detached": 1009000,
+        "Row House": 472100,
+        "Semi-Detached": 839600
+      }
+    }
+  },
+  "best_value": {
+    "most_affordable": {
+      "Detached": {
+        "district": "East",
+        "price": 525200
+      },
+      "Semi-Detached": {
+        "district": "East",
+        "price": 401500
+      },
+      "Row House": {
+        "district": "East",
+        "price": 305300
+      },
+      "Apartment": {
+        "district": "East",
+        "price": 248800
+      }
+    },
+    "strongest_appreciation": {
+      "Detached": {
+        "district": "West",
+        "yoy_change": 3.74
+      },
+      "Semi-Detached": {
+        "district": "City Centre",
+        "yoy_change": 4.98
+      },
+      "Row House": {
+        "district": "East",
+        "yoy_change": 0.53
+      },
+      "Apartment": {
+        "district": "North West",
+        "yoy_change": 1.77
+      }
+    },
+    "entry_level": [
+      "East: Row House ($305,300)",
+      "North East: Row House ($367,800)",
+      "City Centre: Apartment ($347,700)",
+      "East: Apartment ($248,800)",
+      "North: Apartment ($329,900)",
+      "North East: Apartment ($296,600)",
+      "North West: Apartment ($316,400)",
+      "South: Apartment ($311,600)",
+      "South East: Apartment ($355,700)",
+      "West: Apartment ($356,400)"
+    ]
+  },
+  "appreciation_rankings": [
+    {
+      "district": "West",
+      "yoy_change": 2.25
+    },
+    {
+      "district": "City Centre",
+      "yoy_change": 1.5725000000000002
+    },
+    {
+      "district": "North West",
+      "yoy_change": 0.79
+    },
+    {
+      "district": "South",
+      "yoy_change": -0.23249999999999998
+    },
+    {
+      "district": "South East",
+      "yoy_change": -0.8374999999999999
+    },
+    {
+      "district": "East",
+      "yoy_change": -1.095
+    },
+    {
+      "district": "North",
+      "yoy_change": -2.08
+    },
+    {
+      "district": "North East",
+      "yoy_change": -3.0975
+    }
+  ],
+  "historical_trends": {
+    "City Centre": {
+      "Apartment": [
+        {
+          "date": "2024-01-01",
+          "price": 341100
+        },
+        {
+          "date": "2024-02-01",
+          "price": 345700
+        },
+        {
+          "date": "2024-03-01",
+          "price": 354500
+        },
+        {
+          "date": "2024-04-01",
+          "price": 364800
+        },
+        {
+          "date": "2024-05-01",
+          "price": 351600
+        },
+        {
+          "date": "2024-06-01",
+          "price": 355400
+        },
+        {
+          "date": "2024-07-01",
+          "price": 354300
+        },
+        {
+          "date": "2024-08-01",
+          "price": 354800
+        },
+        {
+          "date": "2024-09-01",
+          "price": 351200
+        },
+        {
+          "date": "2024-10-01",
+          "price": 347900
+        },
+        {
+          "date": "2024-11-01",
+          "price": 343900
+        },
+        {
+          "date": "2024-12-01",
+          "price": 339000
+        },
+        {
+          "date": "2025-01-01",
+          "price": 340500
+        },
+        {
+          "date": "2025-02-01",
+          "price": 344800
+        },
+        {
+          "date": "2025-03-01",
+          "price": 348200
+        },
+        {
+          "date": "2025-04-01",
+          "price": 348000
+        },
+        {
+          "date": "2025-05-01",
+          "price": 347700
+        }
+      ],
+      "Detached": [
+        {
+          "date": "2024-01-01",
+          "price": 871000
+        },
+        {
+          "date": "2024-02-01",
+          "price": 888100
+        },
+        {
+          "date": "2024-03-01",
+          "price": 922700
+        },
+        {
+          "date": "2024-04-01",
+          "price": 937600
+        },
+        {
+          "date": "2024-05-01",
+          "price": 966300
+        },
+        {
+          "date": "2024-06-01",
+          "price": 963000
+        },
+        {
+          "date": "2024-07-01",
+          "price": 965400
+        },
+        {
+          "date": "2024-08-01",
+          "price": 951600
+        },
+        {
+          "date": "2024-09-01",
+          "price": 957500
+        },
+        {
+          "date": "2024-10-01",
+          "price": 955300
+        },
+        {
+          "date": "2024-11-01",
+          "price": 955000
+        },
+        {
+          "date": "2024-12-01",
+          "price": 951000
+        },
+        {
+          "date": "2025-01-01",
+          "price": 954700
+        },
+        {
+          "date": "2025-02-01",
+          "price": 965100
+        },
+        {
+          "date": "2025-03-01",
+          "price": 983400
+        },
+        {
+          "date": "2025-04-01",
+          "price": 989600
+        },
+        {
+          "date": "2025-05-01",
+          "price": 993500
+        }
+      ],
+      "Row House": [
+        {
+          "date": "2024-01-01",
+          "price": 569200
+        },
+        {
+          "date": "2024-02-01",
+          "price": 585500
+        },
+        {
+          "date": "2024-03-01",
+          "price": 594400
+        },
+        {
+          "date": "2024-04-01",
+          "price": 606100
+        },
+        {
+          "date": "2024-05-01",
+          "price": 618100
+        },
+        {
+          "date": "2024-06-01",
+          "price": 614800
+        },
+        {
+          "date": "2024-07-01",
+          "price": 618500
+        },
+        {
+          "date": "2024-08-01",
+          "price": 609200
+        },
+        {
+          "date": "2024-09-01",
+          "price": 613600
+        },
+        {
+          "date": "2024-10-01",
+          "price": 617400
+        },
+        {
+          "date": "2024-11-01",
+          "price": 620000
+        },
+        {
+          "date": "2024-12-01",
+          "price": 606100
+        },
+        {
+          "date": "2025-01-01",
+          "price": 604500
+        },
+        {
+          "date": "2025-02-01",
+          "price": 603300
+        },
+        {
+          "date": "2025-03-01",
+          "price": 610500
+        },
+        {
+          "date": "2025-04-01",
+          "price": 616200
+        },
+        {
+          "date": "2025-05-01",
+          "price": 615700
+        }
+      ],
+      "Semi-Detached": [
+        {
+          "date": "2024-01-01",
+          "price": 849600
+        },
+        {
+          "date": "2024-02-01",
+          "price": 866900
+        },
+        {
+          "date": "2024-03-01",
+          "price": 894500
+        },
+        {
+          "date": "2024-04-01",
+          "price": 910400
+        },
+        {
+          "date": "2024-05-01",
+          "price": 921900
+        },
+        {
+          "date": "2024-06-01",
+          "price": 937400
+        },
+        {
+          "date": "2024-07-01",
+          "price": 940100
+        },
+        {
+          "date": "2024-08-01",
+          "price": 926700
+        },
+        {
+          "date": "2024-09-01",
+          "price": 931200
+        },
+        {
+          "date": "2024-10-01",
+          "price": 930500
+        },
+        {
+          "date": "2024-11-01",
+          "price": 926800
+        },
+        {
+          "date": "2024-12-01",
+          "price": 933500
+        },
+        {
+          "date": "2025-01-01",
+          "price": 926600
+        },
+        {
+          "date": "2025-02-01",
+          "price": 935500
+        },
+        {
+          "date": "2025-03-01",
+          "price": 948900
+        },
+        {
+          "date": "2025-04-01",
+          "price": 952100
+        },
+        {
+          "date": "2025-05-01",
+          "price": 967800
+        }
+      ]
+    },
+    "East": {
+      "Apartment": [
+        {
+          "date": "2024-01-01",
+          "price": 238900
+        },
+        {
+          "date": "2024-02-01",
+          "price": 241700
+        },
+        {
+          "date": "2024-03-01",
+          "price": 249400
+        },
+        {
+          "date": "2024-04-01",
+          "price": 257100
+        },
+        {
+          "date": "2024-05-01",
+          "price": 258600
+        },
+        {
+          "date": "2024-06-01",
+          "price": 263500
+        },
+        {
+          "date": "2024-07-01",
+          "price": 266700
+        },
+        {
+          "date": "2024-08-01",
+          "price": 263900
+        },
+        {
+          "date": "2024-09-01",
+          "price": 262600
+        },
+        {
+          "date": "2024-10-01",
+          "price": 256900
+        },
+        {
+          "date": "2024-11-01",
+          "price": 255900
+        },
+        {
+          "date": "2024-12-01",
+          "price": 253500
+        },
+        {
+          "date": "2025-01-01",
+          "price": 253800
+        },
+        {
+          "date": "2025-02-01",
+          "price": 252200
+        },
+        {
+          "date": "2025-03-01",
+          "price": 252700
+        },
+        {
+          "date": "2025-04-01",
+          "price": 248400
+        },
+        {
+          "date": "2025-05-01",
+          "price": 248800
+        }
+      ],
+      "Detached": [
+        {
+          "date": "2024-01-01",
+          "price": 493300
+        },
+        {
+          "date": "2024-02-01",
+          "price": 499400
+        },
+        {
+          "date": "2024-03-01",
+          "price": 515400
+        },
+        {
+          "date": "2024-04-01",
+          "price": 519100
+        },
+        {
+          "date": "2024-05-01",
+          "price": 530100
+        },
+        {
+          "date": "2024-06-01",
+          "price": 534400
+        },
+        {
+          "date": "2024-07-01",
+          "price": 539300
+        },
+        {
+          "date": "2024-08-01",
+          "price": 535600
+        },
+        {
+          "date": "2024-09-01",
+          "price": 526900
+        },
+        {
+          "date": "2024-10-01",
+          "price": 526200
+        },
+        {
+          "date": "2024-11-01",
+          "price": 532500
+        },
+        {
+          "date": "2024-12-01",
+          "price": 536600
+        },
+        {
+          "date": "2025-01-01",
+          "price": 526000
+        },
+        {
+          "date": "2025-02-01",
+          "price": 525700
+        },
+        {
+          "date": "2025-03-01",
+          "price": 521700
+        },
+        {
+          "date": "2025-04-01",
+          "price": 526300
+        },
+        {
+          "date": "2025-05-01",
+          "price": 525200
+        }
+      ],
+      "Row House": [
+        {
+          "date": "2024-01-01",
+          "price": 268200
+        },
+        {
+          "date": "2024-02-01",
+          "price": 274500
+        },
+        {
+          "date": "2024-03-01",
+          "price": 284900
+        },
+        {
+          "date": "2024-04-01",
+          "price": 296700
+        },
+        {
+          "date": "2024-05-01",
+          "price": 303700
+        },
+        {
+          "date": "2024-06-01",
+          "price": 308100
+        },
+        {
+          "date": "2024-07-01",
+          "price": 308000
+        },
+        {
+          "date": "2024-08-01",
+          "price": 309600
+        },
+        {
+          "date": "2024-09-01",
+          "price": 305400
+        },
+        {
+          "date": "2024-10-01",
+          "price": 305500
+        },
+        {
+          "date": "2024-11-01",
+          "price": 309200
+        },
+        {
+          "date": "2024-12-01",
+          "price": 306700
+        },
+        {
+          "date": "2025-01-01",
+          "price": 305500
+        },
+        {
+          "date": "2025-02-01",
+          "price": 304900
+        },
+        {
+          "date": "2025-03-01",
+          "price": 304700
+        },
+        {
+          "date": "2025-04-01",
+          "price": 301400
+        },
+        {
+          "date": "2025-05-01",
+          "price": 305300
+        }
+      ],
+      "Semi-Detached": [
+        {
+          "date": "2024-01-01",
+          "price": 372900
+        },
+        {
+          "date": "2024-02-01",
+          "price": 375300
+        },
+        {
+          "date": "2024-03-01",
+          "price": 387800
+        },
+        {
+          "date": "2024-04-01",
+          "price": 391800
+        },
+        {
+          "date": "2024-05-01",
+          "price": 402300
+        },
+        {
+          "date": "2024-06-01",
+          "price": 406500
+        },
+        {
+          "date": "2024-07-01",
+          "price": 409300
+        },
+        {
+          "date": "2024-08-01",
+          "price": 406800
+        },
+        {
+          "date": "2024-09-01",
+          "price": 402300
+        },
+        {
+          "date": "2024-10-01",
+          "price": 403000
+        },
+        {
+          "date": "2024-11-01",
+          "price": 409300
+        },
+        {
+          "date": "2024-12-01",
+          "price": 407900
+        },
+        {
+          "date": "2025-01-01",
+          "price": 408500
+        },
+        {
+          "date": "2025-02-01",
+          "price": 407300
+        },
+        {
+          "date": "2025-03-01",
+          "price": 408100
+        },
+        {
+          "date": "2025-04-01",
+          "price": 404500
+        },
+        {
+          "date": "2025-05-01",
+          "price": 401500
+        }
+      ]
+    },
+    "North": {
+      "Apartment": [
+        {
+          "date": "2024-01-01",
+          "price": 312400
+        },
+        {
+          "date": "2024-02-01",
+          "price": 317400
+        },
+        {
+          "date": "2024-03-01",
+          "price": 322300
+        },
+        {
+          "date": "2024-04-01",
+          "price": 331600
+        },
+        {
+          "date": "2024-05-01",
+          "price": 339800
+        },
+        {
+          "date": "2024-06-01",
+          "price": 344700
+        },
+        {
+          "date": "2024-07-01",
+          "price": 347700
+        },
+        {
+          "date": "2024-08-01",
+          "price": 350300
+        },
+        {
+          "date": "2024-09-01",
+          "price": 347800
+        },
+        {
+          "date": "2024-10-01",
+          "price": 346000
+        },
+        {
+          "date": "2024-11-01",
+          "price": 339700
+        },
+        {
+          "date": "2024-12-01",
+          "price": 334900
+        },
+        {
+          "date": "2025-01-01",
+          "price": 331700
+        },
+        {
+          "date": "2025-02-01",
+          "price": 329700
+        },
+        {
+          "date": "2025-03-01",
+          "price": 328400
+        },
+        {
+          "date": "2025-04-01",
+          "price": 330200
+        },
+        {
+          "date": "2025-05-01",
+          "price": 329900
+        }
+      ],
+      "Detached": [
+        {
+          "date": "2024-01-01",
+          "price": 656200
+        },
+        {
+          "date": "2024-02-01",
+          "price": 670600
+        },
+        {
+          "date": "2024-03-01",
+          "price": 681300
+        },
+        {
+          "date": "2024-04-01",
+          "price": 683300
+        },
+        {
+          "date": "2024-05-01",
+          "price": 686700
+        },
+        {
+          "date": "2024-06-01",
+          "price": 700300
+        },
+        {
+          "date": "2024-07-01",
+          "price": 701600
+        },
+        {
+          "date": "2024-08-01",
+          "price": 701000
+        },
+        {
+          "date": "2024-09-01",
+          "price": 689500
+        },
+        {
+          "date": "2024-10-01",
+          "price": 682500
+        },
+        {
+          "date": "2024-11-01",
+          "price": 679900
+        },
+        {
+          "date": "2024-12-01",
+          "price": 673900
+        },
+        {
+          "date": "2025-01-01",
+          "price": 672800
+        },
+        {
+          "date": "2025-02-01",
+          "price": 684700
+        },
+        {
+          "date": "2025-03-01",
+          "price": 694600
+        },
+        {
+          "date": "2025-04-01",
+          "price": 685400
+        },
+        {
+          "date": "2025-05-01",
+          "price": 682900
+        }
+      ],
+      "Row House": [
+        {
+          "date": "2024-01-01",
+          "price": 407300
+        },
+        {
+          "date": "2024-02-01",
+          "price": 413600
+        },
+        {
+          "date": "2024-03-01",
+          "price": 423000
+        },
+        {
+          "date": "2024-04-01",
+          "price": 434600
+        },
+        {
+          "date": "2024-05-01",
+          "price": 438000
+        },
+        {
+          "date": "2024-06-01",
+          "price": 441500
+        },
+        {
+          "date": "2024-07-01",
+          "price": 436900
+        },
+        {
+          "date": "2024-08-01",
+          "price": 435800
+        },
+        {
+          "date": "2024-09-01",
+          "price": 429200
+        },
+        {
+          "date": "2024-10-01",
+          "price": 424800
+        },
+        {
+          "date": "2024-11-01",
+          "price": 422300
+        },
+        {
+          "date": "2024-12-01",
+          "price": 417800
+        },
+        {
+          "date": "2025-01-01",
+          "price": 413200
+        },
+        {
+          "date": "2025-02-01",
+          "price": 417500
+        },
+        {
+          "date": "2025-03-01",
+          "price": 424700
+        },
+        {
+          "date": "2025-04-01",
+          "price": 426500
+        },
+        {
+          "date": "2025-05-01",
+          "price": 418800
+        }
+      ],
+      "Semi-Detached": [
+        {
+          "date": "2024-01-01",
+          "price": 502500
+        },
+        {
+          "date": "2024-02-01",
+          "price": 511600
+        },
+        {
+          "date": "2024-03-01",
+          "price": 523400
+        },
+        {
+          "date": "2024-04-01",
+          "price": 522200
+        },
+        {
+          "date": "2024-05-01",
+          "price": 525700
+        },
+        {
+          "date": "2024-06-01",
+          "price": 533500
+        },
+        {
+          "date": "2024-07-01",
+          "price": 535100
+        },
+        {
+          "date": "2024-08-01",
+          "price": 536300
+        },
+        {
+          "date": "2024-09-01",
+          "price": 527400
+        },
+        {
+          "date": "2024-10-01",
+          "price": 519000
+        },
+        {
+          "date": "2024-11-01",
+          "price": 514100
+        },
+        {
+          "date": "2024-12-01",
+          "price": 512000
+        },
+        {
+          "date": "2025-01-01",
+          "price": 512600
+        },
+        {
+          "date": "2025-02-01",
+          "price": 527900
+        },
+        {
+          "date": "2025-03-01",
+          "price": 533600
+        },
+        {
+          "date": "2025-04-01",
+          "price": 521800
+        },
+        {
+          "date": "2025-05-01",
+          "price": 523200
+        }
+      ]
+    },
+    "North East": {
+      "Apartment": [
+        {
+          "date": "2024-01-01",
+          "price": 285900
+        },
+        {
+          "date": "2024-02-01",
+          "price": 291100
+        },
+        {
+          "date": "2024-03-01",
+          "price": 301300
+        },
+        {
+          "date": "2024-04-01",
+          "price": 309300
+        },
+        {
+          "date": "2024-05-01",
+          "price": 310600
+        },
+        {
+          "date": "2024-06-01",
+          "price": 315300
+        },
+        {
+          "date": "2024-07-01",
+          "price": 320000
+        },
+        {
+          "date": "2024-08-01",
+          "price": 317100
+        },
+        {
+          "date": "2024-09-01",
+          "price": 315400
+        },
+        {
+          "date": "2024-10-01",
+          "price": 307600
+        },
+        {
+          "date": "2024-11-01",
+          "price": 306900
+        },
+        {
+          "date": "2024-12-01",
+          "price": 303100
+        },
+        {
+          "date": "2025-01-01",
+          "price": 304400
+        },
+        {
+          "date": "2025-02-01",
+          "price": 302100
+        },
+        {
+          "date": "2025-03-01",
+          "price": 301800
+        },
+        {
+          "date": "2025-04-01",
+          "price": 297000
+        },
+        {
+          "date": "2025-05-01",
+          "price": 296600
+        }
+      ],
+      "Detached": [
+        {
+          "date": "2024-01-01",
+          "price": 568200
+        },
+        {
+          "date": "2024-02-01",
+          "price": 578100
+        },
+        {
+          "date": "2024-03-01",
+          "price": 592500
+        },
+        {
+          "date": "2024-04-01",
+          "price": 599300
+        },
+        {
+          "date": "2024-05-01",
+          "price": 609600
+        },
+        {
+          "date": "2024-06-01",
+          "price": 613200
+        },
+        {
+          "date": "2024-07-01",
+          "price": 618200
+        },
+        {
+          "date": "2024-08-01",
+          "price": 617400
+        },
+        {
+          "date": "2024-09-01",
+          "price": 614300
+        },
+        {
+          "date": "2024-10-01",
+          "price": 608700
+        },
+        {
+          "date": "2024-11-01",
+          "price": 601600
+        },
+        {
+          "date": "2024-12-01",
+          "price": 602000
+        },
+        {
+          "date": "2025-01-01",
+          "price": 600700
+        },
+        {
+          "date": "2025-02-01",
+          "price": 606100
+        },
+        {
+          "date": "2025-03-01",
+          "price": 607900
+        },
+        {
+          "date": "2025-04-01",
+          "price": 603800
+        },
+        {
+          "date": "2025-05-01",
+          "price": 593400
+        }
+      ],
+      "Row House": [
+        {
+          "date": "2024-01-01",
+          "price": 340500
+        },
+        {
+          "date": "2024-02-01",
+          "price": 347700
+        },
+        {
+          "date": "2024-03-01",
+          "price": 363500
+        },
+        {
+          "date": "2024-04-01",
+          "price": 375200
+        },
+        {
+          "date": "2024-05-01",
+          "price": 382300
+        },
+        {
+          "date": "2024-06-01",
+          "price": 387800
+        },
+        {
+          "date": "2024-07-01",
+          "price": 388700
+        },
+        {
+          "date": "2024-08-01",
+          "price": 389000
+        },
+        {
+          "date": "2024-09-01",
+          "price": 384700
+        },
+        {
+          "date": "2024-10-01",
+          "price": 376700
+        },
+        {
+          "date": "2024-11-01",
+          "price": 372400
+        },
+        {
+          "date": "2024-12-01",
+          "price": 370500
+        },
+        {
+          "date": "2025-01-01",
+          "price": 360500
+        },
+        {
+          "date": "2025-02-01",
+          "price": 368000
+        },
+        {
+          "date": "2025-03-01",
+          "price": 371700
+        },
+        {
+          "date": "2025-04-01",
+          "price": 371900
+        },
+        {
+          "date": "2025-05-01",
+          "price": 367800
+        }
+      ],
+      "Semi-Detached": [
+        {
+          "date": "2024-01-01",
+          "price": 406800
+        },
+        {
+          "date": "2024-02-01",
+          "price": 417100
+        },
+        {
+          "date": "2024-03-01",
+          "price": 427900
+        },
+        {
+          "date": "2024-04-01",
+          "price": 432100
+        },
+        {
+          "date": "2024-05-01",
+          "price": 441100
+        },
+        {
+          "date": "2024-06-01",
+          "price": 445400
+        },
+        {
+          "date": "2024-07-01",
+          "price": 450100
+        },
+        {
+          "date": "2024-08-01",
+          "price": 447800
+        },
+        {
+          "date": "2024-09-01",
+          "price": 444900
+        },
+        {
+          "date": "2024-10-01",
+          "price": 440700
+        },
+        {
+          "date": "2024-11-01",
+          "price": 439100
+        },
+        {
+          "date": "2024-12-01",
+          "price": 440800
+        },
+        {
+          "date": "2025-01-01",
+          "price": 437900
+        },
+        {
+          "date": "2025-02-01",
+          "price": 447800
+        },
+        {
+          "date": "2025-03-01",
+          "price": 446700
+        },
+        {
+          "date": "2025-04-01",
+          "price": 442000
+        },
+        {
+          "date": "2025-05-01",
+          "price": 434800
+        }
+      ]
+    },
+    "North West": {
+      "Apartment": [
+        {
+          "date": "2024-01-01",
+          "price": 299100
+        },
+        {
+          "date": "2024-02-01",
+          "price": 305500
+        },
+        {
+          "date": "2024-03-01",
+          "price": 309400
+        },
+        {
+          "date": "2024-04-01",
+          "price": 313300
+        },
+        {
+          "date": "2024-05-01",
+          "price": 310900
+        },
+        {
+          "date": "2024-06-01",
+          "price": 317400
+        },
+        {
+          "date": "2024-07-01",
+          "price": 321300
+        },
+        {
+          "date": "2024-08-01",
+          "price": 323800
+        },
+        {
+          "date": "2024-09-01",
+          "price": 321700
+        },
+        {
+          "date": "2024-10-01",
+          "price": 322000
+        },
+        {
+          "date": "2024-11-01",
+          "price": 316600
+        },
+        {
+          "date": "2024-12-01",
+          "price": 305900
+        },
+        {
+          "date": "2025-01-01",
+          "price": 305300
+        },
+        {
+          "date": "2025-02-01",
+          "price": 308600
+        },
+        {
+          "date": "2025-03-01",
+          "price": 316300
+        },
+        {
+          "date": "2025-04-01",
+          "price": 316500
+        },
+        {
+          "date": "2025-05-01",
+          "price": 316400
+        }
+      ],
+      "Detached": [
+        {
+          "date": "2024-01-01",
+          "price": 735100
+        },
+        {
+          "date": "2024-02-01",
+          "price": 766100
+        },
+        {
+          "date": "2024-03-01",
+          "price": 777400
+        },
+        {
+          "date": "2024-04-01",
+          "price": 788700
+        },
+        {
+          "date": "2024-05-01",
+          "price": 805000
+        },
+        {
+          "date": "2024-06-01",
+          "price": 807600
+        },
+        {
+          "date": "2024-07-01",
+          "price": 805800
+        },
+        {
+          "date": "2024-08-01",
+          "price": 795400
+        },
+        {
+          "date": "2024-09-01",
+          "price": 789900
+        },
+        {
+          "date": "2024-10-01",
+          "price": 784700
+        },
+        {
+          "date": "2024-11-01",
+          "price": 778200
+        },
+        {
+          "date": "2024-12-01",
+          "price": 762700
+        },
+        {
+          "date": "2025-01-01",
+          "price": 783400
+        },
+        {
+          "date": "2025-02-01",
+          "price": 803700
+        },
+        {
+          "date": "2025-03-01",
+          "price": 809200
+        },
+        {
+          "date": "2025-04-01",
+          "price": 809600
+        },
+        {
+          "date": "2025-05-01",
+          "price": 811400
+        }
+      ],
+      "Row House": [
+        {
+          "date": "2024-01-01",
+          "price": 421200
+        },
+        {
+          "date": "2024-02-01",
+          "price": 431600
+        },
+        {
+          "date": "2024-03-01",
+          "price": 445000
+        },
+        {
+          "date": "2024-04-01",
+          "price": 455200
+        },
+        {
+          "date": "2024-05-01",
+          "price": 466600
+        },
+        {
+          "date": "2024-06-01",
+          "price": 460500
+        },
+        {
+          "date": "2024-07-01",
+          "price": 459300
+        },
+        {
+          "date": "2024-08-01",
+          "price": 451400
+        },
+        {
+          "date": "2024-09-01",
+          "price": 457900
+        },
+        {
+          "date": "2024-10-01",
+          "price": 453000
+        },
+        {
+          "date": "2024-11-01",
+          "price": 452300
+        },
+        {
+          "date": "2024-12-01",
+          "price": 442900
+        },
+        {
+          "date": "2025-01-01",
+          "price": 447300
+        },
+        {
+          "date": "2025-02-01",
+          "price": 451200
+        },
+        {
+          "date": "2025-03-01",
+          "price": 459900
+        },
+        {
+          "date": "2025-04-01",
+          "price": 462200
+        },
+        {
+          "date": "2025-05-01",
+          "price": 457900
+        }
+      ],
+      "Semi-Detached": [
+        {
+          "date": "2024-01-01",
+          "price": 614800
+        },
+        {
+          "date": "2024-02-01",
+          "price": 626300
+        },
+        {
+          "date": "2024-03-01",
+          "price": 638800
+        },
+        {
+          "date": "2024-04-01",
+          "price": 652700
+        },
+        {
+          "date": "2024-05-01",
+          "price": 664900
+        },
+        {
+          "date": "2024-06-01",
+          "price": 670900
+        },
+        {
+          "date": "2024-07-01",
+          "price": 673900
+        },
+        {
+          "date": "2024-08-01",
+          "price": 661800
+        },
+        {
+          "date": "2024-09-01",
+          "price": 658400
+        },
+        {
+          "date": "2024-10-01",
+          "price": 653600
+        },
+        {
+          "date": "2024-11-01",
+          "price": 648500
+        },
+        {
+          "date": "2024-12-01",
+          "price": 645300
+        },
+        {
+          "date": "2025-01-01",
+          "price": 646300
+        },
+        {
+          "date": "2025-02-01",
+          "price": 659100
+        },
+        {
+          "date": "2025-03-01",
+          "price": 664800
+        },
+        {
+          "date": "2025-04-01",
+          "price": 677700
+        },
+        {
+          "date": "2025-05-01",
+          "price": 681200
+        }
+      ]
+    },
+    "South": {
+      "Apartment": [
+        {
+          "date": "2024-01-01",
+          "price": 297000
+        },
+        {
+          "date": "2024-02-01",
+          "price": 302400
+        },
+        {
+          "date": "2024-03-01",
+          "price": 311300
+        },
+        {
+          "date": "2024-04-01",
+          "price": 318200
+        },
+        {
+          "date": "2024-05-01",
+          "price": 318100
+        },
+        {
+          "date": "2024-06-01",
+          "price": 321000
+        },
+        {
+          "date": "2024-07-01",
+          "price": 324200
+        },
+        {
+          "date": "2024-08-01",
+          "price": 325400
+        },
+        {
+          "date": "2024-09-01",
+          "price": 325300
+        },
+        {
+          "date": "2024-10-01",
+          "price": 322900
+        },
+        {
+          "date": "2024-11-01",
+          "price": 318600
+        },
+        {
+          "date": "2024-12-01",
+          "price": 315400
+        },
+        {
+          "date": "2025-01-01",
+          "price": 308300
+        },
+        {
+          "date": "2025-02-01",
+          "price": 310000
+        },
+        {
+          "date": "2025-03-01",
+          "price": 310200
+        },
+        {
+          "date": "2025-04-01",
+          "price": 310800
+        },
+        {
+          "date": "2025-05-01",
+          "price": 311600
+        }
+      ],
+      "Detached": [
+        {
+          "date": "2024-01-01",
+          "price": 667300
+        },
+        {
+          "date": "2024-02-01",
+          "price": 685600
+        },
+        {
+          "date": "2024-03-01",
+          "price": 711800
+        },
+        {
+          "date": "2024-04-01",
+          "price": 726800
+        },
+        {
+          "date": "2024-05-01",
+          "price": 734600
+        },
+        {
+          "date": "2024-06-01",
+          "price": 735900
+        },
+        {
+          "date": "2024-07-01",
+          "price": 737800
+        },
+        {
+          "date": "2024-08-01",
+          "price": 734100
+        },
+        {
+          "date": "2024-09-01",
+          "price": 731300
+        },
+        {
+          "date": "2024-10-01",
+          "price": 725100
+        },
+        {
+          "date": "2024-11-01",
+          "price": 720200
+        },
+        {
+          "date": "2024-12-01",
+          "price": 720500
+        },
+        {
+          "date": "2025-01-01",
+          "price": 725000
+        },
+        {
+          "date": "2025-02-01",
+          "price": 735900
+        },
+        {
+          "date": "2025-03-01",
+          "price": 742900
+        },
+        {
+          "date": "2025-04-01",
+          "price": 746600
+        },
+        {
+          "date": "2025-05-01",
+          "price": 741600
+        }
+      ],
+      "Row House": [
+        {
+          "date": "2024-01-01",
+          "price": 376600
+        },
+        {
+          "date": "2024-02-01",
+          "price": 388700
+        },
+        {
+          "date": "2024-03-01",
+          "price": 401800
+        },
+        {
+          "date": "2024-04-01",
+          "price": 409400
+        },
+        {
+          "date": "2024-05-01",
+          "price": 411700
+        },
+        {
+          "date": "2024-06-01",
+          "price": 412200
+        },
+        {
+          "date": "2024-07-01",
+          "price": 416300
+        },
+        {
+          "date": "2024-08-01",
+          "price": 418000
+        },
+        {
+          "date": "2024-09-01",
+          "price": 413600
+        },
+        {
+          "date": "2024-10-01",
+          "price": 409600
+        },
+        {
+          "date": "2024-11-01",
+          "price": 408700
+        },
+        {
+          "date": "2024-12-01",
+          "price": 403300
+        },
+        {
+          "date": "2025-01-01",
+          "price": 396500
+        },
+        {
+          "date": "2025-02-01",
+          "price": 402900
+        },
+        {
+          "date": "2025-03-01",
+          "price": 404800
+        },
+        {
+          "date": "2025-04-01",
+          "price": 411000
+        },
+        {
+          "date": "2025-05-01",
+          "price": 405800
+        }
+      ],
+      "Semi-Detached": [
+        {
+          "date": "2024-01-01",
+          "price": 493900
+        },
+        {
+          "date": "2024-02-01",
+          "price": 505200
+        },
+        {
+          "date": "2024-03-01",
+          "price": 521800
+        },
+        {
+          "date": "2024-04-01",
+          "price": 533600
+        },
+        {
+          "date": "2024-05-01",
+          "price": 539900
+        },
+        {
+          "date": "2024-06-01",
+          "price": 541000
+        },
+        {
+          "date": "2024-07-01",
+          "price": 542400
+        },
+        {
+          "date": "2024-08-01",
+          "price": 541600
+        },
+        {
+          "date": "2024-09-01",
+          "price": 538100
+        },
+        {
+          "date": "2024-10-01",
+          "price": 536500
+        },
+        {
+          "date": "2024-11-01",
+          "price": 533000
+        },
+        {
+          "date": "2024-12-01",
+          "price": 533900
+        },
+        {
+          "date": "2025-01-01",
+          "price": 534500
+        },
+        {
+          "date": "2025-02-01",
+          "price": 544000
+        },
+        {
+          "date": "2025-03-01",
+          "price": 546400
+        },
+        {
+          "date": "2025-04-01",
+          "price": 550300
+        },
+        {
+          "date": "2025-05-01",
+          "price": 548500
+        }
+      ]
+    },
+    "South East": {
+      "Apartment": [
+        {
+          "date": "2024-01-01",
+          "price": 342700
+        },
+        {
+          "date": "2024-02-01",
+          "price": 353100
+        },
+        {
+          "date": "2024-03-01",
+          "price": 362000
+        },
+        {
+          "date": "2024-04-01",
+          "price": 369600
+        },
+        {
+          "date": "2024-05-01",
+          "price": 371700
+        },
+        {
+          "date": "2024-06-01",
+          "price": 374200
+        },
+        {
+          "date": "2024-07-01",
+          "price": 376600
+        },
+        {
+          "date": "2024-08-01",
+          "price": 373200
+        },
+        {
+          "date": "2024-09-01",
+          "price": 373500
+        },
+        {
+          "date": "2024-10-01",
+          "price": 368100
+        },
+        {
+          "date": "2024-11-01",
+          "price": 364700
+        },
+        {
+          "date": "2024-12-01",
+          "price": 356200
+        },
+        {
+          "date": "2025-01-01",
+          "price": 355200
+        },
+        {
+          "date": "2025-02-01",
+          "price": 361400
+        },
+        {
+          "date": "2025-03-01",
+          "price": 360500
+        },
+        {
+          "date": "2025-04-01",
+          "price": 361100
+        },
+        {
+          "date": "2025-05-01",
+          "price": 355700
+        }
+      ],
+      "Detached": [
+        {
+          "date": "2024-01-01",
+          "price": 673700
+        },
+        {
+          "date": "2024-02-01",
+          "price": 696200
+        },
+        {
+          "date": "2024-03-01",
+          "price": 709800
+        },
+        {
+          "date": "2024-04-01",
+          "price": 723500
+        },
+        {
+          "date": "2024-05-01",
+          "price": 728600
+        },
+        {
+          "date": "2024-06-01",
+          "price": 734100
+        },
+        {
+          "date": "2024-07-01",
+          "price": 733000
+        },
+        {
+          "date": "2024-08-01",
+          "price": 733700
+        },
+        {
+          "date": "2024-09-01",
+          "price": 718300
+        },
+        {
+          "date": "2024-10-01",
+          "price": 722900
+        },
+        {
+          "date": "2024-11-01",
+          "price": 717500
+        },
+        {
+          "date": "2024-12-01",
+          "price": 718200
+        },
+        {
+          "date": "2025-01-01",
+          "price": 718700
+        },
+        {
+          "date": "2025-02-01",
+          "price": 730200
+        },
+        {
+          "date": "2025-03-01",
+          "price": 733400
+        },
+        {
+          "date": "2025-04-01",
+          "price": 734100
+        },
+        {
+          "date": "2025-05-01",
+          "price": 727600
+        }
+      ],
+      "Row House": [
+        {
+          "date": "2024-01-01",
+          "price": 433400
+        },
+        {
+          "date": "2024-02-01",
+          "price": 445500
+        },
+        {
+          "date": "2024-03-01",
+          "price": 456500
+        },
+        {
+          "date": "2024-04-01",
+          "price": 463800
+        },
+        {
+          "date": "2024-05-01",
+          "price": 469400
+        },
+        {
+          "date": "2024-06-01",
+          "price": 475500
+        },
+        {
+          "date": "2024-07-01",
+          "price": 472100
+        },
+        {
+          "date": "2024-08-01",
+          "price": 472500
+        },
+        {
+          "date": "2024-09-01",
+          "price": 464300
+        },
+        {
+          "date": "2024-10-01",
+          "price": 463400
+        },
+        {
+          "date": "2024-11-01",
+          "price": 458200
+        },
+        {
+          "date": "2024-12-01",
+          "price": 457100
+        },
+        {
+          "date": "2025-01-01",
+          "price": 460600
+        },
+        {
+          "date": "2025-02-01",
+          "price": 456100
+        },
+        {
+          "date": "2025-03-01",
+          "price": 467900
+        },
+        {
+          "date": "2025-04-01",
+          "price": 473300
+        },
+        {
+          "date": "2025-05-01",
+          "price": 470200
+        }
+      ],
+      "Semi-Detached": [
+        {
+          "date": "2024-01-01",
+          "price": 478400
+        },
+        {
+          "date": "2024-02-01",
+          "price": 494700
+        },
+        {
+          "date": "2024-03-01",
+          "price": 504800
+        },
+        {
+          "date": "2024-04-01",
+          "price": 515900
+        },
+        {
+          "date": "2024-05-01",
+          "price": 521300
+        },
+        {
+          "date": "2024-06-01",
+          "price": 527800
+        },
+        {
+          "date": "2024-07-01",
+          "price": 525400
+        },
+        {
+          "date": "2024-08-01",
+          "price": 523900
+        },
+        {
+          "date": "2024-09-01",
+          "price": 513900
+        },
+        {
+          "date": "2024-10-01",
+          "price": 516800
+        },
+        {
+          "date": "2024-11-01",
+          "price": 516300
+        },
+        {
+          "date": "2024-12-01",
+          "price": 515900
+        },
+        {
+          "date": "2025-01-01",
+          "price": 519300
+        },
+        {
+          "date": "2025-02-01",
+          "price": 526400
+        },
+        {
+          "date": "2025-03-01",
+          "price": 530800
+        },
+        {
+          "date": "2025-04-01",
+          "price": 530100
+        },
+        {
+          "date": "2025-05-01",
+          "price": 526100
+        }
+      ]
+    },
+    "West": {
+      "Apartment": [
+        {
+          "date": "2024-01-01",
+          "price": 335500
+        },
+        {
+          "date": "2024-02-01",
+          "price": 341100
+        },
+        {
+          "date": "2024-03-01",
+          "price": 349000
+        },
+        {
+          "date": "2024-04-01",
+          "price": 355900
+        },
+        {
+          "date": "2024-05-01",
+          "price": 351000
+        },
+        {
+          "date": "2024-06-01",
+          "price": 359000
+        },
+        {
+          "date": "2024-07-01",
+          "price": 364500
+        },
+        {
+          "date": "2024-08-01",
+          "price": 364600
+        },
+        {
+          "date": "2024-09-01",
+          "price": 370000
+        },
+        {
+          "date": "2024-10-01",
+          "price": 367000
+        },
+        {
+          "date": "2024-11-01",
+          "price": 363800
+        },
+        {
+          "date": "2024-12-01",
+          "price": 359200
+        },
+        {
+          "date": "2025-01-01",
+          "price": 355300
+        },
+        {
+          "date": "2025-02-01",
+          "price": 357100
+        },
+        {
+          "date": "2025-03-01",
+          "price": 356600
+        },
+        {
+          "date": "2025-04-01",
+          "price": 356300
+        },
+        {
+          "date": "2025-05-01",
+          "price": 356400
+        }
+      ],
+      "Detached": [
+        {
+          "date": "2024-01-01",
+          "price": 890100
+        },
+        {
+          "date": "2024-02-01",
+          "price": 915900
+        },
+        {
+          "date": "2024-03-01",
+          "price": 940900
+        },
+        {
+          "date": "2024-04-01",
+          "price": 942200
+        },
+        {
+          "date": "2024-05-01",
+          "price": 972600
+        },
+        {
+          "date": "2024-06-01",
+          "price": 992300
+        },
+        {
+          "date": "2024-07-01",
+          "price": 981700
+        },
+        {
+          "date": "2024-08-01",
+          "price": 968700
+        },
+        {
+          "date": "2024-09-01",
+          "price": 966200
+        },
+        {
+          "date": "2024-10-01",
+          "price": 964300
+        },
+        {
+          "date": "2024-11-01",
+          "price": 962600
+        },
+        {
+          "date": "2024-12-01",
+          "price": 965800
+        },
+        {
+          "date": "2025-01-01",
+          "price": 964900
+        },
+        {
+          "date": "2025-02-01",
+          "price": 962000
+        },
+        {
+          "date": "2025-03-01",
+          "price": 992200
+        },
+        {
+          "date": "2025-04-01",
+          "price": 987500
+        },
+        {
+          "date": "2025-05-01",
+          "price": 1009000
+        }
+      ],
+      "Row House": [
+        {
+          "date": "2024-01-01",
+          "price": 438500
+        },
+        {
+          "date": "2024-02-01",
+          "price": 447200
+        },
+        {
+          "date": "2024-03-01",
+          "price": 465700
+        },
+        {
+          "date": "2024-04-01",
+          "price": 473300
+        },
+        {
+          "date": "2024-05-01",
+          "price": 471000
+        },
+        {
+          "date": "2024-06-01",
+          "price": 479300
+        },
+        {
+          "date": "2024-07-01",
+          "price": 481500
+        },
+        {
+          "date": "2024-08-01",
+          "price": 477700
+        },
+        {
+          "date": "2024-09-01",
+          "price": 479000
+        },
+        {
+          "date": "2024-10-01",
+          "price": 478900
+        },
+        {
+          "date": "2024-11-01",
+          "price": 473700
+        },
+        {
+          "date": "2024-12-01",
+          "price": 459500
+        },
+        {
+          "date": "2025-01-01",
+          "price": 457400
+        },
+        {
+          "date": "2025-02-01",
+          "price": 457800
+        },
+        {
+          "date": "2025-03-01",
+          "price": 469200
+        },
+        {
+          "date": "2025-04-01",
+          "price": 472600
+        },
+        {
+          "date": "2025-05-01",
+          "price": 472100
+        }
+      ],
+      "Semi-Detached": [
+        {
+          "date": "2024-01-01",
+          "price": 732600
+        },
+        {
+          "date": "2024-02-01",
+          "price": 759800
+        },
+        {
+          "date": "2024-03-01",
+          "price": 782000
+        },
+        {
+          "date": "2024-04-01",
+          "price": 791000
+        },
+        {
+          "date": "2024-05-01",
+          "price": 811300
+        },
+        {
+          "date": "2024-06-01",
+          "price": 821700
+        },
+        {
+          "date": "2024-07-01",
+          "price": 818600
+        },
+        {
+          "date": "2024-08-01",
+          "price": 811700
+        },
+        {
+          "date": "2024-09-01",
+          "price": 798700
+        },
+        {
+          "date": "2024-10-01",
+          "price": 796600
+        },
+        {
+          "date": "2024-11-01",
+          "price": 787900
+        },
+        {
+          "date": "2024-12-01",
+          "price": 793100
+        },
+        {
+          "date": "2025-01-01",
+          "price": 781900
+        },
+        {
+          "date": "2025-02-01",
+          "price": 795600
+        },
+        {
+          "date": "2025-03-01",
+          "price": 822700
+        },
+        {
+          "date": "2025-04-01",
+          "price": 817700
+        },
+        {
+          "date": "2025-05-01",
+          "price": 839600
+        }
+      ]
+    }
+  },
+  "district_categories": {
+    "north": [
+      "North West",
+      "North",
+      "North East"
+    ],
+    "south": [
+      "South West",
+      "South",
+      "South East"
+    ],
+    "east": [
+      "East",
+      "North East",
+      "South East"
+    ],
+    "west": [
+      "West",
+      "North West",
+      "South West"
+    ],
+    "central": [
+      "City Centre"
+    ]
+  }
+}

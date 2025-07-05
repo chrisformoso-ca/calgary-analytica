@@ -1,0 +1,590 @@
+{
+  "metadata": {
+    "generated_at": "2025-07-04T14:48:22.317862",
+    "data_last_updated": "2025-05",
+    "version": "1.0"
+  },
+  "current_data": {
+    "apartment": {
+      "sales": 256,
+      "new_listings": 428,
+      "inventory": 542,
+      "days_on_market": 29,
+      "benchmark_price": 691900,
+      "median_price": 616500,
+      "average_price": 714510
+    },
+    "detached": {
+      "sales": 1275,
+      "new_listings": 2419,
+      "inventory": 2995,
+      "days_on_market": 28,
+      "benchmark_price": 769800,
+      "median_price": 731750,
+      "average_price": 839174
+    },
+    "row": {
+      "sales": 458,
+      "new_listings": 764,
+      "inventory": 1116,
+      "days_on_market": 33,
+      "benchmark_price": 454000,
+      "median_price": 455000,
+      "average_price": 472221
+    },
+    "semi_detached": {
+      "sales": 579,
+      "new_listings": 1231,
+      "inventory": 2087,
+      "days_on_market": 41,
+      "benchmark_price": 336100,
+      "median_price": 328000,
+      "average_price": 354989
+    },
+    "total": {
+      "sales": 2568,
+      "new_listings": 4842,
+      "inventory": 6740,
+      "days_on_market": 32,
+      "benchmark_price": 592500,
+      "median_price": 584750,
+      "average_price": 639578
+    },
+    "last_updated": "2025-05"
+  },
+  "price_history": {
+    "apartment": [
+      {
+        "date": "2023-06",
+        "price": 293400
+      },
+      {
+        "date": "2023-07",
+        "price": 296000
+      },
+      {
+        "date": "2023-08",
+        "price": 299200
+      },
+      {
+        "date": "2023-09",
+        "price": 303000
+      },
+      {
+        "date": "2023-10",
+        "price": 306800
+      },
+      {
+        "date": "2023-11",
+        "price": 310100
+      },
+      {
+        "date": "2023-12",
+        "price": 311200
+      },
+      {
+        "date": "2024-01",
+        "price": 314700
+      },
+      {
+        "date": "2024-02",
+        "price": 321500
+      },
+      {
+        "date": "2024-03",
+        "price": 327600
+      },
+      {
+        "date": "2024-04",
+        "price": 335500
+      },
+      {
+        "date": "2024-05",
+        "price": 340500
+      },
+      {
+        "date": "2024-06",
+        "price": 344700
+      },
+      {
+        "date": "2024-07",
+        "price": 346300
+      },
+      {
+        "date": "2024-08",
+        "price": 346500
+      },
+      {
+        "date": "2024-09",
+        "price": 345000
+      },
+      {
+        "date": "2024-10",
+        "price": 341700
+      },
+      {
+        "date": "2024-11",
+        "price": 337800
+      },
+      {
+        "date": "2024-12",
+        "price": 332400
+      },
+      {
+        "date": "2025-01",
+        "price": 331400
+      },
+      {
+        "date": "2025-02",
+        "price": 334200
+      },
+      {
+        "date": "2025-03",
+        "price": 336100
+      },
+      {
+        "date": "2025-04",
+        "price": 336000
+      },
+      {
+        "date": "2025-05",
+        "price": 691900
+      }
+    ],
+    "detached": [
+      {
+        "date": "2023-06",
+        "price": 685100
+      },
+      {
+        "date": "2023-07",
+        "price": 690600
+      },
+      {
+        "date": "2023-08",
+        "price": 696700
+      },
+      {
+        "date": "2023-09",
+        "price": 696100
+      },
+      {
+        "date": "2023-10",
+        "price": 697600
+      },
+      {
+        "date": "2023-11",
+        "price": 699400
+      },
+      {
+        "date": "2023-12",
+        "price": 697300
+      },
+      {
+        "date": "2024-01",
+        "price": 701500
+      },
+      {
+        "date": "2024-02",
+        "price": 723700
+      },
+      {
+        "date": "2024-03",
+        "price": 739400
+      },
+      {
+        "date": "2024-04",
+        "price": 751200
+      },
+      {
+        "date": "2024-05",
+        "price": 761800
+      },
+      {
+        "date": "2024-06",
+        "price": 767600
+      },
+      {
+        "date": "2024-07",
+        "price": 767800
+      },
+      {
+        "date": "2024-08",
+        "price": 762600
+      },
+      {
+        "date": "2024-09",
+        "price": 757100
+      },
+      {
+        "date": "2024-10",
+        "price": 753900
+      },
+      {
+        "date": "2024-11",
+        "price": 750100
+      },
+      {
+        "date": "2024-12",
+        "price": 747500
+      },
+      {
+        "date": "2025-01",
+        "price": 750800
+      },
+      {
+        "date": "2025-02",
+        "price": 760500
+      },
+      {
+        "date": "2025-03",
+        "price": 769800
+      },
+      {
+        "date": "2025-04",
+        "price": 769300
+      },
+      {
+        "date": "2025-05",
+        "price": 769800
+      }
+    ],
+    "row": [
+      {
+        "date": "2023-06",
+        "price": 397300
+      },
+      {
+        "date": "2023-07",
+        "price": 404900
+      },
+      {
+        "date": "2023-08",
+        "price": 410500
+      },
+      {
+        "date": "2023-09",
+        "price": 416700
+      },
+      {
+        "date": "2023-10",
+        "price": 422400
+      },
+      {
+        "date": "2023-11",
+        "price": 426300
+      },
+      {
+        "date": "2023-12",
+        "price": 422300
+      },
+      {
+        "date": "2024-01",
+        "price": 424300
+      },
+      {
+        "date": "2024-02",
+        "price": 434700
+      },
+      {
+        "date": "2024-03",
+        "price": 444600
+      },
+      {
+        "date": "2024-04",
+        "price": 455000
+      },
+      {
+        "date": "2024-05",
+        "price": 462500
+      },
+      {
+        "date": "2024-06",
+        "price": 464600
+      },
+      {
+        "date": "2024-07",
+        "price": 464200
+      },
+      {
+        "date": "2024-08",
+        "price": 461700
+      },
+      {
+        "date": "2024-09",
+        "price": 459200
+      },
+      {
+        "date": "2024-10",
+        "price": 456600
+      },
+      {
+        "date": "2024-11",
+        "price": 454300
+      },
+      {
+        "date": "2024-12",
+        "price": 447400
+      },
+      {
+        "date": "2025-01",
+        "price": 444900
+      },
+      {
+        "date": "2025-02",
+        "price": 446800
+      },
+      {
+        "date": "2025-03",
+        "price": 454000
+      },
+      {
+        "date": "2025-04",
+        "price": 457400
+      },
+      {
+        "date": "2025-05",
+        "price": 454000
+      }
+    ],
+    "semi-detached": [
+      {
+        "date": "2023-06",
+        "price": 611300
+      },
+      {
+        "date": "2023-07",
+        "price": 614900
+      },
+      {
+        "date": "2023-08",
+        "price": 621400
+      },
+      {
+        "date": "2023-09",
+        "price": 619400
+      },
+      {
+        "date": "2023-10",
+        "price": 626700
+      },
+      {
+        "date": "2023-11",
+        "price": 626800
+      },
+      {
+        "date": "2023-12",
+        "price": 625000
+      },
+      {
+        "date": "2024-01",
+        "price": 621900
+      },
+      {
+        "date": "2024-02",
+        "price": 639400
+      },
+      {
+        "date": "2024-03",
+        "price": 658200
+      },
+      {
+        "date": "2024-04",
+        "price": 667700
+      },
+      {
+        "date": "2024-05",
+        "price": 678000
+      },
+      {
+        "date": "2024-06",
+        "price": 686100
+      },
+      {
+        "date": "2024-07",
+        "price": 687900
+      },
+      {
+        "date": "2024-08",
+        "price": 681200
+      },
+      {
+        "date": "2024-09",
+        "price": 678400
+      },
+      {
+        "date": "2024-10",
+        "price": 677000
+      },
+      {
+        "date": "2024-11",
+        "price": 675100
+      },
+      {
+        "date": "2024-12",
+        "price": 677600
+      },
+      {
+        "date": "2025-01",
+        "price": 673600
+      },
+      {
+        "date": "2025-02",
+        "price": 683500
+      },
+      {
+        "date": "2025-03",
+        "price": 691900
+      },
+      {
+        "date": "2025-04",
+        "price": 691700
+      },
+      {
+        "date": "2025-05",
+        "price": 336100
+      }
+    ]
+  },
+  "market_activity": {
+    "sales_volume": [
+      {
+        "date": "2024-06",
+        "value": 2737
+      },
+      {
+        "date": "2024-07",
+        "value": 2374
+      },
+      {
+        "date": "2024-08",
+        "value": 2182
+      },
+      {
+        "date": "2024-09",
+        "value": 2000
+      },
+      {
+        "date": "2024-10",
+        "value": 2171
+      },
+      {
+        "date": "2024-11",
+        "value": 1794
+      },
+      {
+        "date": "2024-12",
+        "value": 1322
+      },
+      {
+        "date": "2025-01",
+        "value": 1449
+      },
+      {
+        "date": "2025-02",
+        "value": 1719
+      },
+      {
+        "date": "2025-03",
+        "value": 2157
+      },
+      {
+        "date": "2025-04",
+        "value": 2236
+      },
+      {
+        "date": "2025-05",
+        "value": 2568
+      }
+    ],
+    "inventory": [
+      {
+        "date": "2024-06",
+        "value": 3790
+      },
+      {
+        "date": "2024-07",
+        "value": 4165
+      },
+      {
+        "date": "2024-08",
+        "value": 4496
+      },
+      {
+        "date": "2024-09",
+        "value": 5069
+      },
+      {
+        "date": "2024-10",
+        "value": 4968
+      },
+      {
+        "date": "2024-11",
+        "value": 4355
+      },
+      {
+        "date": "2024-12",
+        "value": 2989
+      },
+      {
+        "date": "2025-01",
+        "value": 3646
+      },
+      {
+        "date": "2025-02",
+        "value": 4152
+      },
+      {
+        "date": "2025-03",
+        "value": 5158
+      },
+      {
+        "date": "2025-04",
+        "value": 5867
+      },
+      {
+        "date": "2025-05",
+        "value": 6740
+      }
+    ]
+  },
+  "changes": {
+    "price_change_mom": 0.23684655726611403,
+    "sales_change_mom": 14.847942754919499,
+    "inventory_change_mom": 14.879836372933356,
+    "price_change_yoy": -2.114653890632744,
+    "sales_change_yoy": -16.893203883495143,
+    "inventory_change_yoy": 97.53810082063306
+  },
+  "market_drivers": {
+    "population": {
+      "value": 1567713,
+      "formatted": "1567.7M",
+      "change_yoy": 3.5
+    },
+    "housing_starts": {
+      "value": 3102,
+      "formatted": "3,102",
+      "change_mom": 38.8
+    }
+  },
+  "interest_rates": {
+    "bank_of_canada": 3.0,
+    "prime": 4.95,
+    "five_year_fixed": 6.95
+  },
+  "insights": [
+    {
+      "target": "first_time_buyers",
+      "text": "Apartments at $691,900 offer most affordable entry"
+    },
+    {
+      "target": "current_owners",
+      "text": "Home values down 2.1% year-over-year"
+    },
+    {
+      "target": "investors",
+      "text": "2.6 months inventory = balanced market conditions"
+    }
+  ]
+}

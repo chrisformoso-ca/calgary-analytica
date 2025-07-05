@@ -111,16 +111,42 @@ class CalgaryEconomicTimeSeriesExtractor:
                 'expected_range': (-2.0, 10.0)
             },
             'avg_hourly_wage_alberta': {
-                'patterns': [r'average hourly wage.*alberta.*y/y'],
+                'patterns': [
+                    r'average hourly wage rate.*alberta.*y/y.*change',
+                    r'average hourly wage.*alberta.*y/y'
+                ],
                 'category': 'labour',
                 'unit': 'percentage',
                 'value_type': 'yoy_change',
                 'expected_range': (-5.0, 10.0)
             },
             'avg_weekly_earnings_alberta': {
-                'patterns': [r'average weekly earnings.*alberta.*y/y'],
+                'patterns': [
+                    r'average weekly earnings.*alberta.*seph.*y/y.*change',
+                    r'average weekly earnings.*alberta.*y/y'
+                ],
                 'category': 'labour',
                 'unit': 'percentage',
+                'value_type': 'yoy_change',
+                'expected_range': (-5.0, 10.0)
+            },
+            'avg_hourly_wage_calgary': {
+                'patterns': [
+                    r'average hourly wage rate.*calgary.*y/y.*change',
+                    r'average hourly wage.*calgary.*y/y'
+                ],
+                'category': 'labour',
+                'unit': 'percentage',
+                'value_type': 'yoy_change',
+                'expected_range': (-5.0, 10.0)
+            },
+            'avg_weekly_wage_calgary': {
+                'patterns': [
+                    r'average weekly wage rate.*calgary.*y/y.*change',
+                    r'average weekly wage.*calgary.*y/y'
+                ],
+                'category': 'labour',
+                'unit': 'percentage', 
                 'value_type': 'yoy_change',
                 'expected_range': (-5.0, 10.0)
             },
@@ -197,6 +223,39 @@ class CalgaryEconomicTimeSeriesExtractor:
                 'unit': 'millions',
                 'value_type': 'absolute',
                 'expected_range': (0, 20000)  # Annual can be high
+            },
+            
+            # Business Indicators - NEW
+            'retail_sales_calgary': {
+                'patterns': [r'retail sales.*calgary.*billions'],
+                'category': 'consumer',
+                'unit': 'billions',
+                'value_type': 'absolute',
+                'expected_range': (1, 100)
+            },
+            'wholesale_sales_alberta': {
+                'patterns': [r'wholesale sales.*alberta.*billions'],
+                'category': 'business',
+                'unit': 'billions',
+                'value_type': 'absolute',
+                'expected_range': (10, 500)
+            },
+            'manufacturing_sales_alberta': {
+                'patterns': [r'manufacturing sales.*alberta.*billions'],
+                'category': 'business',
+                'unit': 'billions',
+                'value_type': 'absolute',
+                'expected_range': (50, 200)
+            },
+            'business_bankruptcies': {
+                'patterns': [
+                    r'business bankruptcies.*alberta',
+                    r'number of business bankruptcies.*alberta'
+                ],
+                'category': 'business',
+                'unit': 'count',
+                'value_type': 'absolute',
+                'expected_range': (0, 1000)
             }
         }
         
@@ -283,16 +342,16 @@ class CalgaryEconomicTimeSeriesExtractor:
         
         text_lower = str(indicator_text).lower().strip()
         
-        # Check for YoY change indicator
-        for pattern in self.yoy_patterns:
-            if re.search(pattern, text_lower):
-                return None  # Skip standalone YoY rows, we'll capture them with their parent
-        
-        # Match against known indicators
+        # First check if this matches a known indicator (including wage indicators with YoY)
         for indicator_type, config in self.indicator_patterns.items():
             for pattern in config['patterns']:
                 if re.search(pattern, text_lower):
                     return indicator_type, config
+        
+        # If no match, check if it's a standalone YoY row to skip
+        for pattern in self.yoy_patterns:
+            if re.search(pattern, text_lower):
+                return None  # Skip standalone YoY rows, we'll capture them with their parent
         
         return None
     
@@ -613,9 +672,71 @@ def main():
     parser.add_argument('--year-start', type=int, help='Start year for extraction')
     parser.add_argument('--year-end', type=int, help='End year for extraction')
     parser.add_argument('--test', action='store_true', help='Test with one recent file')
+    parser.add_argument('--verify', action='store_true', help='Verify extraction completeness')
+    parser.add_argument('--file', type=str, help='Specific file to test/verify')
     args = parser.parse_args()
     
     extractor = CalgaryEconomicTimeSeriesExtractor()
+    
+    if args.verify:
+        # Verify mode - check what indicators we're capturing vs missing
+        logger.info("🔍 Running extraction verification...")
+        
+        if args.file:
+            test_files = [Path(extractor.raw_data_path / args.file)]
+        else:
+            test_files = list(extractor.raw_data_path.glob("*2025-05*.xlsx"))
+        
+        if test_files:
+            file_path = test_files[0]
+            logger.info(f"Verifying extraction from: {file_path.name}")
+            
+            # Read Excel to check all rows
+            try:
+                df = pd.read_excel(file_path, sheet_name='Table', header=None)
+                
+                matched_indicators = []
+                unmatched_indicators = []
+                
+                # Check each row for potential indicators
+                for row_idx in range(4, min(100, len(df))):  # Check first 100 rows
+                    row = df.iloc[row_idx]
+                    indicator_text = row[4] if pd.notna(row[4]) else ""
+                    
+                    if indicator_text and not any(re.search(p, str(indicator_text).lower()) for p in extractor.yoy_patterns):
+                        indicator_match = extractor.identify_indicator(indicator_text)
+                        
+                        if indicator_match:
+                            matched_indicators.append((indicator_text, indicator_match[0]))
+                        else:
+                            # Check if row has data (not just a header/blank)
+                            has_data = any(pd.notna(row[col]) and str(row[col]).strip() not in ['', '-', '#N/A'] 
+                                         for col in range(5, min(10, len(row))))
+                            if has_data:
+                                unmatched_indicators.append(indicator_text)
+                
+                print("\n✅ MATCHED INDICATORS:")
+                print("-" * 70)
+                for text, ind_type in sorted(matched_indicators, key=lambda x: x[1]):
+                    print(f"{ind_type:30} | {text}")
+                
+                print(f"\n❌ UNMATCHED INDICATORS (potential missing data):")
+                print("-" * 70)
+                for text in unmatched_indicators:
+                    print(f"  - {text}")
+                
+                print(f"\n📊 SUMMARY:")
+                print(f"  Matched: {len(matched_indicators)} indicators")
+                print(f"  Unmatched: {len(unmatched_indicators)} potential indicators")
+                print(f"  Coverage: {len(matched_indicators)/(len(matched_indicators)+len(unmatched_indicators))*100:.1f}%")
+                
+            except Exception as e:
+                logger.error(f"Error in verification: {e}")
+                import traceback
+                logger.error(traceback.format_exc())
+        else:
+            print("❌ No test files found")
+        return
     
     if args.test:
         # Test with a single recent file

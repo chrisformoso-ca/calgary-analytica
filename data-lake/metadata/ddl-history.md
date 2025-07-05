@@ -2,6 +2,13 @@
 
 Track structural changes to the database schema.
 
+## 2025-07-04
+- Added rental market tables:
+  - `rental_listings_snapshot` - Weekly snapshots of RentFaster rental listings
+  - `rental_market_summary_weekly` - Aggregated weekly rental market statistics
+  - Created views: `current_rental_market`, `rental_comparison_by_type`
+  - Populated existing `rental_market_annual` table with CMHC historical data (2018-2024)
+
 ## 2025-06-24
 - Modified `crime_statistics_monthly` table:
   - Added columns: `year INTEGER`, `ward TEXT`, `police_district TEXT`

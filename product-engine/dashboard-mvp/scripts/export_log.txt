@@ -1,0 +1,77 @@
+2025-07-04 20:24:13,460 - INFO - ======================================================================
+2025-07-04 20:24:13,460 - INFO - 🎯 CALGARY HOUSING DASHBOARD - MONTHLY DATA EXPORT
+2025-07-04 20:24:13,460 - INFO - ======================================================================
+2025-07-04 20:24:13,461 - INFO - Start time: 2025-07-04 20:24:13
+2025-07-04 20:24:13,461 - INFO - 🔍 Checking prerequisites...
+2025-07-04 20:24:13,461 - INFO - ✅ All prerequisites met
+2025-07-04 20:24:13,461 - INFO - 🚀 Running Market Overview...
+2025-07-04 20:24:13,524 - INFO - ✅ Market Overview completed successfully
+2025-07-04 20:24:13,524 - INFO - 🚀 Running Economic Indicators...
+2025-07-04 20:24:13,583 - INFO - ✅ Economic Indicators completed successfully
+2025-07-04 20:24:13,583 - INFO - 🚀 Running District Data...
+2025-07-04 20:24:13,637 - INFO - ✅ District Data completed successfully
+2025-07-04 20:24:13,637 - INFO - 🚀 Running Rate Data...
+2025-07-04 20:24:13,686 - INFO - ✅ Rate Data completed successfully
+2025-07-04 20:24:13,686 - INFO - 🚀 Running Metadata...
+2025-07-04 20:24:13,732 - INFO - ✅ Metadata completed successfully
+2025-07-04 20:24:13,733 - INFO - 📄 Summary saved to: /home/chris/calgary-analytica/product-engine/dashboard-mvp/archive/2025-07/export_summary_20250704_202413.json
+2025-07-04 20:24:13,733 - INFO - 
+======================================================================
+2025-07-04 20:24:13,734 - INFO - 📊 EXPORT SUMMARY
+2025-07-04 20:24:13,734 - INFO - ======================================================================
+2025-07-04 20:24:13,734 - INFO - Total exports: 5
+2025-07-04 20:24:13,734 - INFO - Successful: 5
+2025-07-04 20:24:13,734 - INFO - Failed: 0
+2025-07-04 20:24:13,734 - INFO - 
+📁 Generated Files:
+2025-07-04 20:24:13,734 - INFO -   - metadata.json (11,387 bytes)
+2025-07-04 20:24:13,734 - INFO -   - district_data.json (57,637 bytes)
+2025-07-04 20:24:13,734 - INFO -   - economic_indicators.json (38,601 bytes)
+2025-07-04 20:24:13,734 - INFO -   - market_overview.json (10,565 bytes)
+2025-07-04 20:24:13,734 - INFO -   - rate_data.json (13,558 bytes)
+2025-07-04 20:24:13,734 - INFO - 
+End time: 2025-07-04 20:24:13
+2025-07-04 20:24:13,734 - INFO - ======================================================================
+2025-07-04 21:16:04,945 - INFO - ======================================================================
+2025-07-04 21:16:04,946 - INFO - 🎯 CALGARY HOUSING DASHBOARD - MONTHLY DATA EXPORT
+2025-07-04 21:16:04,946 - INFO - ======================================================================
+2025-07-04 21:16:04,946 - INFO - Start time: 2025-07-04 21:16:04
+2025-07-04 21:16:04,946 - INFO - 🔍 Checking prerequisites...
+2025-07-04 21:16:04,946 - INFO - ✅ All prerequisites met
+2025-07-04 21:16:04,946 - INFO - 🚀 Running Market Overview...
+2025-07-04 21:16:04,999 - INFO - ✅ Market Overview completed successfully
+2025-07-04 21:16:04,999 - INFO - 🚀 Running Economic Indicators...
+2025-07-04 21:16:05,056 - INFO - ✅ Economic Indicators completed successfully
+2025-07-04 21:16:05,056 - INFO - 🚀 Running District Data...
+2025-07-04 21:16:05,115 - INFO - ✅ District Data completed successfully
+2025-07-04 21:16:05,115 - INFO - 🚀 Running Rate Data...
+2025-07-04 21:16:05,164 - INFO - ✅ Rate Data completed successfully
+2025-07-04 21:16:05,164 - INFO - 🚀 Running Metadata...
+2025-07-04 21:16:05,212 - INFO - ✅ Metadata completed successfully
+2025-07-04 21:16:05,212 - INFO - 🚀 Running Service Requests (311)...
+2025-07-04 21:16:05,458 - INFO - ✅ Service Requests (311) completed successfully
+2025-07-04 21:16:05,458 - INFO - 🚀 Running Rental Market...
+2025-07-04 21:16:05,508 - INFO - ✅ Rental Market completed successfully
+2025-07-04 21:16:05,508 - INFO - 🚀 Running Crime Statistics...
+2025-07-04 21:16:06,068 - INFO - ✅ Crime Statistics completed successfully
+2025-07-04 21:16:06,069 - INFO - 📄 Summary saved to: /home/chris/calgary-analytica/product-engine/dashboard-mvp/archive/2025-07/export_summary_20250704_211606.json
+2025-07-04 21:16:06,069 - INFO - 
+======================================================================
+2025-07-04 21:16:06,069 - INFO - 📊 EXPORT SUMMARY
+2025-07-04 21:16:06,069 - INFO - ======================================================================
+2025-07-04 21:16:06,069 - INFO - Total exports: 8
+2025-07-04 21:16:06,069 - INFO - Successful: 8
+2025-07-04 21:16:06,069 - INFO - Failed: 0
+2025-07-04 21:16:06,069 - INFO - 
+📁 Generated Files:
+2025-07-04 21:16:06,070 - INFO -   - metadata.json (12,104 bytes)
+2025-07-04 21:16:06,070 - INFO -   - district_data.json (57,637 bytes)
+2025-07-04 21:16:06,070 - INFO -   - crime_statistics.json (14,852 bytes)
+2025-07-04 21:16:06,070 - INFO -   - rental_market.json (25,460 bytes)
+2025-07-04 21:16:06,070 - INFO -   - economic_indicators.json (43,716 bytes)
+2025-07-04 21:16:06,070 - INFO -   - market_overview.json (10,565 bytes)
+2025-07-04 21:16:06,070 - INFO -   - rate_data.json (13,558 bytes)
+2025-07-04 21:16:06,070 - INFO -   - service_requests_311.json (13,691 bytes)
+2025-07-04 21:16:06,070 - INFO - 
+End time: 2025-07-04 21:16:06
+2025-07-04 21:16:06,070 - INFO - ======================================================================

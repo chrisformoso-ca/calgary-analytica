@@ -1,0 +1,65 @@
+{
+  "run_date": "2025-07-04T20:24:13.733119",
+  "total_exports": 5,
+  "successful": 5,
+  "failed": 0,
+  "details": [
+    {
+      "export": "Market Overview",
+      "script": "generate_market_overview.py",
+      "success": true,
+      "order": 1
+    },
+    {
+      "export": "Economic Indicators",
+      "script": "generate_economic_indicators.py",
+      "success": true,
+      "order": 2
+    },
+    {
+      "export": "District Data",
+      "script": "generate_district_data.py",
+      "success": true,
+      "order": 3
+    },
+    {
+      "export": "Rate Data",
+      "script": "generate_rate_data.py",
+      "success": true,
+      "order": 4
+    },
+    {
+      "export": "Metadata",
+      "script": "generate_metadata.py",
+      "success": true,
+      "order": 5
+    }
+  ],
+  "generated_files": [
+    {
+      "file": "metadata.json",
+      "size_bytes": 11387,
+      "modified": "2025-07-04T20:24:13.725917"
+    },
+    {
+      "file": "district_data.json",
+      "size_bytes": 57637,
+      "modified": "2025-07-04T20:24:13.629731"
+    },
+    {
+      "file": "economic_indicators.json",
+      "size_bytes": 38601,
+      "modified": "2025-07-04T20:24:13.571183"
+    },
+    {
+      "file": "market_overview.json",
+      "size_bytes": 10565,
+      "modified": "2025-07-04T20:24:13.512635"
+    },
+    {
+      "file": "rate_data.json",
+      "size_bytes": 13558,
+      "modified": "2025-07-04T20:24:13.675733"
+    }
+  ]
+}

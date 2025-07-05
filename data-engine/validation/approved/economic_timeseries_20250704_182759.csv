@@ -1,0 +1,846 @@
+date,indicator_type,indicator_name,value,unit,value_type,category,yoy_change
+2023-01-01,avg_hourly_wage_alberta,Average Hourly Wage Rate - Alberta (y/y % change),2.65379975874549,percentage,yoy_change,labour,1.9707414287529756
+2023-01-01,avg_hourly_wage_calgary,Average Hourly Wage Rate - Calgary CER (y/y % change),4.545454545454519,percentage,yoy_change,labour,5.567928730512239
+2023-01-01,avg_weekly_earnings_alberta,"Average Weekly Earnings** - Alberta (SEPH incl. overtime,y/y % change)",1.9707414287529756,percentage,yoy_change,labour,4.545454545454519
+2023-01-01,avg_weekly_wage_calgary,Average Weekly Wage Rate  - Calgary CER (y/y % change),5.567928730512239,percentage,yoy_change,labour,
+2023-01-01,bank_of_canada_rate,Bank of Canada Interest Rate (%),4.5,percentage,rate,economy,
+2023-01-01,bankruptcies_personal,Number of Personal Bankruptcies - Alberta***,209.0,count,absolute,consumer,
+2023-01-01,building_permits_value,City of Calgary Total Value of Building Permits ($millions) Note 5,324.31584199,millions,absolute,housing,
+2023-01-01,business_bankruptcies,Number of Business Bankruptcies - Alberta***,9.0,count,absolute,business,
+2023-01-01,ei_recipients_alberta,"Employment insurance Alberta - Number of recipients 
+(15 years and over), seasonally adjusted",42040.0,persons,absolute,labour,-38.91310665504214
+2023-01-01,ei_recipients_calgary,"Employment insurance Calgary - Number of recipients 
+(15 years and over), seasonally adjusted",13110.0,persons,absolute,labour,-39.751838235294116
+2023-01-01,employment,Employment - CER (Person  - 000s)†,923.5,thousands,absolute,labour,
+2023-01-01,gdp_growth_canada,Canada's Real GDP growth % (Chained 2012 dollar)***,2.8523119763731897,percentage,rate,economy,
+2023-01-01,housing_starts,Housing Starts - Calgary CMA,1295.0,units,absolute,housing,
+2023-01-01,inflation_rate_calgary,"Inflation Rate - Calgary CMA Note 1  (y/y, %)",5.537459283387625,percentage,rate,economy,
+2023-01-01,inflation_rate_canada,"Inflation Rate  - Canada Note 1 (y/y, %)",5.918788713007572,percentage,rate,economy,2.65379975874549
+2023-01-01,manufacturing_sales_alberta,"Manufacturing Sales - Alberta, seasonally adjusted ($billions)",9.72796,billions,absolute,business,
+2023-01-01,mls_average_price,City of Calgary Residential Average Price MLS ($thousands) Note 3,508.515,thousands,absolute,housing,
+2023-01-01,mls_sales_to_listings,City of Calgary Residential Sales-to-New Listings Ratio MLS Note 3,64.68682505399568,percentage,rate,housing,
+2023-01-01,mls_unit_sales,City of Calgary Residential Unit Sales MLS Note 3,1198.0,units,absolute,housing,
+2023-01-01,natural_gas_price,Alberta Natural Gas (Cdn$/GJ)****,4.8849,CAD/GJ,absolute,energy,
+2023-01-01,oil_price_wti,West Texas Intermediate ($US/bbl),78.12,USD/barrel,absolute,energy,
+2023-01-01,population,City of Calgary Population Estimate (000s)††,1404.05,thousands,absolute,demographics,
+2023-01-01,prime_lending_rate,Prime Lending Rate - Bank of Canada (%),6.45,percentage,rate,economy,
+2023-01-01,retail_sales_alberta,"Retail Sales - Alberta, seasonally adjusted ($billions) Note 2",8.830379,billions,absolute,consumer,
+2023-01-01,retail_sales_calgary,"Retail Sales - Calgary CER, seasonally adjusted ($billions) Note 2",3.6881105532490315,billions,absolute,consumer,
+2023-01-01,unemployment_rate,Unemployment Rate - Calgary Economic Region (CER) (%)†,6.4,percentage,rate,labour,
+2023-01-01,unemployment_rate_canada,Unemployment Rate - Canada (%)†,4.9,percentage,rate,labour,
+2023-01-01,wholesale_sales_alberta,"Wholesale Sales - Alberta, seasonally adjusted ($billions) Note 4",10.123479114528244,billions,absolute,business,
+2023-02-01,avg_hourly_wage_alberta,Average Hourly Wage Rate - Alberta (y/y % change),4.433051869722582,percentage,yoy_change,labour,1.609306102018171
+2023-02-01,avg_hourly_wage_calgary,Average Hourly Wage Rate - Calgary CER (y/y % change),3.9886039886039892,percentage,yoy_change,labour,4.709781854621142
+2023-02-01,avg_weekly_earnings_alberta,"Average Weekly Earnings** - Alberta (SEPH incl. overtime,y/y % change)",1.609306102018171,percentage,yoy_change,labour,3.9886039886039892
+2023-02-01,avg_weekly_wage_calgary,Average Weekly Wage Rate  - Calgary CER (y/y % change),4.709781854621142,percentage,yoy_change,labour,
+2023-02-01,bank_of_canada_rate,Bank of Canada Interest Rate (%),4.75,percentage,rate,economy,
+2023-02-01,bankruptcies_personal,Number of Personal Bankruptcies - Alberta***,202.0,count,absolute,consumer,
+2023-02-01,building_permits_value,City of Calgary Total Value of Building Permits ($millions) Note 5,398.90926345,millions,absolute,housing,
+2023-02-01,business_bankruptcies,Number of Business Bankruptcies - Alberta***,16.0,count,absolute,business,
+2023-02-01,ei_recipients_alberta,"Employment insurance Alberta - Number of recipients 
+(15 years and over), seasonally adjusted",41210.0,persons,absolute,labour,-35.749922045525416
+2023-02-01,ei_recipients_calgary,"Employment insurance Calgary - Number of recipients 
+(15 years and over), seasonally adjusted",13000.0,persons,absolute,labour,-35.387673956262425
+2023-02-01,employment,Employment - CER (Person  - 000s)†,914.3,thousands,absolute,labour,
+2023-02-01,gdp_growth_canada,Canada's Real GDP growth % (Chained 2012 dollar)***,2.3320692070053717,percentage,rate,economy,
+2023-02-01,housing_starts,Housing Starts - Calgary CMA,1238.0,units,absolute,housing,
+2023-02-01,inflation_rate_calgary,"Inflation Rate - Calgary CMA Note 1  (y/y, %)",3.925353925353914,percentage,rate,economy,
+2023-02-01,inflation_rate_canada,"Inflation Rate  - Canada Note 1 (y/y, %)",5.245231607629419,percentage,rate,economy,4.433051869722582
+2023-02-01,manufacturing_sales_alberta,"Manufacturing Sales - Alberta, seasonally adjusted ($billions)",8.741774,billions,absolute,business,
+2023-02-01,mls_average_price,City of Calgary Residential Average Price MLS ($thousands) Note 3,506.823,thousands,absolute,housing,
+2023-02-01,mls_sales_to_listings,City of Calgary Residential Sales-to-New Listings Ratio MLS Note 3,72.84157585917855,percentage,rate,housing,
+2023-02-01,mls_unit_sales,City of Calgary Residential Unit Sales MLS Note 3,1738.0,units,absolute,housing,
+2023-02-01,natural_gas_price,Alberta Natural Gas (Cdn$/GJ)****,3.5418,CAD/GJ,absolute,energy,
+2023-02-01,oil_price_wti,West Texas Intermediate ($US/bbl),76.83,USD/barrel,absolute,energy,
+2023-02-01,population,City of Calgary Population Estimate (000s)††,1410.3,thousands,absolute,demographics,
+2023-02-01,prime_lending_rate,Prime Lending Rate - Bank of Canada (%),6.7,percentage,rate,economy,
+2023-02-01,retail_sales_alberta,"Retail Sales - Alberta, seasonally adjusted ($billions) Note 2",8.586668,billions,absolute,consumer,
+2023-02-01,retail_sales_calgary,"Retail Sales - Calgary CER, seasonally adjusted ($billions) Note 2",3.4584672356982686,billions,absolute,consumer,
+2023-02-01,unemployment_rate,Unemployment Rate - Calgary Economic Region (CER) (%)†,6.7,percentage,rate,labour,
+2023-02-01,unemployment_rate_canada,Unemployment Rate - Canada (%)†,5.1,percentage,rate,labour,
+2023-02-01,wholesale_sales_alberta,"Wholesale Sales - Alberta, seasonally adjusted ($billions) Note 4",10.186011278916425,billions,absolute,business,
+2023-03-01,avg_hourly_wage_alberta,Average Hourly Wage Rate - Alberta (y/y % change),2.528256989886968,percentage,yoy_change,labour,1.706609163711681
+2023-03-01,avg_hourly_wage_calgary,Average Hourly Wage Rate - Calgary CER (y/y % change),2.5495750708215414,percentage,yoy_change,labour,2.933271903555257
+2023-03-01,avg_weekly_earnings_alberta,"Average Weekly Earnings** - Alberta (SEPH incl. overtime,y/y % change)",1.706609163711681,percentage,yoy_change,labour,2.5495750708215414
+2023-03-01,avg_weekly_wage_calgary,Average Weekly Wage Rate  - Calgary CER (y/y % change),2.933271903555257,percentage,yoy_change,labour,
+2023-03-01,bank_of_canada_rate,Bank of Canada Interest Rate (%),4.75,percentage,rate,economy,
+2023-03-01,bankruptcies_personal,Number of Personal Bankruptcies - Alberta***,244.0,count,absolute,consumer,
+2023-03-01,building_permits_value,City of Calgary Total Value of Building Permits ($millions) Note 5,482.64501061000004,millions,absolute,housing,
+2023-03-01,business_bankruptcies,Number of Business Bankruptcies - Alberta***,14.0,count,absolute,business,
+2023-03-01,ei_recipients_alberta,"Employment insurance Alberta - Number of recipients 
+(15 years and over), seasonally adjusted",40790.0,persons,absolute,labour,-32.186201163757275
+2023-03-01,ei_recipients_calgary,"Employment insurance Calgary - Number of recipients 
+(15 years and over), seasonally adjusted",12990.0,persons,absolute,labour,-31.451187335092346
+2023-03-01,employment,Employment - CER (Person  - 000s)†,916.3,thousands,absolute,labour,
+2023-03-01,gdp_growth_canada,Canada's Real GDP growth % (Chained 2012 dollar)***,1.8864355906418329,percentage,rate,economy,
+2023-03-01,housing_starts,Housing Starts - Calgary CMA,1094.0,units,absolute,housing,
+2023-03-01,inflation_rate_calgary,"Inflation Rate - Calgary CMA Note 1  (y/y, %)",3.687221869040047,percentage,rate,economy,
+2023-03-01,inflation_rate_canada,"Inflation Rate  - Canada Note 1 (y/y, %)",4.298186702484896,percentage,rate,economy,2.528256989886968
+2023-03-01,manufacturing_sales_alberta,"Manufacturing Sales - Alberta, seasonally adjusted ($billions)",9.085415,billions,absolute,business,
+2023-03-01,mls_average_price,City of Calgary Residential Average Price MLS ($thousands) Note 3,535.903,thousands,absolute,housing,
+2023-03-01,mls_sales_to_listings,City of Calgary Residential Sales-to-New Listings Ratio MLS Note 3,73.14423657211829,percentage,rate,housing,
+2023-03-01,mls_unit_sales,City of Calgary Residential Unit Sales MLS Note 3,2424.0,units,absolute,housing,
+2023-03-01,natural_gas_price,Alberta Natural Gas (Cdn$/GJ)****,3.0136,CAD/GJ,absolute,energy,
+2023-03-01,oil_price_wti,West Texas Intermediate ($US/bbl),73.28,USD/barrel,absolute,energy,
+2023-03-01,population,City of Calgary Population Estimate (000s)††,1416.55,thousands,absolute,demographics,
+2023-03-01,prime_lending_rate,Prime Lending Rate - Bank of Canada (%),6.7,percentage,rate,economy,
+2023-03-01,retail_sales_alberta,"Retail Sales - Alberta, seasonally adjusted ($billions) Note 2",8.451416,billions,absolute,consumer,
+2023-03-01,retail_sales_calgary,"Retail Sales - Calgary CER, seasonally adjusted ($billions) Note 2",3.3858011637260987,billions,absolute,consumer,
+2023-03-01,unemployment_rate,Unemployment Rate - Calgary Economic Region (CER) (%)†,7.000000000000001,percentage,rate,labour,
+2023-03-01,unemployment_rate_canada,Unemployment Rate - Canada (%)†,5.4,percentage,rate,labour,
+2023-03-01,wholesale_sales_alberta,"Wholesale Sales - Alberta, seasonally adjusted ($billions) Note 4",40.05008440633267,billions,absolute,business,
+2023-04-01,avg_hourly_wage_alberta,Average Hourly Wage Rate - Alberta (y/y % change),3.0918727915194344,percentage,yoy_change,labour,3.4465085844560317
+2023-04-01,avg_hourly_wage_calgary,Average Hourly Wage Rate - Calgary CER (y/y % change),1.9662921348314377,percentage,yoy_change,labour,2.4908869987849247
+2023-04-01,avg_weekly_earnings_alberta,"Average Weekly Earnings** - Alberta (SEPH incl. overtime,y/y % change)",3.4465085844560317,percentage,yoy_change,labour,1.9662921348314377
+2023-04-01,avg_weekly_wage_calgary,Average Weekly Wage Rate  - Calgary CER (y/y % change),2.4908869987849247,percentage,yoy_change,labour,
+2023-04-01,bank_of_canada_rate,Bank of Canada Interest Rate (%),4.75,percentage,rate,economy,
+2023-04-01,bankruptcies_personal,Number of Personal Bankruptcies - Alberta***,211.0,count,absolute,consumer,
+2023-04-01,building_permits_value,City of Calgary Total Value of Building Permits ($millions) Note 5,523.09785177,millions,absolute,housing,
+2023-04-01,business_bankruptcies,Number of Business Bankruptcies - Alberta***,10.0,count,absolute,business,
+2023-04-01,ei_recipients_alberta,"Employment insurance Alberta - Number of recipients 
+(15 years and over), seasonally adjusted",41180.0,persons,absolute,labour,-28.145175362065956
+2023-04-01,ei_recipients_calgary,"Employment insurance Calgary - Number of recipients 
+(15 years and over), seasonally adjusted",13230.0,persons,absolute,labour,-27.22772277227723
+2023-04-01,employment,Employment - CER (Person  - 000s)†,931.9,thousands,absolute,labour,
+2023-04-01,gdp_growth_canada,Canada's Real GDP growth % (Chained 2012 dollar)***,1.9032534540093904,percentage,rate,economy,
+2023-04-01,housing_starts,Housing Starts - Calgary CMA,1164.0,units,absolute,housing,
+2023-04-01,inflation_rate_calgary,"Inflation Rate - Calgary CMA Note 1  (y/y, %)",4.876504116529445,percentage,rate,economy,
+2023-04-01,inflation_rate_canada,"Inflation Rate  - Canada Note 1 (y/y, %)",4.4058744993324295,percentage,rate,economy,3.0918727915194344
+2023-04-01,manufacturing_sales_alberta,"Manufacturing Sales - Alberta, seasonally adjusted ($billions)",8.160867,billions,absolute,business,
+2023-04-01,mls_average_price,City of Calgary Residential Average Price MLS ($thousands) Note 3,548.585,thousands,absolute,housing,
+2023-04-01,mls_sales_to_listings,City of Calgary Residential Sales-to-New Listings Ratio MLS Note 3,85.75989782886334,percentage,rate,housing,
+2023-04-01,mls_unit_sales,City of Calgary Residential Unit Sales MLS Note 3,2686.0,units,absolute,housing,
+2023-04-01,natural_gas_price,Alberta Natural Gas (Cdn$/GJ)****,2.5187,CAD/GJ,absolute,energy,
+2023-04-01,oil_price_wti,West Texas Intermediate ($US/bbl),79.45,USD/barrel,absolute,energy,
+2023-04-01,population,City of Calgary Population Estimate (000s)††,1422.8,thousands,absolute,demographics,
+2023-04-01,prime_lending_rate,Prime Lending Rate - Bank of Canada (%),6.7,percentage,rate,economy,
+2023-04-01,retail_sales_alberta,"Retail Sales - Alberta, seasonally adjusted ($billions) Note 2",8.455509,billions,absolute,consumer,
+2023-04-01,retail_sales_calgary,"Retail Sales - Calgary CER, seasonally adjusted ($billions) Note 2",3.386259667589127,billions,absolute,consumer,
+2023-04-01,unemployment_rate,Unemployment Rate - Calgary Economic Region (CER) (%)†,6.4,percentage,rate,labour,
+2023-04-01,unemployment_rate_canada,Unemployment Rate - Canada (%)†,5.3,percentage,rate,labour,
+2023-04-01,wholesale_sales_alberta,"Wholesale Sales - Alberta, seasonally adjusted ($billions) Note 4",46.33333586004517,billions,absolute,business,
+2023-05-01,avg_hourly_wage_alberta,Average Hourly Wage Rate - Alberta (y/y % change),2.912332838038645,percentage,yoy_change,labour,3.5577800885871147
+2023-05-01,avg_hourly_wage_calgary,Average Hourly Wage Rate - Calgary CER (y/y % change),0.0,percentage,yoy_change,labour,0.3123373243102634
+2023-05-01,avg_weekly_earnings_alberta,"Average Weekly Earnings** - Alberta (SEPH incl. overtime,y/y % change)",3.5577800885871147,percentage,yoy_change,labour,0.0
+2023-05-01,avg_weekly_wage_calgary,Average Weekly Wage Rate  - Calgary CER (y/y % change),0.3123373243102634,percentage,yoy_change,labour,
+2023-05-01,bank_of_canada_rate,Bank of Canada Interest Rate (%),4.75,percentage,rate,economy,
+2023-05-01,bankruptcies_personal,Number of Personal Bankruptcies - Alberta***,256.0,count,absolute,consumer,
+2023-05-01,building_permits_value,City of Calgary Total Value of Building Permits ($millions) Note 5,590.02164029,millions,absolute,housing,
+2023-05-01,business_bankruptcies,Number of Business Bankruptcies - Alberta***,12.0,count,absolute,business,
+2023-05-01,ei_recipients_alberta,"Employment insurance Alberta - Number of recipients 
+(15 years and over), seasonally adjusted",41740.0,persons,absolute,labour,-22.257403613335814
+2023-05-01,ei_recipients_calgary,"Employment insurance Calgary - Number of recipients 
+(15 years and over), seasonally adjusted",13590.0,persons,absolute,labour,-20.572764465225013
+2023-05-01,employment,Employment - CER (Person  - 000s)†,946.9,thousands,absolute,labour,
+2023-05-01,gdp_growth_canada,Canada's Real GDP growth % (Chained 2012 dollar)***,1.7241788050787576,percentage,rate,economy,
+2023-05-01,housing_starts,Housing Starts - Calgary CMA,2076.0,units,absolute,housing,
+2023-05-01,inflation_rate_calgary,"Inflation Rate - Calgary CMA Note 1  (y/y, %)",3.4934497816593746,percentage,rate,economy,
+2023-05-01,inflation_rate_canada,"Inflation Rate  - Canada Note 1 (y/y, %)",3.3574720210664877,percentage,rate,economy,2.912332838038645
+2023-05-01,manufacturing_sales_alberta,"Manufacturing Sales - Alberta, seasonally adjusted ($billions)",8.466759,billions,absolute,business,
+2023-05-01,mls_average_price,City of Calgary Residential Average Price MLS ($thousands) Note 3,552.412,thousands,absolute,housing,
+2023-05-01,mls_sales_to_listings,City of Calgary Residential Sales-to-New Listings Ratio MLS Note 3,85.39726027397259,percentage,rate,housing,
+2023-05-01,mls_unit_sales,City of Calgary Residential Unit Sales MLS Note 3,3117.0,units,absolute,housing,
+2023-05-01,natural_gas_price,Alberta Natural Gas (Cdn$/GJ)****,2.2678,CAD/GJ,absolute,energy,
+2023-05-01,oil_price_wti,West Texas Intermediate ($US/bbl),71.58,USD/barrel,absolute,energy,
+2023-05-01,population,City of Calgary Population Estimate (000s)††,1428.5583333333332,thousands,absolute,demographics,
+2023-05-01,prime_lending_rate,Prime Lending Rate - Bank of Canada (%),6.7,percentage,rate,economy,
+2023-05-01,retail_sales_alberta,"Retail Sales - Alberta, seasonally adjusted ($billions) Note 2",8.621714,billions,absolute,consumer,
+2023-05-01,retail_sales_calgary,"Retail Sales - Calgary CER, seasonally adjusted ($billions) Note 2",3.4867454639908257,billions,absolute,consumer,
+2023-05-01,unemployment_rate,Unemployment Rate - Calgary Economic Region (CER) (%)†,6.0,percentage,rate,labour,
+2023-05-01,unemployment_rate_canada,Unemployment Rate - Canada (%)†,5.3,percentage,rate,labour,
+2023-05-01,wholesale_sales_alberta,"Wholesale Sales - Alberta, seasonally adjusted ($billions) Note 4",38.69533924231814,billions,absolute,business,
+2023-06-01,avg_hourly_wage_alberta,Average Hourly Wage Rate - Alberta (y/y % change),3.8277511961722466,percentage,yoy_change,labour,2.4200597593068585
+2023-06-01,avg_hourly_wage_calgary,Average Hourly Wage Rate - Calgary CER (y/y % change),0.278551532033422,percentage,yoy_change,labour,1.134074460941581
+2023-06-01,avg_weekly_earnings_alberta,"Average Weekly Earnings** - Alberta (SEPH incl. overtime,y/y % change)",2.4200597593068585,percentage,yoy_change,labour,0.278551532033422
+2023-06-01,avg_weekly_wage_calgary,Average Weekly Wage Rate  - Calgary CER (y/y % change),1.134074460941581,percentage,yoy_change,labour,
+2023-06-01,bank_of_canada_rate,Bank of Canada Interest Rate (%),5.0,percentage,rate,economy,
+2023-06-01,bankruptcies_personal,Number of Personal Bankruptcies - Alberta***,200.0,count,absolute,consumer,
+2023-06-01,building_permits_value,City of Calgary Total Value of Building Permits ($millions) Note 5,478.66814898999985,millions,absolute,housing,
+2023-06-01,business_bankruptcies,Number of Business Bankruptcies - Alberta***,11.0,count,absolute,business,
+2023-06-01,ei_recipients_alberta,"Employment insurance Alberta - Number of recipients 
+(15 years and over), seasonally adjusted",43730.0,persons,absolute,labour,-16.0491457093492
+2023-06-01,ei_recipients_calgary,"Employment insurance Calgary - Number of recipients 
+(15 years and over), seasonally adjusted",14190.0,persons,absolute,labour,-14.156079854809434
+2023-06-01,employment,Employment - CER (Person  - 000s)†,966.0,thousands,absolute,labour,
+2023-06-01,gdp_growth_canada,Canada's Real GDP growth % (Chained 2012 dollar)***,1.3370319228481087,percentage,rate,economy,
+2023-06-01,housing_starts,Housing Starts - Calgary CMA,1239.0,units,absolute,housing,
+2023-06-01,inflation_rate_calgary,"Inflation Rate - Calgary CMA Note 1  (y/y, %)",2.0270270270270174,percentage,rate,economy,
+2023-06-01,inflation_rate_canada,"Inflation Rate  - Canada Note 1 (y/y, %)",2.8122956180510084,percentage,rate,economy,3.8277511961722466
+2023-06-01,manufacturing_sales_alberta,"Manufacturing Sales - Alberta, seasonally adjusted ($billions)",7.882588,billions,absolute,business,
+2023-06-01,mls_average_price,City of Calgary Residential Average Price MLS ($thousands) Note 3,552.122,thousands,absolute,housing,
+2023-06-01,mls_sales_to_listings,City of Calgary Residential Sales-to-New Listings Ratio MLS Note 3,79.71566387407971,percentage,rate,housing,
+2023-06-01,mls_unit_sales,City of Calgary Residential Unit Sales MLS Note 3,3140.0,units,absolute,housing,
+2023-06-01,natural_gas_price,Alberta Natural Gas (Cdn$/GJ)****,2.2038,CAD/GJ,absolute,energy,
+2023-06-01,oil_price_wti,West Texas Intermediate ($US/bbl),70.25,USD/barrel,absolute,energy,
+2023-06-01,population,City of Calgary Population Estimate (000s)††,1434.3166666666668,thousands,absolute,demographics,
+2023-06-01,prime_lending_rate,Prime Lending Rate - Bank of Canada (%),6.950000000000001,percentage,rate,economy,
+2023-06-01,retail_sales_alberta,"Retail Sales - Alberta, seasonally adjusted ($billions) Note 2",8.433333,billions,absolute,consumer,
+2023-06-01,retail_sales_calgary,"Retail Sales - Calgary CER, seasonally adjusted ($billions) Note 2",3.4254978506833202,billions,absolute,consumer,
+2023-06-01,unemployment_rate,Unemployment Rate - Calgary Economic Region (CER) (%)†,5.8,percentage,rate,labour,
+2023-06-01,unemployment_rate_canada,Unemployment Rate - Canada (%)†,5.2,percentage,rate,labour,
+2023-06-01,wholesale_sales_alberta,"Wholesale Sales - Alberta, seasonally adjusted ($billions) Note 4",32.76667351559738,billions,absolute,business,
+2023-07-01,avg_hourly_wage_alberta,Average Hourly Wage Rate - Alberta (y/y % change),6.0476481368356705,percentage,yoy_change,labour,4.319840624940907
+2023-07-01,avg_hourly_wage_calgary,Average Hourly Wage Rate - Calgary CER (y/y % change),0.5633802816901401,percentage,yoy_change,labour,0.4026845637584042
+2023-07-01,avg_weekly_earnings_alberta,"Average Weekly Earnings** - Alberta (SEPH incl. overtime,y/y % change)",4.319840624940907,percentage,yoy_change,labour,0.5633802816901401
+2023-07-01,avg_weekly_wage_calgary,Average Weekly Wage Rate  - Calgary CER (y/y % change),0.4026845637584042,percentage,yoy_change,labour,
+2023-07-01,bank_of_canada_rate,Bank of Canada Interest Rate (%),5.25,percentage,rate,economy,
+2023-07-01,bankruptcies_personal,Number of Personal Bankruptcies - Alberta***,173.0,count,absolute,consumer,
+2023-07-01,building_permits_value,City of Calgary Total Value of Building Permits ($millions) Note 5,455.49219511,millions,absolute,housing,
+2023-07-01,business_bankruptcies,Number of Business Bankruptcies - Alberta***,12.0,count,absolute,business,
+2023-07-01,ei_recipients_alberta,"Employment insurance Alberta - Number of recipients 
+(15 years and over), seasonally adjusted",45660.0,persons,absolute,labour,-11.18459443687998
+2023-07-01,ei_recipients_calgary,"Employment insurance Calgary - Number of recipients 
+(15 years and over), seasonally adjusted",14620.0,persons,absolute,labour,-9.079601990049746
+2023-07-01,employment,Employment - CER (Person  - 000s)†,977.5,thousands,absolute,labour,
+2023-07-01,gdp_growth_canada,Canada's Real GDP growth % (Chained 2012 dollar)***,1.2651918891781522,percentage,rate,economy,
+2023-07-01,housing_starts,Housing Starts - Calgary CMA,1621.0,units,absolute,housing,
+2023-07-01,inflation_rate_calgary,"Inflation Rate - Calgary CMA Note 1  (y/y, %)",3.378378378378377,percentage,rate,economy,
+2023-07-01,inflation_rate_canada,"Inflation Rate  - Canada Note 1 (y/y, %)",3.2658393207054104,percentage,rate,economy,6.0476481368356705
+2023-07-01,manufacturing_sales_alberta,"Manufacturing Sales - Alberta, seasonally adjusted ($billions)",8.197449,billions,absolute,business,
+2023-07-01,mls_average_price,City of Calgary Residential Average Price MLS ($thousands) Note 3,539.73,thousands,absolute,housing,
+2023-07-01,mls_sales_to_listings,City of Calgary Residential Sales-to-New Listings Ratio MLS Note 3,81.42901139513397,percentage,rate,housing,
+2023-07-01,mls_unit_sales,City of Calgary Residential Unit Sales MLS Note 3,2644.0,units,absolute,housing,
+2023-07-01,natural_gas_price,Alberta Natural Gas (Cdn$/GJ)****,2.1973,CAD/GJ,absolute,energy,
+2023-07-01,oil_price_wti,West Texas Intermediate ($US/bbl),76.07,USD/barrel,absolute,energy,
+2023-07-01,population,City of Calgary Population Estimate (000s)††,1440.075,thousands,absolute,demographics,
+2023-07-01,prime_lending_rate,Prime Lending Rate - Bank of Canada (%),7.200000000000001,percentage,rate,economy,
+2023-07-01,retail_sales_alberta,"Retail Sales - Alberta, seasonally adjusted ($billions) Note 2",8.339125,billions,absolute,consumer,
+2023-07-01,retail_sales_calgary,"Retail Sales - Calgary CER, seasonally adjusted ($billions) Note 2",3.364608887174632,billions,absolute,consumer,
+2023-07-01,unemployment_rate,Unemployment Rate - Calgary Economic Region (CER) (%)†,6.1,percentage,rate,labour,
+2023-07-01,unemployment_rate_canada,Unemployment Rate - Canada (%)†,5.4,percentage,rate,labour,
+2023-07-01,wholesale_sales_alberta,"Wholesale Sales - Alberta, seasonally adjusted ($billions) Note 4",36.13946794998582,billions,absolute,business,
+2023-08-01,avg_hourly_wage_alberta,Average Hourly Wage Rate - Alberta (y/y % change),4.559088182363524,percentage,yoy_change,labour,0.864032871356013
+2023-08-01,avg_hourly_wage_calgary,Average Hourly Wage Rate - Calgary CER (y/y % change),1.9774011299435124,percentage,yoy_change,labour,1.5612161051766549
+2023-08-01,avg_weekly_earnings_alberta,"Average Weekly Earnings** - Alberta (SEPH incl. overtime,y/y % change)",0.864032871356013,percentage,yoy_change,labour,1.9774011299435124
+2023-08-01,avg_weekly_wage_calgary,Average Weekly Wage Rate  - Calgary CER (y/y % change),1.5612161051766549,percentage,yoy_change,labour,
+2023-08-01,bank_of_canada_rate,Bank of Canada Interest Rate (%),5.25,percentage,rate,economy,
+2023-08-01,bankruptcies_personal,Number of Personal Bankruptcies - Alberta***,220.0,count,absolute,consumer,
+2023-08-01,building_permits_value,City of Calgary Total Value of Building Permits ($millions) Note 5,773.3889028300001,millions,absolute,housing,
+2023-08-01,business_bankruptcies,Number of Business Bankruptcies - Alberta***,8.0,count,absolute,business,
+2023-08-01,ei_recipients_alberta,"Employment insurance Alberta - Number of recipients 
+(15 years and over), seasonally adjusted",50450.0,persons,absolute,labour,0.5781499202551776
+2023-08-01,ei_recipients_calgary,"Employment insurance Calgary - Number of recipients 
+(15 years and over), seasonally adjusted",15720.0,persons,absolute,labour,3.149606299212593
+2023-08-01,employment,Employment - CER (Person  - 000s)†,990.7,thousands,absolute,labour,
+2023-08-01,gdp_growth_canada,Canada's Real GDP growth % (Chained 2012 dollar)***,1.1162565192371243,percentage,rate,economy,
+2023-08-01,housing_starts,Housing Starts - Calgary CMA,1680.0,units,absolute,housing,
+2023-08-01,inflation_rate_calgary,"Inflation Rate - Calgary CMA Note 1  (y/y, %)",4.832713754646822,percentage,rate,economy,
+2023-08-01,inflation_rate_canada,"Inflation Rate  - Canada Note 1 (y/y, %)",3.997378768020976,percentage,rate,economy,4.559088182363524
+2023-08-01,manufacturing_sales_alberta,"Manufacturing Sales - Alberta, seasonally adjusted ($billions)",8.710849,billions,absolute,business,
+2023-08-01,mls_average_price,City of Calgary Residential Average Price MLS ($thousands) Note 3,522.75,thousands,absolute,housing,
+2023-08-01,mls_sales_to_listings,City of Calgary Residential Sales-to-New Listings Ratio MLS Note 3,86.80089485458613,percentage,rate,housing,
+2023-08-01,mls_unit_sales,City of Calgary Residential Unit Sales MLS Note 3,2716.0,units,absolute,housing,
+2023-08-01,natural_gas_price,Alberta Natural Gas (Cdn$/GJ)****,2.5137,CAD/GJ,absolute,energy,
+2023-08-01,oil_price_wti,West Texas Intermediate ($US/bbl),81.39,USD/barrel,absolute,energy,
+2023-08-01,population,City of Calgary Population Estimate (000s)††,1445.8333333333333,thousands,absolute,demographics,
+2023-08-01,prime_lending_rate,Prime Lending Rate - Bank of Canada (%),7.200000000000001,percentage,rate,economy,
+2023-08-01,retail_sales_alberta,"Retail Sales - Alberta, seasonally adjusted ($billions) Note 2",8.386146,billions,absolute,consumer,
+2023-08-01,retail_sales_calgary,"Retail Sales - Calgary CER, seasonally adjusted ($billions) Note 2",3.439684568882701,billions,absolute,consumer,
+2023-08-01,unemployment_rate,Unemployment Rate - Calgary Economic Region (CER) (%)†,6.0,percentage,rate,labour,
+2023-08-01,unemployment_rate_canada,Unemployment Rate - Canada (%)†,5.8,percentage,rate,labour,
+2023-08-01,wholesale_sales_alberta,"Wholesale Sales - Alberta, seasonally adjusted ($billions) Note 4",39.33388174173994,billions,absolute,business,
+2023-09-01,avg_hourly_wage_alberta,Average Hourly Wage Rate - Alberta (y/y % change),5.730403800475048,percentage,yoy_change,labour,2.886361544190885
+2023-09-01,avg_hourly_wage_calgary,Average Hourly Wage Rate - Calgary CER (y/y % change),2.7932960893854775,percentage,yoy_change,labour,1.7471433837080719
+2023-09-01,avg_weekly_earnings_alberta,"Average Weekly Earnings** - Alberta (SEPH incl. overtime,y/y % change)",2.886361544190885,percentage,yoy_change,labour,2.7932960893854775
+2023-09-01,avg_weekly_wage_calgary,Average Weekly Wage Rate  - Calgary CER (y/y % change),1.7471433837080719,percentage,yoy_change,labour,
+2023-09-01,bank_of_canada_rate,Bank of Canada Interest Rate (%),5.25,percentage,rate,economy,
+2023-09-01,bankruptcies_personal,Number of Personal Bankruptcies - Alberta***,234.0,count,absolute,consumer,
+2023-09-01,building_permits_value,City of Calgary Total Value of Building Permits ($millions) Note 5,523.6467452,millions,absolute,housing,
+2023-09-01,business_bankruptcies,Number of Business Bankruptcies - Alberta***,10.0,count,absolute,business,
+2023-09-01,ei_recipients_alberta,"Employment insurance Alberta - Number of recipients 
+(15 years and over), seasonally adjusted",49610.0,persons,absolute,labour,3.6998327759197425
+2023-09-01,ei_recipients_calgary,"Employment insurance Calgary - Number of recipients 
+(15 years and over), seasonally adjusted",15800.0,persons,absolute,labour,8.293351610692245
+2023-09-01,employment,Employment - CER (Person  - 000s)†,983.4,thousands,absolute,labour,
+2023-09-01,gdp_growth_canada,Canada's Real GDP growth % (Chained 2012 dollar)***,0.9164969450101923,percentage,rate,economy,
+2023-09-01,housing_starts,Housing Starts - Calgary CMA,2734.0,units,absolute,housing,
+2023-09-01,inflation_rate_calgary,"Inflation Rate - Calgary CMA Note 1  (y/y, %)",4.399008674101612,percentage,rate,economy,
+2023-09-01,inflation_rate_canada,"Inflation Rate  - Canada Note 1 (y/y, %)",3.7982973149967236,percentage,rate,economy,5.730403800475048
+2023-09-01,manufacturing_sales_alberta,"Manufacturing Sales - Alberta, seasonally adjusted ($billions)",9.172187,billions,absolute,business,
+2023-09-01,mls_average_price,City of Calgary Residential Average Price MLS ($thousands) Note 3,548.687,thousands,absolute,housing,
+2023-09-01,mls_sales_to_listings,City of Calgary Residential Sales-to-New Listings Ratio MLS Note 3,76.15167659041053,percentage,rate,housing,
+2023-09-01,mls_unit_sales,City of Calgary Residential Unit Sales MLS Note 3,2430.0,units,absolute,housing,
+2023-09-01,natural_gas_price,Alberta Natural Gas (Cdn$/GJ)****,2.5161,CAD/GJ,absolute,energy,
+2023-09-01,oil_price_wti,West Texas Intermediate ($US/bbl),89.43,USD/barrel,absolute,energy,
+2023-09-01,population,City of Calgary Population Estimate (000s)††,1451.5916666666667,thousands,absolute,demographics,
+2023-09-01,prime_lending_rate,Prime Lending Rate - Bank of Canada (%),7.200000000000001,percentage,rate,economy,
+2023-09-01,retail_sales_alberta,"Retail Sales - Alberta, seasonally adjusted ($billions) Note 2",8.443913,billions,absolute,consumer,
+2023-09-01,retail_sales_calgary,"Retail Sales - Calgary CER, seasonally adjusted ($billions) Note 2",3.4453105831881627,billions,absolute,consumer,
+2023-09-01,unemployment_rate,Unemployment Rate - Calgary Economic Region (CER) (%)†,6.0,percentage,rate,labour,
+2023-09-01,unemployment_rate_canada,Unemployment Rate - Canada (%)†,5.8,percentage,rate,labour,
+2023-09-01,wholesale_sales_alberta,"Wholesale Sales - Alberta, seasonally adjusted ($billions) Note 4",39.52853063601645,billions,absolute,business,
+2023-10-01,avg_hourly_wage_alberta,Average Hourly Wage Rate - Alberta (y/y % change),2.8177282066333964,percentage,yoy_change,labour,2.543865064491224
+2023-10-01,avg_hourly_wage_calgary,Average Hourly Wage Rate - Calgary CER (y/y % change),2.191780821917799,percentage,yoy_change,labour,1.5460550192349487
+2023-10-01,avg_weekly_earnings_alberta,"Average Weekly Earnings** - Alberta (SEPH incl. overtime,y/y % change)",2.543865064491224,percentage,yoy_change,labour,2.191780821917799
+2023-10-01,avg_weekly_wage_calgary,Average Weekly Wage Rate  - Calgary CER (y/y % change),1.5460550192349487,percentage,yoy_change,labour,
+2023-10-01,bank_of_canada_rate,Bank of Canada Interest Rate (%),5.25,percentage,rate,economy,
+2023-10-01,bankruptcies_personal,Number of Personal Bankruptcies - Alberta***,212.0,count,absolute,consumer,
+2023-10-01,building_permits_value,City of Calgary Total Value of Building Permits ($millions) Note 5,458.27738569999997,millions,absolute,housing,
+2023-10-01,business_bankruptcies,Number of Business Bankruptcies - Alberta***,12.0,count,absolute,business,
+2023-10-01,ei_recipients_alberta,"Employment insurance Alberta - Number of recipients 
+(15 years and over), seasonally adjusted",50090.0,persons,absolute,labour,6.665247018739362
+2023-10-01,ei_recipients_calgary,"Employment insurance Calgary - Number of recipients 
+(15 years and over), seasonally adjusted",16090.0,persons,absolute,labour,14.032600992204113
+2023-10-01,employment,Employment - CER (Person  - 000s)†,975.6,thousands,absolute,labour,
+2023-10-01,gdp_growth_canada,Canada's Real GDP growth % (Chained 2012 dollar)***,1.2639419018129372,percentage,rate,economy,
+2023-10-01,housing_starts,Housing Starts - Calgary CMA,2137.0,units,absolute,housing,
+2023-10-01,inflation_rate_calgary,"Inflation Rate - Calgary CMA Note 1  (y/y, %)",2.7607361963190247,percentage,rate,economy,
+2023-10-01,inflation_rate_canada,"Inflation Rate  - Canada Note 1 (y/y, %)",3.1209362808842567,percentage,rate,economy,2.8177282066333964
+2023-10-01,manufacturing_sales_alberta,"Manufacturing Sales - Alberta, seasonally adjusted ($billions)",8.675305,billions,absolute,business,
+2023-10-01,mls_average_price,City of Calgary Residential Average Price MLS ($thousands) Note 3,546.085,thousands,absolute,housing,
+2023-10-01,mls_sales_to_listings,City of Calgary Residential Sales-to-New Listings Ratio MLS Note 3,80.78212290502793,percentage,rate,housing,
+2023-10-01,mls_unit_sales,City of Calgary Residential Unit Sales MLS Note 3,2169.0,units,absolute,housing,
+2023-10-01,natural_gas_price,Alberta Natural Gas (Cdn$/GJ)****,2.344,CAD/GJ,absolute,energy,
+2023-10-01,oil_price_wti,West Texas Intermediate ($US/bbl),85.64,USD/barrel,absolute,energy,
+2023-10-01,population,City of Calgary Population Estimate (000s)††,1457.35,thousands,absolute,demographics,
+2023-10-01,prime_lending_rate,Prime Lending Rate - Bank of Canada (%),7.200000000000001,percentage,rate,economy,
+2023-10-01,retail_sales_alberta,"Retail Sales - Alberta, seasonally adjusted ($billions) Note 2",8.439004,billions,absolute,consumer,
+2023-10-01,retail_sales_calgary,"Retail Sales - Calgary CER, seasonally adjusted ($billions) Note 2",3.52100965750734,billions,absolute,consumer,
+2023-10-01,unemployment_rate,Unemployment Rate - Calgary Economic Region (CER) (%)†,5.5,percentage,rate,labour,
+2023-10-01,unemployment_rate_canada,Unemployment Rate - Canada (%)†,5.6,percentage,rate,labour,
+2023-10-01,wholesale_sales_alberta,"Wholesale Sales - Alberta, seasonally adjusted ($billions) Note 4",39.185402916554615,billions,absolute,business,
+2023-11-01,avg_hourly_wage_alberta,Average Hourly Wage Rate - Alberta (y/y % change),4.173963806187975,percentage,yoy_change,labour,1.1901379746552143
+2023-11-01,avg_hourly_wage_calgary,Average Hourly Wage Rate - Calgary CER (y/y % change),1.3550135501354976,percentage,yoy_change,labour,0.756756756756749
+2023-11-01,avg_weekly_earnings_alberta,"Average Weekly Earnings** - Alberta (SEPH incl. overtime,y/y % change)",1.1901379746552143,percentage,yoy_change,labour,1.3550135501354976
+2023-11-01,avg_weekly_wage_calgary,Average Weekly Wage Rate  - Calgary CER (y/y % change),0.756756756756749,percentage,yoy_change,labour,
+2023-11-01,bank_of_canada_rate,Bank of Canada Interest Rate (%),5.25,percentage,rate,economy,
+2023-11-01,bankruptcies_personal,Number of Personal Bankruptcies - Alberta***,237.0,count,absolute,consumer,
+2023-11-01,building_permits_value,City of Calgary Total Value of Building Permits ($millions) Note 5,518.8101630099999,millions,absolute,housing,
+2023-11-01,business_bankruptcies,Number of Business Bankruptcies - Alberta***,16.0,count,absolute,business,
+2023-11-01,ei_recipients_alberta,"Employment insurance Alberta - Number of recipients 
+(15 years and over), seasonally adjusted",52290.0,persons,absolute,labour,16.0968028419183
+2023-11-01,ei_recipients_calgary,"Employment insurance Calgary - Number of recipients 
+(15 years and over), seasonally adjusted",16430.0,persons,absolute,labour,19.144307469180568
+2023-11-01,employment,Employment - CER (Person  - 000s)†,965.2,thousands,absolute,labour,
+2023-11-01,gdp_growth_canada,Canada's Real GDP growth % (Chained 2012 dollar)***,1.486390285706518,percentage,rate,economy,
+2023-11-01,housing_starts,Housing Starts - Calgary CMA,1808.0,units,absolute,housing,
+2023-11-01,inflation_rate_calgary,"Inflation Rate - Calgary CMA Note 1  (y/y, %)",2.942979767014098,percentage,rate,economy,
+2023-11-01,inflation_rate_canada,"Inflation Rate  - Canada Note 1 (y/y, %)",3.116883116883118,percentage,rate,economy,4.173963806187975
+2023-11-01,manufacturing_sales_alberta,"Manufacturing Sales - Alberta, seasonally adjusted ($billions)",8.720245,billions,absolute,business,
+2023-11-01,mls_average_price,City of Calgary Residential Average Price MLS ($thousands) Note 3,539.887,thousands,absolute,housing,
+2023-11-01,mls_sales_to_listings,City of Calgary Residential Sales-to-New Listings Ratio MLS Note 3,80.06286484059272,percentage,rate,housing,
+2023-11-01,mls_unit_sales,City of Calgary Residential Unit Sales MLS Note 3,1783.0,units,absolute,housing,
+2023-11-01,natural_gas_price,Alberta Natural Gas (Cdn$/GJ)****,2.5798,CAD/GJ,absolute,energy,
+2023-11-01,oil_price_wti,West Texas Intermediate ($US/bbl),77.69,USD/barrel,absolute,energy,
+2023-11-01,population,City of Calgary Population Estimate (000s)††,1463.1083333333333,thousands,absolute,demographics,
+2023-11-01,prime_lending_rate,Prime Lending Rate - Bank of Canada (%),7.200000000000001,percentage,rate,economy,
+2023-11-01,retail_sales_alberta,"Retail Sales - Alberta, seasonally adjusted ($billions) Note 2",8.470368,billions,absolute,consumer,
+2023-11-01,retail_sales_calgary,"Retail Sales - Calgary CER, seasonally adjusted ($billions) Note 2",3.454143953774516,billions,absolute,consumer,
+2023-11-01,unemployment_rate,Unemployment Rate - Calgary Economic Region (CER) (%)†,5.4,percentage,rate,labour,
+2023-11-01,unemployment_rate_canada,Unemployment Rate - Canada (%)†,5.3,percentage,rate,labour,
+2023-11-01,wholesale_sales_alberta,"Wholesale Sales - Alberta, seasonally adjusted ($billions) Note 4",35.77285509910604,billions,absolute,business,
+2023-12-01,avg_hourly_wage_alberta,Average Hourly Wage Rate - Alberta (y/y % change),4.665492957746498,percentage,yoy_change,labour,1.2181404422320963
+2023-12-01,avg_hourly_wage_calgary,Average Hourly Wage Rate - Calgary CER (y/y % change),-0.5390835579514919,percentage,yoy_change,labour,-0.6681994539445291
+2023-12-01,avg_weekly_earnings_alberta,"Average Weekly Earnings** - Alberta (SEPH incl. overtime,y/y % change)",1.2181404422320963,percentage,yoy_change,labour,-0.5390835579514919
+2023-12-01,avg_weekly_wage_calgary,Average Weekly Wage Rate  - Calgary CER (y/y % change),-0.6681994539445291,percentage,yoy_change,labour,
+2023-12-01,bank_of_canada_rate,Bank of Canada Interest Rate (%),5.25,percentage,rate,economy,
+2023-12-01,bankruptcies_personal,Number of Personal Bankruptcies - Alberta***,174.0,count,absolute,consumer,
+2023-12-01,building_permits_value,City of Calgary Total Value of Building Permits ($millions) Note 5,442.23570857,millions,absolute,housing,
+2023-12-01,business_bankruptcies,Number of Business Bankruptcies - Alberta***,12.0,count,absolute,business,
+2023-12-01,ei_recipients_alberta,"Employment insurance Alberta - Number of recipients 
+(15 years and over), seasonally adjusted",53740.0,persons,absolute,labour,21.887049217509635
+2023-12-01,ei_recipients_calgary,"Employment insurance Calgary - Number of recipients 
+(15 years and over), seasonally adjusted",16790.0,persons,absolute,labour,22.733918128654974
+2023-12-01,employment,Employment - CER (Person  - 000s)†,965.0,thousands,absolute,labour,
+2023-12-01,gdp_growth_canada,Canada's Real GDP growth % (Chained 2012 dollar)***,1.6597665171381504,percentage,rate,economy,
+2023-12-01,housing_starts,Housing Starts - Calgary CMA,1493.0,units,absolute,housing,
+2023-12-01,inflation_rate_calgary,"Inflation Rate - Calgary CMA Note 1  (y/y, %)",3.881700554528633,percentage,rate,economy,
+2023-12-01,inflation_rate_canada,"Inflation Rate  - Canada Note 1 (y/y, %)",3.396472893533642,percentage,rate,economy,4.665492957746498
+2023-12-01,manufacturing_sales_alberta,"Manufacturing Sales - Alberta, seasonally adjusted ($billions)",8.713292,billions,absolute,business,
+2023-12-01,mls_average_price,City of Calgary Residential Average Price MLS ($thousands) Note 3,537.406,thousands,absolute,housing,
+2023-12-01,mls_sales_to_listings,City of Calgary Residential Sales-to-New Listings Ratio MLS Note 3,109.13461538461537,percentage,rate,housing,
+2023-12-01,mls_unit_sales,City of Calgary Residential Unit Sales MLS Note 3,1362.0,units,absolute,housing,
+2023-12-01,natural_gas_price,Alberta Natural Gas (Cdn$/GJ)****,2.309,CAD/GJ,absolute,energy,
+2023-12-01,oil_price_wti,West Texas Intermediate ($US/bbl),71.9,USD/barrel,absolute,energy,
+2023-12-01,population,City of Calgary Population Estimate (000s)††,1468.8666666666668,thousands,absolute,demographics,
+2023-12-01,prime_lending_rate,Prime Lending Rate - Bank of Canada (%),7.200000000000001,percentage,rate,economy,
+2023-12-01,retail_sales_alberta,"Retail Sales - Alberta, seasonally adjusted ($billions) Note 2",8.521522,billions,absolute,consumer,
+2023-12-01,retail_sales_calgary,"Retail Sales - Calgary CER, seasonally adjusted ($billions) Note 2",3.4223074871020867,billions,absolute,consumer,
+2023-12-01,unemployment_rate,Unemployment Rate - Calgary Economic Region (CER) (%)†,5.2,percentage,rate,labour,
+2023-12-01,unemployment_rate_canada,Unemployment Rate - Canada (%)†,5.3,percentage,rate,labour,
+2023-12-01,wholesale_sales_alberta,"Wholesale Sales - Alberta, seasonally adjusted ($billions) Note 4",32.501192843376245,billions,absolute,business,
+2024-01-01,avg_hourly_wage_alberta,Average Hourly Wage Rate - Alberta (y/y % change),4.222873900293256,percentage,yoy_change,labour,2.0583978612928044
+2024-01-01,avg_hourly_wage_calgary,Average Hourly Wage Rate - Calgary CER (y/y % change),0.0,percentage,yoy_change,labour,0.2687781490629204
+2024-01-01,avg_weekly_earnings_alberta,"Average Weekly Earnings** - Alberta (SEPH incl. overtime,y/y % change)",2.0583978612928044,percentage,yoy_change,labour,0.0
+2024-01-01,avg_weekly_wage_calgary,Average Weekly Wage Rate  - Calgary CER (y/y % change),0.2687781490629204,percentage,yoy_change,labour,
+2024-01-01,bank_of_canada_rate,Bank of Canada Interest Rate (%),5.25,percentage,rate,economy,
+2024-01-01,bankruptcies_personal,Number of Personal Bankruptcies - Alberta***,192.0,count,absolute,consumer,
+2024-01-01,building_permits_value,City of Calgary Total Value of Building Permits ($millions) Note 5,457.11197143,millions,absolute,housing,
+2024-01-01,business_bankruptcies,Number of Business Bankruptcies - Alberta***,17.0,count,absolute,business,
+2024-01-01,ei_recipients_alberta,"Employment insurance Alberta - Number of recipients 
+(15 years and over), seasonally adjusted",55230.0,persons,absolute,labour,31.37488106565176
+2024-01-01,ei_recipients_calgary,"Employment insurance Calgary - Number of recipients 
+(15 years and over), seasonally adjusted",17350.0,persons,absolute,labour,32.34172387490466
+2024-01-01,employment,Employment - CER (Person  - 000s)†,978.6,thousands,absolute,labour,
+2024-01-01,gdp_growth_canada,Canada's Real GDP growth % (Chained 2012 dollar)***,0.9786903448623985,percentage,rate,economy,
+2024-01-01,housing_starts,Housing Starts - Calgary CMA,1951.0,units,absolute,housing,
+2024-01-01,inflation_rate_calgary,"Inflation Rate - Calgary CMA Note 1  (y/y, %)",4.135802469135785,percentage,rate,economy,
+2024-01-01,inflation_rate_canada,"Inflation Rate  - Canada Note 1 (y/y, %)",2.8589993502274202,percentage,rate,economy,4.222873900293256
+2024-01-01,manufacturing_sales_alberta,"Manufacturing Sales - Alberta, seasonally adjusted ($billions)",8.343911,billions,absolute,business,
+2024-01-01,mls_average_price,City of Calgary Residential Average Price MLS ($thousands) Note 3,569.389,thousands,absolute,housing,
+2024-01-01,mls_sales_to_listings,City of Calgary Residential Sales-to-New Listings Ratio MLS Note 3,77.16424894712213,percentage,rate,housing,
+2024-01-01,mls_unit_sales,City of Calgary Residential Unit Sales MLS Note 3,1649.0,units,absolute,housing,
+2024-01-01,natural_gas_price,Alberta Natural Gas (Cdn$/GJ)****,2.946,CAD/GJ,absolute,energy,
+2024-01-01,oil_price_wti,West Texas Intermediate ($US/bbl),74.15,USD/barrel,absolute,energy,
+2024-01-01,population,City of Calgary Population Estimate (000s)††,1488.05,thousands,absolute,demographics,
+2024-01-01,prime_lending_rate,Prime Lending Rate - Bank of Canada (%),7.200000000000001,percentage,rate,economy,
+2024-01-01,retail_sales_alberta,"Retail Sales - Alberta, seasonally adjusted ($billions) Note 2",8.504581,billions,absolute,consumer,
+2024-01-01,retail_sales_calgary,"Retail Sales - Calgary CER, seasonally adjusted ($billions) Note 2",3.5079207158102896,billions,absolute,consumer,
+2024-01-01,unemployment_rate,Unemployment Rate - Calgary Economic Region (CER) (%)†,5.6,percentage,rate,labour,
+2024-01-01,unemployment_rate_canada,Unemployment Rate - Canada (%)†,5.6,percentage,rate,labour,
+2024-01-01,wholesale_sales_alberta,"Wholesale Sales - Alberta, seasonally adjusted ($billions) Note 4",34.54127317305445,billions,absolute,business,
+2024-02-01,avg_hourly_wage_alberta,Average Hourly Wage Rate - Alberta (y/y % change),3.7165082108902237,percentage,yoy_change,labour,0.608677707175187
+2024-02-01,avg_hourly_wage_calgary,Average Hourly Wage Rate - Calgary CER (y/y % change),1.6438356164383494,percentage,yoy_change,labour,1.4619453423449835
+2024-02-01,avg_weekly_earnings_alberta,"Average Weekly Earnings** - Alberta (SEPH incl. overtime,y/y % change)",0.608677707175187,percentage,yoy_change,labour,1.6438356164383494
+2024-02-01,avg_weekly_wage_calgary,Average Weekly Wage Rate  - Calgary CER (y/y % change),1.4619453423449835,percentage,yoy_change,labour,
+2024-02-01,bank_of_canada_rate,Bank of Canada Interest Rate (%),5.25,percentage,rate,economy,
+2024-02-01,bankruptcies_personal,Number of Personal Bankruptcies - Alberta***,203.0,count,absolute,consumer,
+2024-02-01,building_permits_value,City of Calgary Total Value of Building Permits ($millions) Note 5,659.71003545,millions,absolute,housing,
+2024-02-01,business_bankruptcies,Number of Business Bankruptcies - Alberta***,21.0,count,absolute,business,
+2024-02-01,ei_recipients_alberta,"Employment insurance Alberta - Number of recipients 
+(15 years and over), seasonally adjusted",54140.0,persons,absolute,labour,31.375879640863857
+2024-02-01,ei_recipients_calgary,"Employment insurance Calgary - Number of recipients 
+(15 years and over), seasonally adjusted",17020.0,persons,absolute,labour,30.92307692307692
+2024-02-01,employment,Employment - CER (Person  - 000s)†,973.6,thousands,absolute,labour,
+2024-02-01,gdp_growth_canada,Canada's Real GDP growth % (Chained 2012 dollar)***,1.3393951139146765,percentage,rate,economy,
+2024-02-01,housing_starts,Housing Starts - Calgary CMA,1674.0,units,absolute,housing,
+2024-02-01,inflation_rate_calgary,"Inflation Rate - Calgary CMA Note 1  (y/y, %)",5.139318885448918,percentage,rate,economy,
+2024-02-01,inflation_rate_canada,"Inflation Rate  - Canada Note 1 (y/y, %)",2.783171521035599,percentage,rate,economy,3.7165082108902237
+2024-02-01,manufacturing_sales_alberta,"Manufacturing Sales - Alberta, seasonally adjusted ($billions)",8.780305,billions,absolute,business,
+2024-02-01,mls_average_price,City of Calgary Residential Average Price MLS ($thousands) Note 3,583.107,thousands,absolute,housing,
+2024-02-01,mls_sales_to_listings,City of Calgary Residential Sales-to-New Listings Ratio MLS Note 3,78.64256731833272,percentage,rate,housing,
+2024-02-01,mls_unit_sales,City of Calgary Residential Unit Sales MLS Note 3,2132.0,units,absolute,housing,
+2024-02-01,natural_gas_price,Alberta Natural Gas (Cdn$/GJ)****,2.014,CAD/GJ,absolute,energy,
+2024-02-01,oil_price_wti,West Texas Intermediate ($US/bbl),77.25,USD/barrel,absolute,energy,
+2024-02-01,population,City of Calgary Population Estimate (000s)††,1495.3,thousands,absolute,demographics,
+2024-02-01,prime_lending_rate,Prime Lending Rate - Bank of Canada (%),7.200000000000001,percentage,rate,economy,
+2024-02-01,retail_sales_alberta,"Retail Sales - Alberta, seasonally adjusted ($billions) Note 2",8.394329,billions,absolute,consumer,
+2024-02-01,retail_sales_calgary,"Retail Sales - Calgary CER, seasonally adjusted ($billions) Note 2",3.4136265047289664,billions,absolute,consumer,
+2024-02-01,unemployment_rate,Unemployment Rate - Calgary Economic Region (CER) (%)†,6.2,percentage,rate,labour,
+2024-02-01,unemployment_rate_canada,Unemployment Rate - Canada (%)†,5.8,percentage,rate,labour,
+2024-02-01,wholesale_sales_alberta,"Wholesale Sales - Alberta, seasonally adjusted ($billions) Note 4",37.628977647654295,billions,absolute,business,
+2024-03-01,avg_hourly_wage_alberta,Average Hourly Wage Rate - Alberta (y/y % change),4.720532869968119,percentage,yoy_change,labour,1.115877393326814
+2024-03-01,avg_hourly_wage_calgary,Average Hourly Wage Rate - Calgary CER (y/y % change),3.8567493112947826,percentage,yoy_change,labour,3.8693355160354104
+2024-03-01,avg_weekly_earnings_alberta,"Average Weekly Earnings** - Alberta (SEPH incl. overtime,y/y % change)",1.115877393326814,percentage,yoy_change,labour,3.8567493112947826
+2024-03-01,avg_weekly_wage_calgary,Average Weekly Wage Rate  - Calgary CER (y/y % change),3.8693355160354104,percentage,yoy_change,labour,
+2024-03-01,bank_of_canada_rate,Bank of Canada Interest Rate (%),5.25,percentage,rate,economy,
+2024-03-01,bankruptcies_personal,Number of Personal Bankruptcies - Alberta***,224.0,count,absolute,consumer,
+2024-03-01,building_permits_value,City of Calgary Total Value of Building Permits ($millions) Note 5,809.8440833599999,millions,absolute,housing,
+2024-03-01,business_bankruptcies,Number of Business Bankruptcies - Alberta***,15.0,count,absolute,business,
+2024-03-01,ei_recipients_alberta,"Employment insurance Alberta - Number of recipients 
+(15 years and over), seasonally adjusted",53340.0,persons,absolute,labour,30.767344937484676
+2024-03-01,ei_recipients_calgary,"Employment insurance Calgary - Number of recipients 
+(15 years and over), seasonally adjusted",16890.0,persons,absolute,labour,30.023094688221708
+2024-03-01,employment,Employment - CER (Person  - 000s)†,980.7,thousands,absolute,labour,
+2024-03-01,gdp_growth_canada,Canada's Real GDP growth % (Chained 2012 dollar)***,1.0612138381531189,percentage,rate,economy,
+2024-03-01,housing_starts,Housing Starts - Calgary CMA,1760.0,units,absolute,housing,
+2024-03-01,inflation_rate_calgary,"Inflation Rate - Calgary CMA Note 1  (y/y, %)",4.230533415082771,percentage,rate,economy,
+2024-03-01,inflation_rate_canada,"Inflation Rate  - Canada Note 1 (y/y, %)",2.8976175144880933,percentage,rate,economy,4.720532869968119
+2024-03-01,manufacturing_sales_alberta,"Manufacturing Sales - Alberta, seasonally adjusted ($billions)",8.384106,billions,absolute,business,
+2024-03-01,mls_average_price,City of Calgary Residential Average Price MLS ($thousands) Note 3,596.211,thousands,absolute,housing,
+2024-03-01,mls_sales_to_listings,City of Calgary Residential Sales-to-New Listings Ratio MLS Note 3,83.76930349826662,percentage,rate,housing,
+2024-03-01,mls_unit_sales,City of Calgary Residential Unit Sales MLS Note 3,2658.0,units,absolute,housing,
+2024-03-01,natural_gas_price,Alberta Natural Gas (Cdn$/GJ)****,1.7601,CAD/GJ,absolute,energy,
+2024-03-01,oil_price_wti,West Texas Intermediate ($US/bbl),81.28,USD/barrel,absolute,energy,
+2024-03-01,population,City of Calgary Population Estimate (000s)††,1502.55,thousands,absolute,demographics,
+2024-03-01,prime_lending_rate,Prime Lending Rate - Bank of Canada (%),7.200000000000001,percentage,rate,economy,
+2024-03-01,retail_sales_alberta,"Retail Sales - Alberta, seasonally adjusted ($billions) Note 2",8.414979,billions,absolute,consumer,
+2024-03-01,retail_sales_calgary,"Retail Sales - Calgary CER, seasonally adjusted ($billions) Note 2",3.478345101146538,billions,absolute,consumer,
+2024-03-01,unemployment_rate,Unemployment Rate - Calgary Economic Region (CER) (%)†,7.000000000000001,percentage,rate,labour,
+2024-03-01,unemployment_rate_canada,Unemployment Rate - Canada (%)†,6.2,percentage,rate,labour,
+2024-03-01,wholesale_sales_alberta,"Wholesale Sales - Alberta, seasonally adjusted ($billions) Note 4",34.38836856002007,billions,absolute,business,
+2024-04-01,avg_hourly_wage_alberta,Average Hourly Wage Rate - Alberta (y/y % change),4.684375892602111,percentage,yoy_change,labour,2.022524671920767
+2024-04-01,avg_hourly_wage_calgary,Average Hourly Wage Rate - Calgary CER (y/y % change),5.219780219780223,percentage,yoy_change,labour,5.284582932425441
+2024-04-01,avg_weekly_earnings_alberta,"Average Weekly Earnings** - Alberta (SEPH incl. overtime,y/y % change)",2.022524671920767,percentage,yoy_change,labour,5.219780219780223
+2024-04-01,avg_weekly_wage_calgary,Average Weekly Wage Rate  - Calgary CER (y/y % change),5.284582932425441,percentage,yoy_change,labour,
+2024-04-01,bank_of_canada_rate,Bank of Canada Interest Rate (%),5.25,percentage,rate,economy,
+2024-04-01,bankruptcies_personal,Number of Personal Bankruptcies - Alberta***,266.0,count,absolute,consumer,
+2024-04-01,building_permits_value,City of Calgary Total Value of Building Permits ($millions) Note 5,1247.9927134600002,millions,absolute,housing,
+2024-04-01,business_bankruptcies,Number of Business Bankruptcies - Alberta***,17.0,count,absolute,business,
+2024-04-01,ei_recipients_alberta,"Employment insurance Alberta - Number of recipients 
+(15 years and over), seasonally adjusted",50990.0,persons,absolute,labour,23.822243807673637
+2024-04-01,ei_recipients_calgary,"Employment insurance Calgary - Number of recipients 
+(15 years and over), seasonally adjusted",16500.0,persons,absolute,labour,24.716553287981856
+2024-04-01,employment,Employment - CER (Person  - 000s)†,987.2,thousands,absolute,labour,
+2024-04-01,gdp_growth_canada,Canada's Real GDP growth % (Chained 2012 dollar)***,1.436631570637048,percentage,rate,economy,
+2024-04-01,housing_starts,Housing Starts - Calgary CMA,1831.0,units,absolute,housing,
+2024-04-01,inflation_rate_calgary,"Inflation Rate - Calgary CMA Note 1  (y/y, %)",3.5628019323671545,percentage,rate,economy,
+2024-04-01,inflation_rate_canada,"Inflation Rate  - Canada Note 1 (y/y, %)",2.6854219948849067,percentage,rate,economy,4.684375892602111
+2024-04-01,manufacturing_sales_alberta,"Manufacturing Sales - Alberta, seasonally adjusted ($billions)",8.550269,billions,absolute,business,
+2024-04-01,mls_average_price,City of Calgary Residential Average Price MLS ($thousands) Note 3,608.535,thousands,absolute,housing,
+2024-04-01,mls_sales_to_listings,City of Calgary Residential Sales-to-New Listings Ratio MLS Note 3,82.38327126897737,percentage,rate,housing,
+2024-04-01,mls_unit_sales,City of Calgary Residential Unit Sales MLS Note 3,2876.0,units,absolute,housing,
+2024-04-01,natural_gas_price,Alberta Natural Gas (Cdn$/GJ)****,1.5332,CAD/GJ,absolute,energy,
+2024-04-01,oil_price_wti,West Texas Intermediate ($US/bbl),85.35,USD/barrel,absolute,energy,
+2024-04-01,population,City of Calgary Population Estimate (000s)††,1509.8,thousands,absolute,demographics,
+2024-04-01,prime_lending_rate,Prime Lending Rate - Bank of Canada (%),7.200000000000001,percentage,rate,economy,
+2024-04-01,retail_sales_alberta,"Retail Sales - Alberta, seasonally adjusted ($billions) Note 2",8.68433,billions,absolute,consumer,
+2024-04-01,retail_sales_calgary,"Retail Sales - Calgary CER, seasonally adjusted ($billions) Note 2",3.5990594512403953,billions,absolute,consumer,
+2024-04-01,unemployment_rate,Unemployment Rate - Calgary Economic Region (CER) (%)†,7.9,percentage,rate,labour,
+2024-04-01,unemployment_rate_canada,Unemployment Rate - Canada (%)†,6.2,percentage,rate,labour,
+2024-04-01,wholesale_sales_alberta,"Wholesale Sales - Alberta, seasonally adjusted ($billions) Note 4",38.561856229541604,billions,absolute,business,
+2024-05-01,avg_hourly_wage_alberta,Average Hourly Wage Rate - Alberta (y/y % change),5.659832515160268,percentage,yoy_change,labour,2.0619226357051046
+2024-05-01,avg_hourly_wage_calgary,Average Hourly Wage Rate - Calgary CER (y/y % change),7.479224376731297,percentage,yoy_change,labour,7.381058248110262
+2024-05-01,avg_weekly_earnings_alberta,"Average Weekly Earnings** - Alberta (SEPH incl. overtime,y/y % change)",2.0619226357051046,percentage,yoy_change,labour,7.479224376731297
+2024-05-01,avg_weekly_wage_calgary,Average Weekly Wage Rate  - Calgary CER (y/y % change),7.381058248110262,percentage,yoy_change,labour,
+2024-05-01,bank_of_canada_rate,Bank of Canada Interest Rate (%),5.25,percentage,rate,economy,
+2024-05-01,bankruptcies_personal,Number of Personal Bankruptcies - Alberta***,218.0,count,absolute,consumer,
+2024-05-01,building_permits_value,City of Calgary Total Value of Building Permits ($millions) Note 5,507.23705032000004,millions,absolute,housing,
+2024-05-01,business_bankruptcies,Number of Business Bankruptcies - Alberta***,12.0,count,absolute,business,
+2024-05-01,ei_recipients_alberta,"Employment insurance Alberta - Number of recipients 
+(15 years and over), seasonally adjusted",51080.0,persons,absolute,labour,22.3766171538093
+2024-05-01,ei_recipients_calgary,"Employment insurance Calgary - Number of recipients 
+(15 years and over), seasonally adjusted",16740.0,persons,absolute,labour,23.178807947019877
+2024-05-01,employment,Employment - CER (Person  - 000s)†,1002.0,thousands,absolute,labour,
+2024-05-01,gdp_growth_canada,Canada's Real GDP growth % (Chained 2012 dollar)***,1.4953822241961845,percentage,rate,economy,
+2024-05-01,housing_starts,Housing Starts - Calgary CMA,1996.0,units,absolute,housing,
+2024-05-01,inflation_rate_calgary,"Inflation Rate - Calgary CMA Note 1  (y/y, %)",3.616636528028927,percentage,rate,economy,
+2024-05-01,inflation_rate_canada,"Inflation Rate  - Canada Note 1 (y/y, %)",2.866242038216571,percentage,rate,economy,5.659832515160268
+2024-05-01,manufacturing_sales_alberta,"Manufacturing Sales - Alberta, seasonally adjusted ($billions)",8.611774,billions,absolute,business,
+2024-05-01,mls_average_price,City of Calgary Residential Average Price MLS ($thousands) Note 3,612.804,thousands,absolute,housing,
+2024-05-01,mls_sales_to_listings,City of Calgary Residential Sales-to-New Listings Ratio MLS Note 3,71.2474060410422,percentage,rate,housing,
+2024-05-01,mls_unit_sales,City of Calgary Residential Unit Sales MLS Note 3,3090.0,units,absolute,housing,
+2024-05-01,natural_gas_price,Alberta Natural Gas (Cdn$/GJ)****,1.2884,CAD/GJ,absolute,energy,
+2024-05-01,oil_price_wti,West Texas Intermediate ($US/bbl),80.02,USD/barrel,absolute,energy,
+2024-05-01,population,City of Calgary Population Estimate (000s)††,1514.2,thousands,absolute,demographics,
+2024-05-01,prime_lending_rate,Prime Lending Rate - Bank of Canada (%),7.200000000000001,percentage,rate,economy,
+2024-05-01,retail_sales_alberta,"Retail Sales - Alberta, seasonally adjusted ($billions) Note 2",8.492906,billions,absolute,consumer,
+2024-05-01,retail_sales_calgary,"Retail Sales - Calgary CER, seasonally adjusted ($billions) Note 2",3.603498484454834,billions,absolute,consumer,
+2024-05-01,unemployment_rate,Unemployment Rate - Calgary Economic Region (CER) (%)†,8.1,percentage,rate,labour,
+2024-05-01,unemployment_rate_canada,Unemployment Rate - Canada (%)†,6.3,percentage,rate,labour,
+2024-05-01,wholesale_sales_alberta,"Wholesale Sales - Alberta, seasonally adjusted ($billions) Note 4",36.636123888704276,billions,absolute,business,
+2024-06-01,avg_hourly_wage_alberta,Average Hourly Wage Rate - Alberta (y/y % change),4.661870503597121,percentage,yoy_change,labour,3.3952930595113173
+2024-06-01,avg_hourly_wage_calgary,Average Hourly Wage Rate - Calgary CER (y/y % change),8.333333333333325,percentage,yoy_change,labour,7.599232698834291
+2024-06-01,avg_weekly_earnings_alberta,"Average Weekly Earnings** - Alberta (SEPH incl. overtime,y/y % change)",3.3952930595113173,percentage,yoy_change,labour,8.333333333333325
+2024-06-01,avg_weekly_wage_calgary,Average Weekly Wage Rate  - Calgary CER (y/y % change),7.599232698834291,percentage,yoy_change,labour,
+2024-06-01,bank_of_canada_rate,Bank of Canada Interest Rate (%),5.0,percentage,rate,economy,
+2024-06-01,bankruptcies_personal,Number of Personal Bankruptcies - Alberta***,184.0,count,absolute,consumer,
+2024-06-01,building_permits_value,City of Calgary Total Value of Building Permits ($millions) Note 5,665.0866782200001,millions,absolute,housing,
+2024-06-01,business_bankruptcies,Number of Business Bankruptcies - Alberta***,10.0,count,absolute,business,
+2024-06-01,ei_recipients_alberta,"Employment insurance Alberta - Number of recipients 
+(15 years and over), seasonally adjusted",51080.0,persons,absolute,labour,16.807683512462845
+2024-06-01,ei_recipients_calgary,"Employment insurance Calgary - Number of recipients 
+(15 years and over), seasonally adjusted",16810.0,persons,absolute,labour,18.463706835799854
+2024-06-01,employment,Employment - CER (Person  - 000s)†,1010.2,thousands,absolute,labour,
+2024-06-01,gdp_growth_canada,Canada's Real GDP growth % (Chained 2012 dollar)***,1.7030411481131935,percentage,rate,economy,
+2024-06-01,housing_starts,Housing Starts - Calgary CMA,1966.0,units,absolute,housing,
+2024-06-01,inflation_rate_calgary,"Inflation Rate - Calgary CMA Note 1  (y/y, %)",3.6122817579771205,percentage,rate,economy,
+2024-06-01,inflation_rate_canada,"Inflation Rate  - Canada Note 1 (y/y, %)",2.6717557251908497,percentage,rate,economy,4.661870503597121
+2024-06-01,manufacturing_sales_alberta,"Manufacturing Sales - Alberta, seasonally adjusted ($billions)",8.375059,billions,absolute,business,
+2024-06-01,mls_average_price,City of Calgary Residential Average Price MLS ($thousands) Note 3,623.182,thousands,absolute,housing,
+2024-06-01,mls_sales_to_listings,City of Calgary Residential Sales-to-New Listings Ratio MLS Note 3,72.06424433912586,percentage,rate,housing,
+2024-06-01,mls_unit_sales,City of Calgary Residential Unit Sales MLS Note 3,2737.0,units,absolute,housing,
+2024-06-01,natural_gas_price,Alberta Natural Gas (Cdn$/GJ)****,1.0529,CAD/GJ,absolute,energy,
+2024-06-01,oil_price_wti,West Texas Intermediate ($US/bbl),79.77,USD/barrel,absolute,energy,
+2024-06-01,population,City of Calgary Population Estimate (000s)††,1518.6,thousands,absolute,demographics,
+2024-06-01,prime_lending_rate,Prime Lending Rate - Bank of Canada (%),6.950000000000001,percentage,rate,economy,
+2024-06-01,retail_sales_alberta,"Retail Sales - Alberta, seasonally adjusted ($billions) Note 2",8.50005,billions,absolute,consumer,
+2024-06-01,retail_sales_calgary,"Retail Sales - Calgary CER, seasonally adjusted ($billions) Note 2",3.648050149850956,billions,absolute,consumer,
+2024-06-01,unemployment_rate,Unemployment Rate - Calgary Economic Region (CER) (%)†,8.2,percentage,rate,labour,
+2024-06-01,unemployment_rate_canada,Unemployment Rate - Canada (%)†,6.2,percentage,rate,labour,
+2024-06-01,wholesale_sales_alberta,"Wholesale Sales - Alberta, seasonally adjusted ($billions) Note 4",34.81895150225677,billions,absolute,business,
+2024-07-01,avg_hourly_wage_alberta,Average Hourly Wage Rate - Alberta (y/y % change),4.3741007194244785,percentage,yoy_change,labour,3.450001085290766
+2024-07-01,avg_hourly_wage_calgary,Average Hourly Wage Rate - Calgary CER (y/y % change),9.243697478991585,percentage,yoy_change,labour,8.75733491792321
+2024-07-01,avg_weekly_earnings_alberta,"Average Weekly Earnings** - Alberta (SEPH incl. overtime,y/y % change)",3.450001085290766,percentage,yoy_change,labour,9.243697478991585
+2024-07-01,avg_weekly_wage_calgary,Average Weekly Wage Rate  - Calgary CER (y/y % change),8.75733491792321,percentage,yoy_change,labour,
+2024-07-01,bank_of_canada_rate,Bank of Canada Interest Rate (%),4.75,percentage,rate,economy,
+2024-07-01,bankruptcies_personal,Number of Personal Bankruptcies - Alberta***,252.0,count,absolute,consumer,
+2024-07-01,building_permits_value,City of Calgary Total Value of Building Permits ($millions) Note 5,617.5829007399999,millions,absolute,housing,
+2024-07-01,business_bankruptcies,Number of Business Bankruptcies - Alberta***,9.0,count,absolute,business,
+2024-07-01,ei_recipients_alberta,"Employment insurance Alberta - Number of recipients 
+(15 years and over), seasonally adjusted",54100.0,persons,absolute,labour,18.484450284713105
+2024-07-01,ei_recipients_calgary,"Employment insurance Calgary - Number of recipients 
+(15 years and over), seasonally adjusted",17160.0,persons,absolute,labour,17.373461012311896
+2024-07-01,employment,Employment - CER (Person  - 000s)†,1014.7,thousands,absolute,labour,
+2024-07-01,gdp_growth_canada,Canada's Real GDP growth % (Chained 2012 dollar)***,1.9396937533453285,percentage,rate,economy,
+2024-07-01,housing_starts,Housing Starts - Calgary CMA,2471.0,units,absolute,housing,
+2024-07-01,inflation_rate_calgary,"Inflation Rate - Calgary CMA Note 1  (y/y, %)",2.91146761734995,percentage,rate,economy,
+2024-07-01,inflation_rate_canada,"Inflation Rate  - Canada Note 1 (y/y, %)",2.5300442757748343,percentage,rate,economy,4.3741007194244785
+2024-07-01,manufacturing_sales_alberta,"Manufacturing Sales - Alberta, seasonally adjusted ($billions)",8.619486,billions,absolute,business,
+2024-07-01,mls_average_price,City of Calgary Residential Average Price MLS ($thousands) Note 3,606.427,thousands,absolute,housing,
+2024-07-01,mls_sales_to_listings,City of Calgary Residential Sales-to-New Listings Ratio MLS Note 3,65.88953649736331,percentage,rate,housing,
+2024-07-01,mls_unit_sales,City of Calgary Residential Unit Sales MLS Note 3,2374.0,units,absolute,housing,
+2024-07-01,natural_gas_price,Alberta Natural Gas (Cdn$/GJ)****,0.9052,CAD/GJ,absolute,energy,
+2024-07-01,oil_price_wti,West Texas Intermediate ($US/bbl),81.8,USD/barrel,absolute,energy,
+2024-07-01,population,City of Calgary Population Estimate (000s)††,1523.0,thousands,absolute,demographics,
+2024-07-01,prime_lending_rate,Prime Lending Rate - Bank of Canada (%),6.7,percentage,rate,economy,
+2024-07-01,retail_sales_alberta,"Retail Sales - Alberta, seasonally adjusted ($billions) Note 2",8.685852,billions,absolute,consumer,
+2024-07-01,retail_sales_calgary,"Retail Sales - Calgary CER, seasonally adjusted ($billions) Note 2",3.7360712393780853,billions,absolute,consumer,
+2024-07-01,unemployment_rate,Unemployment Rate - Calgary Economic Region (CER) (%)†,7.3,percentage,rate,labour,
+2024-07-01,unemployment_rate_canada,Unemployment Rate - Canada (%)†,6.4,percentage,rate,labour,
+2024-07-01,wholesale_sales_alberta,"Wholesale Sales - Alberta, seasonally adjusted ($billions) Note 4",33.47200040694862,billions,absolute,business,
+2024-08-01,avg_hourly_wage_alberta,Average Hourly Wage Rate - Alberta (y/y % change),4.640504153537672,percentage,yoy_change,labour,4.609035922482496
+2024-08-01,avg_hourly_wage_calgary,Average Hourly Wage Rate - Calgary CER (y/y % change),8.033240997229907,percentage,yoy_change,labour,7.859716197338429
+2024-08-01,avg_weekly_earnings_alberta,"Average Weekly Earnings** - Alberta (SEPH incl. overtime,y/y % change)",4.609035922482496,percentage,yoy_change,labour,8.033240997229907
+2024-08-01,avg_weekly_wage_calgary,Average Weekly Wage Rate  - Calgary CER (y/y % change),7.859716197338429,percentage,yoy_change,labour,
+2024-08-01,bank_of_canada_rate,Bank of Canada Interest Rate (%),4.75,percentage,rate,economy,
+2024-08-01,bankruptcies_personal,Number of Personal Bankruptcies - Alberta***,260.0,count,absolute,consumer,
+2024-08-01,building_permits_value,City of Calgary Total Value of Building Permits ($millions) Note 5,754.30688561,millions,absolute,housing,
+2024-08-01,business_bankruptcies,Number of Business Bankruptcies - Alberta***,8.0,count,absolute,business,
+2024-08-01,ei_recipients_alberta,"Employment insurance Alberta - Number of recipients 
+(15 years and over), seasonally adjusted",54640.0,persons,absolute,labour,8.305252725470758
+2024-08-01,ei_recipients_calgary,"Employment insurance Calgary - Number of recipients 
+(15 years and over), seasonally adjusted",17020.0,persons,absolute,labour,8.269720101781175
+2024-08-01,employment,Employment - CER (Person  - 000s)†,1023.5,thousands,absolute,labour,
+2024-08-01,gdp_growth_canada,Canada's Real GDP growth % (Chained 2012 dollar)***,1.8398747067640775,percentage,rate,economy,
+2024-08-01,housing_starts,Housing Starts - Calgary CMA,1675.0,units,absolute,housing,
+2024-08-01,inflation_rate_calgary,"Inflation Rate - Calgary CMA Note 1  (y/y, %)",2.304964539007104,percentage,rate,economy,
+2024-08-01,inflation_rate_canada,"Inflation Rate  - Canada Note 1 (y/y, %)",1.953371140516702,percentage,rate,economy,4.640504153537672
+2024-08-01,manufacturing_sales_alberta,"Manufacturing Sales - Alberta, seasonally adjusted ($billions)",8.331503,billions,absolute,business,
+2024-08-01,mls_average_price,City of Calgary Residential Average Price MLS ($thousands) Note 3,609.23,thousands,absolute,housing,
+2024-08-01,mls_sales_to_listings,City of Calgary Residential Sales-to-New Listings Ratio MLS Note 3,61.690698331919705,percentage,rate,housing,
+2024-08-01,mls_unit_sales,City of Calgary Residential Unit Sales MLS Note 3,2182.0,units,absolute,housing,
+2024-08-01,natural_gas_price,Alberta Natural Gas (Cdn$/GJ)****,0.7992,CAD/GJ,absolute,energy,
+2024-08-01,oil_price_wti,West Texas Intermediate ($US/bbl),76.68,USD/barrel,absolute,energy,
+2024-08-01,population,City of Calgary Population Estimate (000s)††,1527.4,thousands,absolute,demographics,
+2024-08-01,prime_lending_rate,Prime Lending Rate - Bank of Canada (%),6.7,percentage,rate,economy,
+2024-08-01,retail_sales_alberta,"Retail Sales - Alberta, seasonally adjusted ($billions) Note 2",8.578206,billions,absolute,consumer,
+2024-08-01,retail_sales_calgary,"Retail Sales - Calgary CER, seasonally adjusted ($billions) Note 2",3.6849649651494025,billions,absolute,consumer,
+2024-08-01,unemployment_rate,Unemployment Rate - Calgary Economic Region (CER) (%)†,7.400000000000001,percentage,rate,labour,
+2024-08-01,unemployment_rate_canada,Unemployment Rate - Canada (%)†,6.800000000000001,percentage,rate,labour,
+2024-08-01,wholesale_sales_alberta,"Wholesale Sales - Alberta, seasonally adjusted ($billions) Note 4",33.882291929245326,billions,absolute,business,
+2024-09-01,avg_hourly_wage_alberta,Average Hourly Wage Rate - Alberta (y/y % change),2.636746143057511,percentage,yoy_change,labour,3.4513239162178078
+2024-09-01,avg_hourly_wage_calgary,Average Hourly Wage Rate - Calgary CER (y/y % change),5.7065217391304435,percentage,yoy_change,labour,6.375425632108955
+2024-09-01,avg_weekly_earnings_alberta,"Average Weekly Earnings** - Alberta (SEPH incl. overtime,y/y % change)",3.4513239162178078,percentage,yoy_change,labour,5.7065217391304435
+2024-09-01,avg_weekly_wage_calgary,Average Weekly Wage Rate  - Calgary CER (y/y % change),6.375425632108955,percentage,yoy_change,labour,
+2024-09-01,bank_of_canada_rate,Bank of Canada Interest Rate (%),4.5,percentage,rate,economy,
+2024-09-01,bankruptcies_personal,Number of Personal Bankruptcies - Alberta***,202.0,count,absolute,consumer,
+2024-09-01,building_permits_value,City of Calgary Total Value of Building Permits ($millions) Note 5,826.26484282,millions,absolute,housing,
+2024-09-01,business_bankruptcies,Number of Business Bankruptcies - Alberta***,6.0,count,absolute,business,
+2024-09-01,ei_recipients_alberta,"Employment insurance Alberta - Number of recipients 
+(15 years and over), seasonally adjusted",53600.0,persons,absolute,labour,8.042733319895179
+2024-09-01,ei_recipients_calgary,"Employment insurance Calgary - Number of recipients 
+(15 years and over), seasonally adjusted",16680.0,persons,absolute,labour,5.569620253164564
+2024-09-01,employment,Employment - CER (Person  - 000s)†,1020.4,thousands,absolute,labour,
+2024-09-01,gdp_growth_canada,Canada's Real GDP growth % (Chained 2012 dollar)***,2.1602238897299175,percentage,rate,economy,
+2024-09-01,housing_starts,Housing Starts - Calgary CMA,2090.0,units,absolute,housing,
+2024-09-01,inflation_rate_calgary,"Inflation Rate - Calgary CMA Note 1  (y/y, %)",2.136498516320473,percentage,rate,economy,
+2024-09-01,inflation_rate_canada,"Inflation Rate  - Canada Note 1 (y/y, %)",1.6403785488958933,percentage,rate,economy,2.636746143057511
+2024-09-01,manufacturing_sales_alberta,"Manufacturing Sales - Alberta, seasonally adjusted ($billions)",8.227512,billions,absolute,business,
+2024-09-01,mls_average_price,City of Calgary Residential Average Price MLS ($thousands) Note 3,622.205,thousands,absolute,housing,
+2024-09-01,mls_sales_to_listings,City of Calgary Residential Sales-to-New Listings Ratio MLS Note 3,54.24464334147003,percentage,rate,housing,
+2024-09-01,mls_unit_sales,City of Calgary Residential Unit Sales MLS Note 3,2000.0,units,absolute,housing,
+2024-09-01,natural_gas_price,Alberta Natural Gas (Cdn$/GJ)****,0.6951,CAD/GJ,absolute,energy,
+2024-09-01,oil_price_wti,West Texas Intermediate ($US/bbl),70.24,USD/barrel,absolute,energy,
+2024-09-01,population,City of Calgary Population Estimate (000s)††,1531.8,thousands,absolute,demographics,
+2024-09-01,prime_lending_rate,Prime Lending Rate - Bank of Canada (%),6.45,percentage,rate,economy,
+2024-09-01,retail_sales_alberta,"Retail Sales - Alberta, seasonally adjusted ($billions) Note 2",8.79582,billions,absolute,consumer,
+2024-09-01,retail_sales_calgary,"Retail Sales - Calgary CER, seasonally adjusted ($billions) Note 2",3.767622419222618,billions,absolute,consumer,
+2024-09-01,unemployment_rate,Unemployment Rate - Calgary Economic Region (CER) (%)†,7.200000000000001,percentage,rate,labour,
+2024-09-01,unemployment_rate_canada,Unemployment Rate - Canada (%)†,6.7,percentage,rate,labour,
+2024-09-01,wholesale_sales_alberta,"Wholesale Sales - Alberta, seasonally adjusted ($billions) Note 4",31.300570241765413,billions,absolute,business,
+2024-10-01,avg_hourly_wage_alberta,Average Hourly Wage Rate - Alberta (y/y % change),4.564907275320973,percentage,yoy_change,labour,3.909228302533063
+2024-10-01,avg_hourly_wage_calgary,Average Hourly Wage Rate - Calgary CER (y/y % change),4.289544235924936,percentage,yoy_change,labour,4.531160663236133
+2024-10-01,avg_weekly_earnings_alberta,"Average Weekly Earnings** - Alberta (SEPH incl. overtime,y/y % change)",3.909228302533063,percentage,yoy_change,labour,4.289544235924936
+2024-10-01,avg_weekly_wage_calgary,Average Weekly Wage Rate  - Calgary CER (y/y % change),4.531160663236133,percentage,yoy_change,labour,
+2024-10-01,bank_of_canada_rate,Bank of Canada Interest Rate (%),4.0,percentage,rate,economy,
+2024-10-01,bankruptcies_personal,Number of Personal Bankruptcies - Alberta***,191.0,count,absolute,consumer,
+2024-10-01,building_permits_value,City of Calgary Total Value of Building Permits ($millions) Note 5,682.43241937,millions,absolute,housing,
+2024-10-01,business_bankruptcies,Number of Business Bankruptcies - Alberta***,15.0,count,absolute,business,
+2024-10-01,ei_recipients_alberta,"Employment insurance Alberta - Number of recipients 
+(15 years and over), seasonally adjusted",54530.0,persons,absolute,labour,8.864044719504882
+2024-10-01,ei_recipients_calgary,"Employment insurance Calgary - Number of recipients 
+(15 years and over), seasonally adjusted",16820.0,persons,absolute,labour,4.536979490366688
+2024-10-01,employment,Employment - CER (Person  - 000s)†,1020.0,thousands,absolute,labour,
+2024-10-01,gdp_growth_canada,Canada's Real GDP growth % (Chained 2012 dollar)***,2.260096597257988,percentage,rate,economy,
+2024-10-01,housing_starts,Housing Starts - Calgary CMA,2690.0,units,absolute,housing,
+2024-10-01,inflation_rate_calgary,"Inflation Rate - Calgary CMA Note 1  (y/y, %)",3.2835820895522394,percentage,rate,economy,
+2024-10-01,inflation_rate_canada,"Inflation Rate  - Canada Note 1 (y/y, %)",2.0176544766708826,percentage,rate,economy,4.564907275320973
+2024-10-01,manufacturing_sales_alberta,"Manufacturing Sales - Alberta, seasonally adjusted ($billions)",8.756394,billions,absolute,business,
+2024-10-01,mls_average_price,City of Calgary Residential Average Price MLS ($thousands) Note 3,621.015,thousands,absolute,housing,
+2024-10-01,mls_sales_to_listings,City of Calgary Residential Sales-to-New Listings Ratio MLS Note 3,66.39093137254902,percentage,rate,housing,
+2024-10-01,mls_unit_sales,City of Calgary Residential Unit Sales MLS Note 3,2167.0,units,absolute,housing,
+2024-10-01,natural_gas_price,Alberta Natural Gas (Cdn$/GJ)****,0.9284,CAD/GJ,absolute,energy,
+2024-10-01,oil_price_wti,West Texas Intermediate ($US/bbl),71.99,USD/barrel,absolute,energy,
+2024-10-01,population,City of Calgary Population Estimate (000s)††,1536.2,thousands,absolute,demographics,
+2024-10-01,prime_lending_rate,Prime Lending Rate - Bank of Canada (%),5.95,percentage,rate,economy,
+2024-10-01,retail_sales_alberta,"Retail Sales - Alberta, seasonally adjusted ($billions) Note 2",8.799934,billions,absolute,consumer,
+2024-10-01,retail_sales_calgary,"Retail Sales - Calgary CER, seasonally adjusted ($billions) Note 2",3.76575320155389,billions,absolute,consumer,
+2024-10-01,unemployment_rate,Unemployment Rate - Calgary Economic Region (CER) (%)†,7.5,percentage,rate,labour,
+2024-10-01,unemployment_rate_canada,Unemployment Rate - Canada (%)†,6.5,percentage,rate,labour,
+2024-10-01,wholesale_sales_alberta,"Wholesale Sales - Alberta, seasonally adjusted ($billions) Note 4",33.49279030823779,billions,absolute,business,
+2024-11-01,avg_hourly_wage_alberta,Average Hourly Wage Rate - Alberta (y/y % change),2.798768541841601,percentage,yoy_change,labour,4.928041682945561
+2024-11-01,avg_hourly_wage_calgary,Average Hourly Wage Rate - Calgary CER (y/y % change),3.743315508021383,percentage,yoy_change,labour,4.212257741543302
+2024-11-01,avg_weekly_earnings_alberta,"Average Weekly Earnings** - Alberta (SEPH incl. overtime,y/y % change)",4.928041682945561,percentage,yoy_change,labour,3.743315508021383
+2024-11-01,avg_weekly_wage_calgary,Average Weekly Wage Rate  - Calgary CER (y/y % change),4.212257741543302,percentage,yoy_change,labour,
+2024-11-01,bank_of_canada_rate,Bank of Canada Interest Rate (%),4.0,percentage,rate,economy,
+2024-11-01,bankruptcies_personal,Number of Personal Bankruptcies - Alberta***,216.0,count,absolute,consumer,
+2024-11-01,building_permits_value,City of Calgary Total Value of Building Permits ($millions) Note 5,1221.0497927,millions,absolute,housing,
+2024-11-01,business_bankruptcies,Number of Business Bankruptcies - Alberta***,18.0,count,absolute,business,
+2024-11-01,ei_recipients_alberta,"Employment insurance Alberta - Number of recipients 
+(15 years and over), seasonally adjusted",53890.0,persons,absolute,labour,3.059858481545219
+2024-11-01,ei_recipients_calgary,"Employment insurance Calgary - Number of recipients 
+(15 years and over), seasonally adjusted",16610.0,persons,absolute,labour,1.0955569080949523
+2024-11-01,employment,Employment - CER (Person  - 000s)†,1013.0,thousands,absolute,labour,
+2024-11-01,gdp_growth_canada,Canada's Real GDP growth % (Chained 2012 dollar)***,1.8352767927312774,percentage,rate,economy,
+2024-11-01,housing_starts,Housing Starts - Calgary CMA,2548.0,units,absolute,housing,
+2024-11-01,inflation_rate_calgary,"Inflation Rate - Calgary CMA Note 1  (y/y, %)",3.037522334723053,percentage,rate,economy,
+2024-11-01,inflation_rate_canada,"Inflation Rate  - Canada Note 1 (y/y, %)",1.8891687657430767,percentage,rate,economy,2.798768541841601
+2024-11-01,manufacturing_sales_alberta,"Manufacturing Sales - Alberta, seasonally adjusted ($billions)",8.641066,billions,absolute,business,
+2024-11-01,mls_average_price,City of Calgary Residential Average Price MLS ($thousands) Note 3,615.668,thousands,absolute,housing,
+2024-11-01,mls_sales_to_listings,City of Calgary Residential Sales-to-New Listings Ratio MLS Note 3,77.05199828104855,percentage,rate,housing,
+2024-11-01,mls_unit_sales,City of Calgary Residential Unit Sales MLS Note 3,1793.0,units,absolute,housing,
+2024-11-01,natural_gas_price,Alberta Natural Gas (Cdn$/GJ)****,1.6188,CAD/GJ,absolute,energy,
+2024-11-01,oil_price_wti,West Texas Intermediate ($US/bbl),69.95,USD/barrel,absolute,energy,
+2024-11-01,population,City of Calgary Population Estimate (000s)††,1540.6,thousands,absolute,demographics,
+2024-11-01,prime_lending_rate,Prime Lending Rate - Bank of Canada (%),5.95,percentage,rate,economy,
+2024-11-01,retail_sales_alberta,"Retail Sales - Alberta, seasonally adjusted ($billions) Note 2",8.825587,billions,absolute,consumer,
+2024-11-01,retail_sales_calgary,"Retail Sales - Calgary CER, seasonally adjusted ($billions) Note 2",3.73730550978159,billions,absolute,consumer,
+2024-11-01,unemployment_rate,Unemployment Rate - Calgary Economic Region (CER) (%)†,7.400000000000001,percentage,rate,labour,
+2024-11-01,unemployment_rate_canada,Unemployment Rate - Canada (%)†,6.2,percentage,rate,labour,
+2024-11-01,wholesale_sales_alberta,"Wholesale Sales - Alberta, seasonally adjusted ($billions) Note 4",30.98513649118584,billions,absolute,business,
+2024-12-01,avg_hourly_wage_alberta,Average Hourly Wage Rate - Alberta (y/y % change),2.1824286513710156,percentage,yoy_change,labour,5.190930677410388
+2024-12-01,avg_hourly_wage_calgary,Average Hourly Wage Rate - Calgary CER (y/y % change),4.607046070460719,percentage,yoy_change,labour,4.42004911165681
+2024-12-01,avg_weekly_earnings_alberta,"Average Weekly Earnings** - Alberta (SEPH incl. overtime,y/y % change)",5.190930677410388,percentage,yoy_change,labour,4.607046070460719
+2024-12-01,avg_weekly_wage_calgary,Average Weekly Wage Rate  - Calgary CER (y/y % change),4.42004911165681,percentage,yoy_change,labour,
+2024-12-01,bank_of_canada_rate,Bank of Canada Interest Rate (%),3.5000000000000004,percentage,rate,economy,
+2024-12-01,bankruptcies_personal,Number of Personal Bankruptcies - Alberta***,179.0,count,absolute,consumer,
+2024-12-01,building_permits_value,City of Calgary Total Value of Building Permits ($millions) Note 5,836.7275527599999,millions,absolute,housing,
+2024-12-01,business_bankruptcies,Number of Business Bankruptcies - Alberta***,8.0,count,absolute,business,
+2024-12-01,ei_recipients_alberta,"Employment insurance Alberta - Number of recipients 
+(15 years and over), seasonally adjusted",55020.0,persons,absolute,labour,2.381838481577958
+2024-12-01,ei_recipients_calgary,"Employment insurance Calgary - Number of recipients 
+(15 years and over), seasonally adjusted",17170.0,persons,absolute,labour,2.263251935676003
+2024-12-01,employment,Employment - CER (Person  - 000s)†,1025.8,thousands,absolute,labour,
+2024-12-01,gdp_growth_canada,Canada's Real GDP growth % (Chained 2012 dollar)***,2.197223363416101,percentage,rate,economy,
+2024-12-01,housing_starts,Housing Starts - Calgary CMA,1717.0,units,absolute,housing,
+2024-12-01,inflation_rate_calgary,"Inflation Rate - Calgary CMA Note 1  (y/y, %)",2.3724792408066353,percentage,rate,economy,
+2024-12-01,inflation_rate_canada,"Inflation Rate  - Canada Note 1 (y/y, %)",1.831964624131377,percentage,rate,economy,2.1824286513710156
+2024-12-01,manufacturing_sales_alberta,"Manufacturing Sales - Alberta, seasonally adjusted ($billions)",8.80754,billions,absolute,business,
+2024-12-01,mls_average_price,City of Calgary Residential Average Price MLS ($thousands) Note 3,605.076,thousands,absolute,housing,
+2024-12-01,mls_sales_to_listings,City of Calgary Residential Sales-to-New Listings Ratio MLS Note 3,106.46203554119546,percentage,rate,housing,
+2024-12-01,mls_unit_sales,City of Calgary Residential Unit Sales MLS Note 3,1318.0,units,absolute,housing,
+2024-12-01,natural_gas_price,Alberta Natural Gas (Cdn$/GJ)****,1.9154,CAD/GJ,absolute,energy,
+2024-12-01,oil_price_wti,West Texas Intermediate ($US/bbl),70.12,USD/barrel,absolute,energy,
+2024-12-01,population,City of Calgary Population Estimate (000s)††,1545.0,thousands,absolute,demographics,
+2024-12-01,prime_lending_rate,Prime Lending Rate - Bank of Canada (%),5.45,percentage,rate,economy,
+2024-12-01,retail_sales_alberta,"Retail Sales - Alberta, seasonally adjusted ($billions) Note 2",8.964586,billions,absolute,consumer,
+2024-12-01,retail_sales_calgary,"Retail Sales - Calgary CER, seasonally adjusted ($billions) Note 2",3.81820556365884,billions,absolute,consumer,
+2024-12-01,unemployment_rate,Unemployment Rate - Calgary Economic Region (CER) (%)†,7.400000000000001,percentage,rate,labour,
+2024-12-01,unemployment_rate_canada,Unemployment Rate - Canada (%)†,6.2,percentage,rate,labour,
+2024-12-01,wholesale_sales_alberta,"Wholesale Sales - Alberta, seasonally adjusted ($billions) Note 4",32.76965128576213,billions,absolute,business,
+2025-01-01,avg_hourly_wage_alberta,Average Hourly Wage Rate - Alberta (y/y % change),3.2357906584130625,percentage,yoy_change,labour,6.028338197942684
+2025-01-01,avg_hourly_wage_calgary,Average Hourly Wage Rate - Calgary CER (y/y % change),4.336043360433606,percentage,yoy_change,labour,4.259943490545526
+2025-01-01,avg_weekly_earnings_alberta,"Average Weekly Earnings** - Alberta (SEPH incl. overtime,y/y % change)",6.028338197942684,percentage,yoy_change,labour,4.336043360433606
+2025-01-01,avg_weekly_wage_calgary,Average Weekly Wage Rate  - Calgary CER (y/y % change),4.259943490545526,percentage,yoy_change,labour,
+2025-01-01,bank_of_canada_rate,Bank of Canada Interest Rate (%),3.5000000000000004,percentage,rate,economy,
+2025-01-01,bankruptcies_personal,Number of Personal Bankruptcies - Alberta***,186.0,count,absolute,consumer,
+2025-01-01,building_permits_value,City of Calgary Total Value of Building Permits ($millions) Note 5,395.27398378,millions,absolute,housing,
+2025-01-01,business_bankruptcies,Number of Business Bankruptcies - Alberta***,22.0,count,absolute,business,
+2025-01-01,ei_recipients_alberta,"Employment insurance Alberta - Number of recipients 
+(15 years and over), seasonally adjusted",54870.0,persons,absolute,labour,-0.651819663226505
+2025-01-01,ei_recipients_calgary,"Employment insurance Calgary - Number of recipients 
+(15 years and over), seasonally adjusted",17430.0,persons,absolute,labour,0.4610951008645614
+2025-01-01,employment,Employment - CER (Person  - 000s)†,1031.3,thousands,absolute,labour,
+2025-01-01,gdp_growth_canada,Canada's Real GDP growth % (Chained 2012 dollar)***,2.34072025869263,percentage,rate,economy,
+2025-01-01,housing_starts,Housing Starts - Calgary CMA,1629.0,units,absolute,housing,
+2025-01-01,inflation_rate_calgary,"Inflation Rate - Calgary CMA Note 1  (y/y, %)",2.667457024303488,percentage,rate,economy,
+2025-01-01,inflation_rate_canada,"Inflation Rate  - Canada Note 1 (y/y, %)",1.8951358180669509,percentage,rate,economy,3.2357906584130625
+2025-01-01,manufacturing_sales_alberta,"Manufacturing Sales - Alberta, seasonally adjusted ($billions)",8.978166,billions,absolute,business,
+2025-01-01,mls_average_price,City of Calgary Residential Average Price MLS ($thousands) Note 3,604.961,thousands,absolute,housing,
+2025-01-01,mls_sales_to_listings,City of Calgary Residential Sales-to-New Listings Ratio MLS Note 3,50.03453038674033,percentage,rate,housing,
+2025-01-01,mls_unit_sales,City of Calgary Residential Unit Sales MLS Note 3,1449.0,units,absolute,housing,
+2025-01-01,natural_gas_price,Alberta Natural Gas (Cdn$/GJ)****,1.9305,CAD/GJ,absolute,energy,
+2025-01-01,oil_price_wti,West Texas Intermediate ($US/bbl),75.74,USD/barrel,absolute,energy,
+2025-01-01,population,City of Calgary Population Estimate (000s)††,1549.4,thousands,absolute,demographics,
+2025-01-01,prime_lending_rate,Prime Lending Rate - Bank of Canada (%),5.45,percentage,rate,economy,
+2025-01-01,retail_sales_alberta,"Retail Sales - Alberta, seasonally adjusted ($billions) Note 2",9.073551,billions,absolute,consumer,
+2025-01-01,retail_sales_calgary,"Retail Sales - Calgary CER, seasonally adjusted ($billions) Note 2",3.857012425604142,billions,absolute,consumer,
+2025-01-01,unemployment_rate,Unemployment Rate - Calgary Economic Region (CER) (%)†,7.400000000000001,percentage,rate,labour,
+2025-01-01,unemployment_rate_canada,Unemployment Rate - Canada (%)†,6.6000000000000005,percentage,rate,labour,
+2025-01-01,wholesale_sales_alberta,"Wholesale Sales - Alberta, seasonally adjusted ($billions) Note 4",34.60607070308813,billions,absolute,business,
+2025-02-01,avg_hourly_wage_alberta,Average Hourly Wage Rate - Alberta (y/y % change),2.6111111111110974,percentage,yoy_change,labour,6.7303163209547545
+2025-02-01,avg_hourly_wage_calgary,Average Hourly Wage Rate - Calgary CER (y/y % change),4.043126684636111,percentage,yoy_change,labour,3.67098689450438
+2025-02-01,avg_weekly_earnings_alberta,"Average Weekly Earnings** - Alberta (SEPH incl. overtime,y/y % change)",6.7303163209547545,percentage,yoy_change,labour,4.043126684636111
+2025-02-01,avg_weekly_wage_calgary,Average Weekly Wage Rate  - Calgary CER (y/y % change),3.67098689450438,percentage,yoy_change,labour,
+2025-02-01,bank_of_canada_rate,Bank of Canada Interest Rate (%),3.25,percentage,rate,economy,
+2025-02-01,bankruptcies_personal,Number of Personal Bankruptcies - Alberta***,181.0,count,absolute,consumer,
+2025-02-01,building_permits_value,City of Calgary Total Value of Building Permits ($millions) Note 5,649.80982771,millions,absolute,housing,
+2025-02-01,business_bankruptcies,Number of Business Bankruptcies - Alberta***,32.0,count,absolute,business,
+2025-02-01,ei_recipients_alberta,"Employment insurance Alberta - Number of recipients 
+(15 years and over), seasonally adjusted",56760.0,persons,absolute,labour,4.839305504248248
+2025-02-01,ei_recipients_calgary,"Employment insurance Calgary - Number of recipients 
+(15 years and over), seasonally adjusted",18090.0,persons,absolute,labour,6.286721504112802
+2025-02-01,employment,Employment - CER (Person  - 000s)†,1036.8,thousands,absolute,labour,
+2025-02-01,gdp_growth_canada,Canada's Real GDP growth % (Chained 2012 dollar)***,1.5652391518770514,percentage,rate,economy,
+2025-02-01,housing_starts,Housing Starts - Calgary CMA,2407.0,units,absolute,housing,
+2025-02-01,inflation_rate_calgary,"Inflation Rate - Calgary CMA Note 1  (y/y, %)",2.8268551236749095,percentage,rate,economy,
+2025-02-01,inflation_rate_canada,"Inflation Rate  - Canada Note 1 (y/y, %)",2.644836272040285,percentage,rate,economy,2.6111111111110974
+2025-02-01,manufacturing_sales_alberta,"Manufacturing Sales - Alberta, seasonally adjusted ($billions)",8.66462,billions,absolute,business,
+2025-02-01,mls_average_price,City of Calgary Residential Average Price MLS ($thousands) Note 3,612.434,thousands,absolute,housing,
+2025-02-01,mls_sales_to_listings,City of Calgary Residential Sales-to-New Listings Ratio MLS Note 3,60.74204946996466,percentage,rate,housing,
+2025-02-01,mls_unit_sales,City of Calgary Residential Unit Sales MLS Note 3,1719.0,units,absolute,housing,
+2025-02-01,natural_gas_price,Alberta Natural Gas (Cdn$/GJ)****,2.0715,CAD/GJ,absolute,energy,
+2025-02-01,oil_price_wti,West Texas Intermediate ($US/bbl),71.53,USD/barrel,absolute,energy,
+2025-02-01,population,City of Calgary Population Estimate (000s)††,1553.8,thousands,absolute,demographics,
+2025-02-01,prime_lending_rate,Prime Lending Rate - Bank of Canada (%),5.2,percentage,rate,economy,
+2025-02-01,retail_sales_alberta,"Retail Sales - Alberta, seasonally adjusted ($billions) Note 2",9.025926,billions,absolute,consumer,
+2025-02-01,retail_sales_calgary,"Retail Sales - Calgary CER, seasonally adjusted ($billions) Note 2",3.8391154712831272,billions,absolute,consumer,
+2025-02-01,unemployment_rate,Unemployment Rate - Calgary Economic Region (CER) (%)†,7.200000000000001,percentage,rate,labour,
+2025-02-01,unemployment_rate_canada,Unemployment Rate - Canada (%)†,6.6000000000000005,percentage,rate,labour,
+2025-02-01,wholesale_sales_alberta,"Wholesale Sales - Alberta, seasonally adjusted ($billions) Note 4",30.9419088747549,billions,absolute,business,
+2025-03-01,avg_hourly_wage_alberta,Average Hourly Wage Rate - Alberta (y/y % change),2.433628318584069,percentage,yoy_change,labour,6.272174620568416
+2025-03-01,avg_hourly_wage_calgary,Average Hourly Wage Rate - Calgary CER (y/y % change),3.7135278514588865,percentage,yoy_change,labour,3.768178236263342
+2025-03-01,avg_weekly_earnings_alberta,"Average Weekly Earnings** - Alberta (SEPH incl. overtime,y/y % change)",6.272174620568416,percentage,yoy_change,labour,3.7135278514588865
+2025-03-01,avg_weekly_wage_calgary,Average Weekly Wage Rate  - Calgary CER (y/y % change),3.768178236263342,percentage,yoy_change,labour,
+2025-03-01,bank_of_canada_rate,Bank of Canada Interest Rate (%),3.0,percentage,rate,economy,
+2025-03-01,bankruptcies_personal,Number of Personal Bankruptcies - Alberta***,238.0,count,absolute,consumer,
+2025-03-01,building_permits_value,City of Calgary Total Value of Building Permits ($millions) Note 5,680.89649958,millions,absolute,housing,
+2025-03-01,business_bankruptcies,Number of Business Bankruptcies - Alberta***,20.0,count,absolute,business,
+2025-03-01,ei_recipients_alberta,"Employment insurance Alberta - Number of recipients 
+(15 years and over), seasonally adjusted",57710.0,persons,absolute,labour,8.192725909261345
+2025-03-01,ei_recipients_calgary,"Employment insurance Calgary - Number of recipients 
+(15 years and over), seasonally adjusted",18520.0,persons,absolute,labour,9.650680876258132
+2025-03-01,employment,Employment - CER (Person  - 000s)†,1023.0,thousands,absolute,labour,
+2025-03-01,gdp_growth_canada,Canada's Real GDP growth % (Chained 2012 dollar)***,1.6844961663359026,percentage,rate,economy,
+2025-03-01,housing_starts,Housing Starts - Calgary CMA,2235.0,units,absolute,housing,
+2025-03-01,inflation_rate_calgary,"Inflation Rate - Calgary CMA Note 1  (y/y, %)",3.0000000000000027,percentage,rate,economy,
+2025-03-01,inflation_rate_canada,"Inflation Rate  - Canada Note 1 (y/y, %)",2.3153942428034924,percentage,rate,economy,2.433628318584069
+2025-03-01,manufacturing_sales_alberta,"Manufacturing Sales - Alberta, seasonally adjusted ($billions)",8.430058,billions,absolute,business,
+2025-03-01,mls_average_price,City of Calgary Residential Average Price MLS ($thousands) Note 3,639.698,thousands,absolute,housing,
+2025-03-01,mls_sales_to_listings,City of Calgary Residential Sales-to-New Listings Ratio MLS Note 3,53.67006718089077,percentage,rate,housing,
+2025-03-01,mls_unit_sales,City of Calgary Residential Unit Sales MLS Note 3,2157.0,units,absolute,housing,
+2025-03-01,natural_gas_price,Alberta Natural Gas (Cdn$/GJ)****,1.9519,CAD/GJ,absolute,energy,
+2025-03-01,oil_price_wti,West Texas Intermediate ($US/bbl),68.24,USD/barrel,absolute,energy,
+2025-03-01,population,City of Calgary Population Estimate (000s)††,1558.2,thousands,absolute,demographics,
+2025-03-01,prime_lending_rate,Prime Lending Rate - Bank of Canada (%),4.95,percentage,rate,economy,
+2025-03-01,retail_sales_alberta,"Retail Sales - Alberta, seasonally adjusted ($billions) Note 2",9.100661,billions,absolute,consumer,
+2025-03-01,retail_sales_calgary,"Retail Sales - Calgary CER, seasonally adjusted ($billions) Note 2",3.8752979720246596,billions,absolute,consumer,
+2025-03-01,unemployment_rate,Unemployment Rate - Calgary Economic Region (CER) (%)†,7.7,percentage,rate,labour,
+2025-03-01,unemployment_rate_canada,Unemployment Rate - Canada (%)†,6.9,percentage,rate,labour,
+2025-03-01,wholesale_sales_alberta,"Wholesale Sales - Alberta, seasonally adjusted ($billions) Note 4",31.845560708064856,billions,absolute,business,
+2025-04-01,avg_hourly_wage_alberta,Average Hourly Wage Rate - Alberta (y/y % change),0.13642564802183177,percentage,yoy_change,labour,
+2025-04-01,avg_hourly_wage_calgary,Average Hourly Wage Rate - Calgary CER (y/y % change),2.349869451697151,percentage,yoy_change,labour,1.8066783831282907
+2025-04-01,avg_weekly_wage_calgary,Average Weekly Wage Rate  - Calgary CER (y/y % change),1.8066783831282907,percentage,yoy_change,labour,
+2025-04-01,bank_of_canada_rate,Bank of Canada Interest Rate (%),3.0,percentage,rate,economy,
+2025-04-01,bankruptcies_personal,Number of Personal Bankruptcies - Alberta***,251.0,count,absolute,consumer,
+2025-04-01,building_permits_value,City of Calgary Total Value of Building Permits ($millions) Note 5,739.80303211,millions,absolute,housing,
+2025-04-01,business_bankruptcies,Number of Business Bankruptcies - Alberta***,13.0,count,absolute,business,
+2025-04-01,employment,Employment - CER (Person  - 000s)†,1021.6,thousands,absolute,labour,
+2025-04-01,housing_starts,Housing Starts - Calgary CMA,3102.0,units,absolute,housing,
+2025-04-01,inflation_rate_calgary,"Inflation Rate - Calgary CMA Note 1  (y/y, %)",1.574344023323615,percentage,rate,economy,
+2025-04-01,inflation_rate_canada,"Inflation Rate  - Canada Note 1 (y/y, %)",1.7434620174346271,percentage,rate,economy,0.13642564802183177
+2025-04-01,mls_average_price,City of Calgary Residential Average Price MLS ($thousands) Note 3,646.743,thousands,absolute,housing,
+2025-04-01,mls_sales_to_listings,City of Calgary Residential Sales-to-New Listings Ratio MLS Note 3,55.373947498761765,percentage,rate,housing,
+2025-04-01,mls_unit_sales,City of Calgary Residential Unit Sales MLS Note 3,2236.0,units,absolute,housing,
+2025-04-01,natural_gas_price,Alberta Natural Gas (Cdn$/GJ)****,2.1023,CAD/GJ,absolute,energy,
+2025-04-01,oil_price_wti,West Texas Intermediate ($US/bbl),63.54,USD/barrel,absolute,energy,
+2025-04-01,population,City of Calgary Population Estimate (000s)††,1562.6,thousands,absolute,demographics,
+2025-04-01,prime_lending_rate,Prime Lending Rate - Bank of Canada (%),4.95,percentage,rate,economy,
+2025-04-01,unemployment_rate,Unemployment Rate - Calgary Economic Region (CER) (%)†,7.8,percentage,rate,labour,
+2025-04-01,unemployment_rate_canada,Unemployment Rate - Canada (%)†,6.9,percentage,rate,labour,
+2025-05-01,avg_hourly_wage_alberta,Average Hourly Wage Rate - Alberta (y/y % change),0.49193768789286274,percentage,yoy_change,labour,
+2025-05-01,avg_hourly_wage_calgary,Average Hourly Wage Rate - Calgary CER (y/y % change),0.7731958762886793,percentage,yoy_change,labour,-0.09661835748793202
+2025-05-01,avg_weekly_wage_calgary,Average Weekly Wage Rate  - Calgary CER (y/y % change),-0.09661835748793202,percentage,yoy_change,labour,
+2025-05-01,bank_of_canada_rate,Bank of Canada Interest Rate (%),3.0,percentage,rate,economy,
+2025-05-01,building_permits_value,City of Calgary Total Value of Building Permits ($millions) Note 5,764.1285989899999,millions,absolute,housing,
+2025-05-01,employment,Employment - CER (Person  - 000s)†,1034.0,thousands,absolute,labour,
+2025-05-01,mls_average_price,City of Calgary Residential Average Price MLS ($thousands) Note 3,649.268,thousands,absolute,housing,
+2025-05-01,mls_sales_to_listings,City of Calgary Residential Sales-to-New Listings Ratio MLS Note 3,53.03593556381661,percentage,rate,housing,
+2025-05-01,mls_unit_sales,City of Calgary Residential Unit Sales MLS Note 3,2568.0,units,absolute,housing,
+2025-05-01,natural_gas_price,Alberta Natural Gas (Cdn$/GJ)****,1.9653,CAD/GJ,absolute,energy,
+2025-05-01,oil_price_wti,West Texas Intermediate ($US/bbl),62.17,USD/barrel,absolute,energy,
+2025-05-01,population,City of Calgary Population Estimate (000s)††,1567.7133839773423,thousands,absolute,demographics,
+2025-05-01,prime_lending_rate,Prime Lending Rate - Bank of Canada (%),4.95,percentage,rate,economy,
+2025-05-01,unemployment_rate,Unemployment Rate - Calgary Economic Region (CER) (%)†,8.1,percentage,rate,labour,
+2025-05-01,unemployment_rate_canada,Unemployment Rate - Canada (%)†,7.000000000000001,percentage,rate,labour,

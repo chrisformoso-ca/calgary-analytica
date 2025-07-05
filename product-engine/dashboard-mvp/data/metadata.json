@@ -1,0 +1,389 @@
+{
+  "metadata": {
+    "generated_at": "2025-07-04T21:16:05.205075",
+    "version": "1.0",
+    "dashboard_version": "MVP 1.0",
+    "environment": "production"
+  },
+  "data_freshness": {
+    "housing_city": {
+      "latest_date": "2025-05",
+      "months_available": 29,
+      "days_old": 64
+    },
+    "housing_district": {
+      "latest_date": "2025-05-01",
+      "months_available": 17,
+      "days_old": 64
+    },
+    "economic_indicators": {
+      "latest_date": "2025-05-01",
+      "indicator_count": 43,
+      "days_old": 64,
+      "stale_indicators": [
+        {
+          "indicator": "West Texas Intermediate ($US/bbl)",
+          "last_updated": "2025-05-01",
+          "days_old": 64
+        },
+        {
+          "indicator": "Unemployment Rate - Canada (%)\u2020",
+          "last_updated": "2025-05-01",
+          "days_old": 64
+        },
+        {
+          "indicator": "Unemployment Rate - Calgary Economic Region (CER) (%)\u2020",
+          "last_updated": "2025-05-01",
+          "days_old": 64
+        },
+        {
+          "indicator": "Prime Lending Rate - Bank of Canada (%)",
+          "last_updated": "2025-05-01",
+          "days_old": 64
+        },
+        {
+          "indicator": "Employment - CER (Person  - 000s)\u2020",
+          "last_updated": "2025-05-01",
+          "days_old": 64
+        },
+        {
+          "indicator": "City of Calgary Total Value of Building Permits ($millions) Note 5",
+          "last_updated": "2025-05-01",
+          "days_old": 64
+        },
+        {
+          "indicator": "City of Calgary Residential Unit Sales MLS Note 3",
+          "last_updated": "2025-05-01",
+          "days_old": 64
+        },
+        {
+          "indicator": "City of Calgary Residential Sales-to-New Listings Ratio MLS Note 3",
+          "last_updated": "2025-05-01",
+          "days_old": 64
+        },
+        {
+          "indicator": "City of Calgary Residential Average Price MLS ($thousands) Note 3",
+          "last_updated": "2025-05-01",
+          "days_old": 64
+        },
+        {
+          "indicator": "City of Calgary Population Estimate (000s)\u2020\u2020",
+          "last_updated": "2025-05-01",
+          "days_old": 64
+        },
+        {
+          "indicator": "Bank of Canada Interest Rate (%)",
+          "last_updated": "2025-05-01",
+          "days_old": 64
+        },
+        {
+          "indicator": "Average Weekly Wage Rate  - Calgary CER (y/y % change)",
+          "last_updated": "2025-05-01",
+          "days_old": 64
+        },
+        {
+          "indicator": "Average Hourly Wage Rate - Calgary CER (y/y % change)",
+          "last_updated": "2025-05-01",
+          "days_old": 64
+        },
+        {
+          "indicator": "Average Hourly Wage Rate - Alberta (y/y % change)",
+          "last_updated": "2025-05-01",
+          "days_old": 64
+        },
+        {
+          "indicator": "Alberta Natural Gas (Cdn$/GJ)****",
+          "last_updated": "2025-05-01",
+          "days_old": 64
+        },
+        {
+          "indicator": "Number of Personal Bankruptcies - Alberta***",
+          "last_updated": "2025-04-01",
+          "days_old": 94
+        },
+        {
+          "indicator": "Number of Business Bankruptcies - Alberta***",
+          "last_updated": "2025-04-01",
+          "days_old": 94
+        },
+        {
+          "indicator": "Inflation Rate - Calgary CMA Note 1  (y/y, %)",
+          "last_updated": "2025-04-01",
+          "days_old": 94
+        },
+        {
+          "indicator": "Inflation Rate  - Canada Note 1 (y/y, %)",
+          "last_updated": "2025-04-01",
+          "days_old": 94
+        },
+        {
+          "indicator": "Housing Starts - Calgary CMA",
+          "last_updated": "2025-04-01",
+          "days_old": 94
+        },
+        {
+          "indicator": "Wholesale Sales - Alberta, seasonally adjusted ($billions) Note 4",
+          "last_updated": "2025-03-01",
+          "days_old": 125
+        },
+        {
+          "indicator": "Retail Sales - Calgary CER, seasonally adjusted ($billions) Note 2",
+          "last_updated": "2025-03-01",
+          "days_old": 125
+        },
+        {
+          "indicator": "Retail Sales - Alberta, seasonally adjusted ($billions) Note 2",
+          "last_updated": "2025-03-01",
+          "days_old": 125
+        },
+        {
+          "indicator": "Manufacturing Sales - Alberta, seasonally adjusted ($billions)",
+          "last_updated": "2025-03-01",
+          "days_old": 125
+        },
+        {
+          "indicator": "Employment insurance Calgary - Number of recipients \n(15 years and over), seasonally adjusted",
+          "last_updated": "2025-03-01",
+          "days_old": 125
+        },
+        {
+          "indicator": "Employment insurance Alberta - Number of recipients \n(15 years and over), seasonally adjusted",
+          "last_updated": "2025-03-01",
+          "days_old": 125
+        },
+        {
+          "indicator": "Canada's Real GDP growth % (Chained 2012 dollar)***",
+          "last_updated": "2025-03-01",
+          "days_old": 125
+        },
+        {
+          "indicator": "Average Weekly Earnings** - Alberta (SEPH incl. overtime,y/y % change)",
+          "last_updated": "2025-03-01",
+          "days_old": 125
+        },
+        {
+          "indicator": "Wholesale Sales - Alberta, seasonally adjusted ($billions) Note 5",
+          "last_updated": "2022-12-01",
+          "days_old": 946
+        },
+        {
+          "indicator": "Retail Sales - Calgary CER, seasonally adjusted ($billions) Note 3",
+          "last_updated": "2022-12-01",
+          "days_old": 946
+        },
+        {
+          "indicator": "Retail Sales - Alberta, seasonally adjusted ($billions) Note 3",
+          "last_updated": "2022-12-01",
+          "days_old": 946
+        },
+        {
+          "indicator": "Inflation Rate - Calgary CMANote 2  (y/y, %)",
+          "last_updated": "2022-12-01",
+          "days_old": 946
+        },
+        {
+          "indicator": "Inflation Rate  - CanadaNote 2 (y/y, %)",
+          "last_updated": "2022-12-01",
+          "days_old": 946
+        },
+        {
+          "indicator": "Employment insurance Calgary - Number of recipients \n(15 years and over), seasonally adjusted *  Note 1",
+          "last_updated": "2022-12-01",
+          "days_old": 946
+        },
+        {
+          "indicator": "Employment insurance Alberta - Number of recipients \n(15 years and over), seasonally adjusted *  Note 1",
+          "last_updated": "2022-12-01",
+          "days_old": 946
+        },
+        {
+          "indicator": "City of Calgary Total Value of Building Permits ($millions) Note 6",
+          "last_updated": "2022-12-01",
+          "days_old": 946
+        },
+        {
+          "indicator": "City of Calgary Residential Unit Sales MLS Note 4",
+          "last_updated": "2022-12-01",
+          "days_old": 946
+        },
+        {
+          "indicator": "City of Calgary Residential Sales-to-New Listings Ratio MLS Note 4",
+          "last_updated": "2022-12-01",
+          "days_old": 946
+        },
+        {
+          "indicator": "City of Calgary Residential Average Price MLS ($thousands) Note 4",
+          "last_updated": "2022-12-01",
+          "days_old": 946
+        },
+        {
+          "indicator": "Wholesale Sales - Alberta, seasonally adjusted ($billions)",
+          "last_updated": "2021-12-01",
+          "days_old": 1311
+        },
+        {
+          "indicator": "Retail Sales - Calgary CER, seasonally adjusted ($billions)",
+          "last_updated": "2021-12-01",
+          "days_old": 1311
+        },
+        {
+          "indicator": "Retail Sales - Alberta, seasonally adjusted ($billions)",
+          "last_updated": "2021-12-01",
+          "days_old": 1311
+        },
+        {
+          "indicator": "City of Calgary Total Value of Building Permits ($millions)",
+          "last_updated": "2021-12-01",
+          "days_old": 1311
+        }
+      ]
+    }
+  },
+  "data_quality": {
+    "housing_completeness": {
+      "expected_records": 12,
+      "actual_records": 12,
+      "completeness_percent": 100.0
+    },
+    "extraction_confidence": {
+      "average": 1.0,
+      "minimum": 1.0,
+      "low_confidence_records": 0
+    }
+  },
+  "exported_files": {
+    "district_data": {
+      "filename": "district_data.json",
+      "size_bytes": 57637,
+      "size_formatted": "56.3 KB",
+      "last_modified": "2025-07-04T21:16:05.105096",
+      "exists": true
+    },
+    "crime_statistics": {
+      "filename": "crime_statistics.json",
+      "size_bytes": 14852,
+      "size_formatted": "14.5 KB",
+      "last_modified": "2025-07-04T21:15:48.293257",
+      "exists": true
+    },
+    "rental_market": {
+      "filename": "rental_market.json",
+      "size_bytes": 25460,
+      "size_formatted": "24.9 KB",
+      "last_modified": "2025-07-04T21:15:15.592252",
+      "exists": true
+    },
+    "economic_indicators": {
+      "filename": "economic_indicators.json",
+      "size_bytes": 43716,
+      "size_formatted": "42.7 KB",
+      "last_modified": "2025-07-04T21:16:05.046507",
+      "exists": true
+    },
+    "market_overview": {
+      "filename": "market_overview.json",
+      "size_bytes": 10565,
+      "size_formatted": "10.3 KB",
+      "last_modified": "2025-07-04T21:16:04.987918",
+      "exists": true
+    },
+    "rate_data": {
+      "filename": "rate_data.json",
+      "size_bytes": 13558,
+      "size_formatted": "13.2 KB",
+      "last_modified": "2025-07-04T21:16:05.155315",
+      "exists": true
+    },
+    "service_requests_311": {
+      "filename": "service_requests_311.json",
+      "size_bytes": 13691,
+      "size_formatted": "13.4 KB",
+      "last_modified": "2025-07-04T21:12:58.988068",
+      "exists": true
+    }
+  },
+  "data_sources": {
+    "housing_data": {
+      "provider": "Calgary Real Estate Board (CREB)",
+      "url": "https://www.creb.ca/",
+      "update_frequency": "Monthly",
+      "typical_release": "5th of each month",
+      "license": "CREB data used with permission"
+    },
+    "economic_indicators": {
+      "provider": "City of Calgary Economic Development",
+      "url": "https://www.calgaryeconomicdevelopment.com/",
+      "update_frequency": "Monthly",
+      "typical_release": "Mid-month",
+      "license": "Public data"
+    },
+    "interest_rates": {
+      "provider": "Bank of Canada",
+      "url": "https://www.bankofcanada.ca/",
+      "update_frequency": "8 times per year",
+      "license": "Public data"
+    },
+    "mortgage_rates": {
+      "provider": "Manual collection from major banks",
+      "update_frequency": "Monthly manual update",
+      "note": "Pending automated data source"
+    }
+  },
+  "update_schedule": {
+    "monthly_updates": {
+      "target_date": "5th of each month",
+      "components": [
+        "CREB housing data",
+        "Economic indicators",
+        "District data"
+      ]
+    },
+    "manual_updates": {
+      "frequency": "As needed",
+      "components": [
+        "Mortgage rates",
+        "Money supply (M2)",
+        "Wage growth data"
+      ]
+    },
+    "next_scheduled_update": "2025-07-05"
+  },
+  "known_issues": [
+    {
+      "issue": "Missing wage growth data",
+      "impact": "Economic context incomplete",
+      "resolution": "Update economic extractor to capture wage indicators",
+      "status": "pending"
+    },
+    {
+      "issue": "Manual mortgage rate updates",
+      "impact": "Rates may be outdated",
+      "resolution": "Integrate with bank API or rate aggregator",
+      "status": "investigating"
+    },
+    {
+      "issue": "No money supply (M2) data",
+      "impact": "Missing monetary context",
+      "resolution": "Add Bank of Canada M2 data source",
+      "status": "planned"
+    }
+  ],
+  "api_endpoints": {
+    "note": "Static JSON files served via web server",
+    "base_url": "/data/",
+    "files": [
+      "district_data",
+      "crime_statistics",
+      "rental_market",
+      "economic_indicators",
+      "market_overview",
+      "rate_data",
+      "service_requests_311"
+    ]
+  },
+  "contact": {
+    "maintainer": "Calgary Analytica",
+    "email": "support@calgaryanalytica.com",
+    "issues": "https://github.com/calgary-analytica/issues"
+  }
+}

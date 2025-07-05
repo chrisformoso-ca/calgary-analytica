@@ -1,0 +1,777 @@
+{
+  "metadata": {
+    "generated_at": "2025-07-04T21:16:05.448398",
+    "version": "1.0",
+    "data_coverage": "12 months",
+    "note": "Service request data indicates neighborhood maintenance and quality of life"
+  },
+  "summary": {
+    "total_requests_12mo": 316048,
+    "avg_monthly": 26337.3,
+    "category_count": 10,
+    "community_count": 313
+  },
+  "top_issues": [
+    {
+      "category": "Waste",
+      "total_requests_12mo": 86466,
+      "avg_monthly": 29.0
+    },
+    {
+      "category": "Infrastructure",
+      "total_requests_12mo": 66663,
+      "avg_monthly": 19.8
+    },
+    {
+      "category": "Parks/Trees",
+      "total_requests_12mo": 49869,
+      "avg_monthly": 16.0
+    },
+    {
+      "category": "Bylaw",
+      "total_requests_12mo": 35739,
+      "avg_monthly": 12.5
+    },
+    {
+      "category": "Snow/Ice",
+      "total_requests_12mo": 32124,
+      "avg_monthly": 11.2
+    },
+    {
+      "category": "Social Stress",
+      "total_requests_12mo": 13020,
+      "avg_monthly": 5.3
+    },
+    {
+      "category": "Transit",
+      "total_requests_12mo": 12637,
+      "avg_monthly": 5.5
+    },
+    {
+      "category": "Graffiti",
+      "total_requests_12mo": 10720,
+      "avg_monthly": 5.0
+    },
+    {
+      "category": "Encampments",
+      "total_requests_12mo": 8581,
+      "avg_monthly": 6.2
+    },
+    {
+      "category": "Derelict Properties",
+      "total_requests_12mo": 229,
+      "avg_monthly": 1.3
+    }
+  ],
+  "trends": {
+    "Bylaw": [
+      {
+        "date": "2024-07",
+        "count": 6745
+      },
+      {
+        "date": "2024-08",
+        "count": 4747
+      },
+      {
+        "date": "2024-09",
+        "count": 4890
+      },
+      {
+        "date": "2024-10",
+        "count": 2455
+      },
+      {
+        "date": "2024-11",
+        "count": 1671
+      },
+      {
+        "date": "2024-12",
+        "count": 1060
+      },
+      {
+        "date": "2025-01",
+        "count": 1461
+      },
+      {
+        "date": "2025-02",
+        "count": 1119
+      },
+      {
+        "date": "2025-03",
+        "count": 1525
+      },
+      {
+        "date": "2025-04",
+        "count": 2048
+      },
+      {
+        "date": "2025-05",
+        "count": 3363
+      },
+      {
+        "date": "2025-06",
+        "count": 4655
+      }
+    ],
+    "Derelict Properties": [
+      {
+        "date": "2024-07",
+        "count": 23
+      },
+      {
+        "date": "2024-08",
+        "count": 20
+      },
+      {
+        "date": "2024-09",
+        "count": 16
+      },
+      {
+        "date": "2024-10",
+        "count": 21
+      },
+      {
+        "date": "2024-11",
+        "count": 18
+      },
+      {
+        "date": "2024-12",
+        "count": 14
+      },
+      {
+        "date": "2025-01",
+        "count": 22
+      },
+      {
+        "date": "2025-02",
+        "count": 15
+      },
+      {
+        "date": "2025-03",
+        "count": 17
+      },
+      {
+        "date": "2025-04",
+        "count": 22
+      },
+      {
+        "date": "2025-05",
+        "count": 18
+      },
+      {
+        "date": "2025-06",
+        "count": 23
+      }
+    ],
+    "Encampments": [
+      {
+        "date": "2024-07",
+        "count": 1043
+      },
+      {
+        "date": "2024-08",
+        "count": 1105
+      },
+      {
+        "date": "2024-09",
+        "count": 1082
+      },
+      {
+        "date": "2024-10",
+        "count": 1096
+      },
+      {
+        "date": "2024-11",
+        "count": 624
+      },
+      {
+        "date": "2024-12",
+        "count": 258
+      },
+      {
+        "date": "2025-01",
+        "count": 305
+      },
+      {
+        "date": "2025-02",
+        "count": 162
+      },
+      {
+        "date": "2025-03",
+        "count": 520
+      },
+      {
+        "date": "2025-04",
+        "count": 769
+      },
+      {
+        "date": "2025-05",
+        "count": 909
+      },
+      {
+        "date": "2025-06",
+        "count": 708
+      }
+    ],
+    "Graffiti": [
+      {
+        "date": "2024-07",
+        "count": 958
+      },
+      {
+        "date": "2024-08",
+        "count": 955
+      },
+      {
+        "date": "2024-09",
+        "count": 864
+      },
+      {
+        "date": "2024-10",
+        "count": 974
+      },
+      {
+        "date": "2024-11",
+        "count": 700
+      },
+      {
+        "date": "2024-12",
+        "count": 799
+      },
+      {
+        "date": "2025-01",
+        "count": 980
+      },
+      {
+        "date": "2025-02",
+        "count": 765
+      },
+      {
+        "date": "2025-03",
+        "count": 993
+      },
+      {
+        "date": "2025-04",
+        "count": 1083
+      },
+      {
+        "date": "2025-05",
+        "count": 920
+      },
+      {
+        "date": "2025-06",
+        "count": 729
+      }
+    ],
+    "Infrastructure": [
+      {
+        "date": "2024-07",
+        "count": 7368
+      },
+      {
+        "date": "2024-08",
+        "count": 7124
+      },
+      {
+        "date": "2024-09",
+        "count": 7614
+      },
+      {
+        "date": "2024-10",
+        "count": 6295
+      },
+      {
+        "date": "2024-11",
+        "count": 4576
+      },
+      {
+        "date": "2024-12",
+        "count": 3445
+      },
+      {
+        "date": "2025-01",
+        "count": 3780
+      },
+      {
+        "date": "2025-02",
+        "count": 3549
+      },
+      {
+        "date": "2025-03",
+        "count": 4616
+      },
+      {
+        "date": "2025-04",
+        "count": 6184
+      },
+      {
+        "date": "2025-05",
+        "count": 6425
+      },
+      {
+        "date": "2025-06",
+        "count": 5687
+      }
+    ],
+    "Parks/Trees": [
+      {
+        "date": "2024-07",
+        "count": 7515
+      },
+      {
+        "date": "2024-08",
+        "count": 6425
+      },
+      {
+        "date": "2024-09",
+        "count": 4740
+      },
+      {
+        "date": "2024-10",
+        "count": 3624
+      },
+      {
+        "date": "2024-11",
+        "count": 2259
+      },
+      {
+        "date": "2024-12",
+        "count": 1569
+      },
+      {
+        "date": "2025-01",
+        "count": 2080
+      },
+      {
+        "date": "2025-02",
+        "count": 1561
+      },
+      {
+        "date": "2025-03",
+        "count": 2609
+      },
+      {
+        "date": "2025-04",
+        "count": 3683
+      },
+      {
+        "date": "2025-05",
+        "count": 6370
+      },
+      {
+        "date": "2025-06",
+        "count": 7434
+      }
+    ],
+    "Snow/Ice": [
+      {
+        "date": "2024-07",
+        "count": 1162
+      },
+      {
+        "date": "2024-08",
+        "count": 1144
+      },
+      {
+        "date": "2024-09",
+        "count": 969
+      },
+      {
+        "date": "2024-10",
+        "count": 1081
+      },
+      {
+        "date": "2024-11",
+        "count": 5902
+      },
+      {
+        "date": "2024-12",
+        "count": 7616
+      },
+      {
+        "date": "2025-01",
+        "count": 4345
+      },
+      {
+        "date": "2025-02",
+        "count": 4548
+      },
+      {
+        "date": "2025-03",
+        "count": 1689
+      },
+      {
+        "date": "2025-04",
+        "count": 1559
+      },
+      {
+        "date": "2025-05",
+        "count": 1257
+      },
+      {
+        "date": "2025-06",
+        "count": 852
+      }
+    ],
+    "Social Stress": [
+      {
+        "date": "2024-07",
+        "count": 1547
+      },
+      {
+        "date": "2024-08",
+        "count": 1355
+      },
+      {
+        "date": "2024-09",
+        "count": 1215
+      },
+      {
+        "date": "2024-10",
+        "count": 1098
+      },
+      {
+        "date": "2024-11",
+        "count": 808
+      },
+      {
+        "date": "2024-12",
+        "count": 780
+      },
+      {
+        "date": "2025-01",
+        "count": 808
+      },
+      {
+        "date": "2025-02",
+        "count": 636
+      },
+      {
+        "date": "2025-03",
+        "count": 989
+      },
+      {
+        "date": "2025-04",
+        "count": 1207
+      },
+      {
+        "date": "2025-05",
+        "count": 1457
+      },
+      {
+        "date": "2025-06",
+        "count": 1120
+      }
+    ],
+    "Transit": [
+      {
+        "date": "2024-07",
+        "count": 1152
+      },
+      {
+        "date": "2024-08",
+        "count": 1063
+      },
+      {
+        "date": "2024-09",
+        "count": 1678
+      },
+      {
+        "date": "2024-10",
+        "count": 1440
+      },
+      {
+        "date": "2024-11",
+        "count": 1118
+      },
+      {
+        "date": "2024-12",
+        "count": 835
+      },
+      {
+        "date": "2025-01",
+        "count": 1014
+      },
+      {
+        "date": "2025-02",
+        "count": 738
+      },
+      {
+        "date": "2025-03",
+        "count": 950
+      },
+      {
+        "date": "2025-04",
+        "count": 962
+      },
+      {
+        "date": "2025-05",
+        "count": 899
+      },
+      {
+        "date": "2025-06",
+        "count": 788
+      }
+    ],
+    "Waste": [
+      {
+        "date": "2024-07",
+        "count": 7808
+      },
+      {
+        "date": "2024-08",
+        "count": 7591
+      },
+      {
+        "date": "2024-09",
+        "count": 6573
+      },
+      {
+        "date": "2024-10",
+        "count": 7187
+      },
+      {
+        "date": "2024-11",
+        "count": 6273
+      },
+      {
+        "date": "2024-12",
+        "count": 5522
+      },
+      {
+        "date": "2025-01",
+        "count": 8306
+      },
+      {
+        "date": "2025-02",
+        "count": 5336
+      },
+      {
+        "date": "2025-03",
+        "count": 5774
+      },
+      {
+        "date": "2025-04",
+        "count": 8034
+      },
+      {
+        "date": "2025-05",
+        "count": 10371
+      },
+      {
+        "date": "2025-06",
+        "count": 7691
+      }
+    ]
+  },
+  "seasonal_patterns": {
+    "Bylaw": [
+      {
+        "month": 1,
+        "avg_requests": 6.2
+      },
+      {
+        "month": 2,
+        "avg_requests": 6.1
+      },
+      {
+        "month": 3,
+        "avg_requests": 7.7
+      },
+      {
+        "month": 4,
+        "avg_requests": 9.4
+      },
+      {
+        "month": 5,
+        "avg_requests": 12.8
+      },
+      {
+        "month": 6,
+        "avg_requests": 21.1
+      },
+      {
+        "month": 7,
+        "avg_requests": 19.6
+      },
+      {
+        "month": 8,
+        "avg_requests": 16.0
+      },
+      {
+        "month": 9,
+        "avg_requests": 12.3
+      },
+      {
+        "month": 10,
+        "avg_requests": 9.2
+      },
+      {
+        "month": 11,
+        "avg_requests": 6.8
+      },
+      {
+        "month": 12,
+        "avg_requests": 5.3
+      }
+    ],
+    "Snow/Ice": [
+      {
+        "month": 1,
+        "avg_requests": 30.4
+      },
+      {
+        "month": 2,
+        "avg_requests": 27.3
+      },
+      {
+        "month": 3,
+        "avg_requests": 23.7
+      },
+      {
+        "month": 4,
+        "avg_requests": 8.8
+      },
+      {
+        "month": 5,
+        "avg_requests": 7.5
+      },
+      {
+        "month": 6,
+        "avg_requests": 5.5
+      },
+      {
+        "month": 7,
+        "avg_requests": 5.3
+      },
+      {
+        "month": 8,
+        "avg_requests": 5.2
+      },
+      {
+        "month": 9,
+        "avg_requests": 5.0
+      },
+      {
+        "month": 10,
+        "avg_requests": 7.6
+      },
+      {
+        "month": 11,
+        "avg_requests": 17.3
+      },
+      {
+        "month": 12,
+        "avg_requests": 24.6
+      }
+    ]
+  },
+  "neighborhood_quality": {
+    "13A": {
+      "quality_score": 67.6,
+      "total_requests_12mo": 2,
+      "issue_types": 2
+    },
+    "13C": {
+      "quality_score": 67.6,
+      "total_requests_12mo": 2,
+      "issue_types": 2
+    },
+    "01H": {
+      "quality_score": 67.5,
+      "total_requests_12mo": 7,
+      "issue_types": 4
+    },
+    "02L": {
+      "quality_score": 67.5,
+      "total_requests_12mo": 8,
+      "issue_types": 4
+    },
+    "06C": {
+      "quality_score": 67.5,
+      "total_requests_12mo": 7,
+      "issue_types": 3
+    },
+    "09O": {
+      "quality_score": 67.5,
+      "total_requests_12mo": 7,
+      "issue_types": 4
+    },
+    "13E": {
+      "quality_score": 67.5,
+      "total_requests_12mo": 4,
+      "issue_types": 3
+    },
+    "13H": {
+      "quality_score": 67.5,
+      "total_requests_12mo": 5,
+      "issue_types": 2
+    },
+    "13J": {
+      "quality_score": 67.5,
+      "total_requests_12mo": 3,
+      "issue_types": 3
+    },
+    "GREAT PLAINS EAST": {
+      "quality_score": 67.5,
+      "total_requests_12mo": 6,
+      "issue_types": 2
+    },
+    "OSPREY HILL": {
+      "quality_score": 67.5,
+      "total_requests_12mo": 7,
+      "issue_types": 5
+    },
+    "TWINHILLS": {
+      "quality_score": 67.5,
+      "total_requests_12mo": 5,
+      "issue_types": 1
+    },
+    "02E": {
+      "quality_score": 67.4,
+      "total_requests_12mo": 11,
+      "issue_types": 4
+    },
+    "06B": {
+      "quality_score": 67.4,
+      "total_requests_12mo": 13,
+      "issue_types": 3
+    },
+    "12K": {
+      "quality_score": 67.4,
+      "total_requests_12mo": 13,
+      "issue_types": 3
+    },
+    "13F": {
+      "quality_score": 67.4,
+      "total_requests_12mo": 10,
+      "issue_types": 3
+    },
+    "13M": {
+      "quality_score": 67.4,
+      "total_requests_12mo": 14,
+      "issue_types": 4
+    },
+    "13N": {
+      "quality_score": 67.4,
+      "total_requests_12mo": 12,
+      "issue_types": 4
+    },
+    "AMBLERIDGE": {
+      "quality_score": 67.4,
+      "total_requests_12mo": 14,
+      "issue_types": 5
+    },
+    "KEYSTONE HILLS": {
+      "quality_score": 67.4,
+      "total_requests_12mo": 10,
+      "issue_types": 4
+    }
+  },
+  "insights": [
+    "Higher service request volumes may indicate more active civic engagement or maintenance needs",
+    "Seasonal patterns affect categories like snow removal and park maintenance",
+    "Quality scores are relative - compare neighborhoods with similar characteristics"
+  ]
+}

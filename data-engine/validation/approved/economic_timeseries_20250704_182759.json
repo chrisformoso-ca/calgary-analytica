@@ -1,0 +1,212 @@
+{
+  "source": "economic_indicators_timeseries",
+  "extraction_date": "2025-07-04T18:27:59.868828",
+  "records_extracted": 791,
+  "date_range": "2023-01 to 2025-05",
+  "files_processed": "N/A",
+  "indicators_summary": {
+    "unemployment_rate": {
+      "count": 29,
+      "date_range": "2023-01-01 to 2025-05-01",
+      "unit": "percentage",
+      "value_type": "rate"
+    },
+    "unemployment_rate_canada": {
+      "count": 29,
+      "date_range": "2023-01-01 to 2025-05-01",
+      "unit": "percentage",
+      "value_type": "rate"
+    },
+    "employment": {
+      "count": 29,
+      "date_range": "2023-01-01 to 2025-05-01",
+      "unit": "thousands",
+      "value_type": "absolute"
+    },
+    "ei_recipients_alberta": {
+      "count": 27,
+      "date_range": "2023-01-01 to 2025-03-01",
+      "unit": "persons",
+      "value_type": "absolute"
+    },
+    "ei_recipients_calgary": {
+      "count": 27,
+      "date_range": "2023-01-01 to 2025-03-01",
+      "unit": "persons",
+      "value_type": "absolute"
+    },
+    "population": {
+      "count": 29,
+      "date_range": "2023-01-01 to 2025-05-01",
+      "unit": "thousands",
+      "value_type": "absolute"
+    },
+    "oil_price_wti": {
+      "count": 29,
+      "date_range": "2023-01-01 to 2025-05-01",
+      "unit": "USD/barrel",
+      "value_type": "absolute"
+    },
+    "natural_gas_price": {
+      "count": 29,
+      "date_range": "2023-01-01 to 2025-05-01",
+      "unit": "CAD/GJ",
+      "value_type": "absolute"
+    },
+    "inflation_rate_calgary": {
+      "count": 28,
+      "date_range": "2023-01-01 to 2025-04-01",
+      "unit": "percentage",
+      "value_type": "rate"
+    },
+    "inflation_rate_canada": {
+      "count": 28,
+      "date_range": "2023-01-01 to 2025-04-01",
+      "unit": "percentage",
+      "value_type": "rate"
+    },
+    "avg_hourly_wage_alberta": {
+      "count": 29,
+      "date_range": "2023-01-01 to 2025-05-01",
+      "unit": "percentage",
+      "value_type": "yoy_change"
+    },
+    "avg_weekly_earnings_alberta": {
+      "count": 27,
+      "date_range": "2023-01-01 to 2025-03-01",
+      "unit": "percentage",
+      "value_type": "yoy_change"
+    },
+    "avg_hourly_wage_calgary": {
+      "count": 29,
+      "date_range": "2023-01-01 to 2025-05-01",
+      "unit": "percentage",
+      "value_type": "yoy_change"
+    },
+    "avg_weekly_wage_calgary": {
+      "count": 29,
+      "date_range": "2023-01-01 to 2025-05-01",
+      "unit": "percentage",
+      "value_type": "yoy_change"
+    },
+    "gdp_growth_canada": {
+      "count": 27,
+      "date_range": "2023-01-01 to 2025-03-01",
+      "unit": "percentage",
+      "value_type": "rate"
+    },
+    "prime_lending_rate": {
+      "count": 29,
+      "date_range": "2023-01-01 to 2025-05-01",
+      "unit": "percentage",
+      "value_type": "rate"
+    },
+    "bank_of_canada_rate": {
+      "count": 29,
+      "date_range": "2023-01-01 to 2025-05-01",
+      "unit": "percentage",
+      "value_type": "rate"
+    },
+    "retail_sales_alberta": {
+      "count": 27,
+      "date_range": "2023-01-01 to 2025-03-01",
+      "unit": "billions",
+      "value_type": "absolute"
+    },
+    "retail_sales_calgary": {
+      "count": 27,
+      "date_range": "2023-01-01 to 2025-03-01",
+      "unit": "billions",
+      "value_type": "absolute"
+    },
+    "housing_starts": {
+      "count": 28,
+      "date_range": "2023-01-01 to 2025-04-01",
+      "unit": "units",
+      "value_type": "absolute"
+    },
+    "bankruptcies_personal": {
+      "count": 28,
+      "date_range": "2023-01-01 to 2025-04-01",
+      "unit": "count",
+      "value_type": "absolute"
+    },
+    "mls_unit_sales": {
+      "count": 29,
+      "date_range": "2023-01-01 to 2025-05-01",
+      "unit": "units",
+      "value_type": "absolute"
+    },
+    "mls_sales_to_listings": {
+      "count": 29,
+      "date_range": "2023-01-01 to 2025-05-01",
+      "unit": "percentage",
+      "value_type": "rate"
+    },
+    "mls_average_price": {
+      "count": 29,
+      "date_range": "2023-01-01 to 2025-05-01",
+      "unit": "thousands",
+      "value_type": "absolute"
+    },
+    "wholesale_sales_alberta": {
+      "count": 27,
+      "date_range": "2023-01-01 to 2025-03-01",
+      "unit": "billions",
+      "value_type": "absolute"
+    },
+    "manufacturing_sales_alberta": {
+      "count": 27,
+      "date_range": "2023-01-01 to 2025-03-01",
+      "unit": "billions",
+      "value_type": "absolute"
+    },
+    "business_bankruptcies": {
+      "count": 28,
+      "date_range": "2023-01-01 to 2025-04-01",
+      "unit": "count",
+      "value_type": "absolute"
+    },
+    "building_permits_value": {
+      "count": 29,
+      "date_range": "2023-01-01 to 2025-05-01",
+      "unit": "millions",
+      "value_type": "absolute"
+    }
+  },
+  "value_types": {
+    "rate": 228,
+    "absolute": 449,
+    "yoy_change": 114
+  },
+  "sample_records": [
+    {
+      "indicator": "unemployment_rate",
+      "date": "2025-01-01",
+      "value": 7.400000000000001,
+      "unit": "percentage",
+      "yoy_change": "N/A"
+    },
+    {
+      "indicator": "population",
+      "date": "2025-01-01",
+      "value": 1549.4,
+      "unit": "thousands",
+      "yoy_change": "N/A"
+    },
+    {
+      "indicator": "oil_price_wti",
+      "date": "2025-01-01",
+      "value": 75.74,
+      "unit": "USD/barrel",
+      "yoy_change": "N/A"
+    },
+    {
+      "indicator": "inflation_rate_calgary",
+      "date": "2025-01-01",
+      "value": 2.667457024303488,
+      "unit": "percentage",
+      "yoy_change": "N/A"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "run_date": "2025-07-04T21:16:06.068553",
+  "total_exports": 8,
+  "successful": 8,
+  "failed": 0,
+  "details": [
+    {
+      "export": "Market Overview",
+      "script": "generate_market_overview.py",
+      "success": true,
+      "order": 1
+    },
+    {
+      "export": "Economic Indicators",
+      "script": "generate_economic_indicators.py",
+      "success": true,
+      "order": 2
+    },
+    {
+      "export": "District Data",
+      "script": "generate_district_data.py",
+      "success": true,
+      "order": 3
+    },
+    {
+      "export": "Rate Data",
+      "script": "generate_rate_data.py",
+      "success": true,
+      "order": 4
+    },
+    {
+      "export": "Metadata",
+      "script": "generate_metadata.py",
+      "success": true,
+      "order": 5
+    },
+    {
+      "export": "Service Requests (311)",
+      "script": "generate_service_requests.py",
+      "success": true,
+      "order": 6
+    },
+    {
+      "export": "Rental Market",
+      "script": "generate_rental_market.py",
+      "success": true,
+      "order": 7
+    },
+    {
+      "export": "Crime Statistics",
+      "script": "generate_crime_statistics.py",
+      "success": true,
+      "order": 8
+    }
+  ],
+  "generated_files": [
+    {
+      "file": "metadata.json",
+      "size_bytes": 12104,
+      "modified": "2025-07-04T21:16:05.201349"
+    },
+    {
+      "file": "district_data.json",
+      "size_bytes": 57637,
+      "modified": "2025-07-04T21:16:05.105096"
+    },
+    {
+      "file": "crime_statistics.json",
+      "size_bytes": 14852,
+      "modified": "2025-07-04T21:16:06.059256"
+    },
+    {
+      "file": "rental_market.json",
+      "size_bytes": 25460,
+      "modified": "2025-07-04T21:16:05.498478"
+    },
+    {
+      "file": "economic_indicators.json",
+      "size_bytes": 43716,
+      "modified": "2025-07-04T21:16:05.046507"
+    },
+    {
+      "file": "market_overview.json",
+      "size_bytes": 10565,
+      "modified": "2025-07-04T21:16:04.987918"
+    },
+    {
+      "file": "rate_data.json",
+      "size_bytes": 13558,
+      "modified": "2025-07-04T21:16:05.155315"
+    },
+    {
+      "file": "service_requests_311.json",
+      "size_bytes": 13691,
+      "modified": "2025-07-04T21:16:05.444074"
+    }
+  ]
+}

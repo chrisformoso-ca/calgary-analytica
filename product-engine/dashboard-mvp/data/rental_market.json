@@ -1,0 +1,1207 @@
+{
+  "metadata": {
+    "generated_at": "2025-07-04T21:16:05.497546",
+    "version": "1.0",
+    "sources": {
+      "cmhc": "Canada Mortgage and Housing Corporation annual reports",
+      "snapshot": "RentFaster.ca listings data"
+    }
+  },
+  "cmhc_data": {
+    "2024": {
+      "apartment": {
+        "1 Bedroom": {
+          "average_rent": 1585.0,
+          "rental_universe": 23248.0,
+          "vacancy_rate": 4.7
+        },
+        "2 Bedroom": {
+          "average_rent": 1882.0,
+          "rental_universe": 51295.0,
+          "vacancy_rate": 5.1
+        },
+        "3 Bedroom+": {
+          "average_rent": 1975.0,
+          "vacancy_rate": 3.7
+        },
+        "Bachelor": {
+          "average_rent": 1362.0,
+          "rental_universe": 1816.0,
+          "vacancy_rate": 4.5
+        },
+        "Total": {
+          "average_rent": 1732.0,
+          "vacancy_rate": 4.8
+        }
+      },
+      "rental_condo": {
+        "1 Bedroom": {
+          "average_rent": 1599.0
+        },
+        "2 Bedroom": {
+          "average_rent": 1970.0
+        }
+      },
+      "townhouse": {
+        "1 Bedroom": {
+          "average_rent": 1415.0,
+          "rental_universe": 2157.0
+        },
+        "2 Bedroom": {
+          "average_rent": 1812.0,
+          "vacancy_rate": 1.2
+        },
+        "3 Bedroom+": {
+          "average_rent": 1979.0
+        },
+        "Total": {
+          "average_rent": 1880.0
+        }
+      }
+    },
+    "2023": {
+      "apartment": {
+        "1 Bedroom": {
+          "average_rent": 1464.0,
+          "rental_universe": 22075.0,
+          "vacancy_rate": 1.5
+        },
+        "2 Bedroom": {
+          "average_rent": 1695.0,
+          "rental_universe": 48285.0,
+          "vacancy_rate": 1.3
+        },
+        "3 Bedroom+": {
+          "average_rent": 1749.0,
+          "vacancy_rate": 1.4
+        },
+        "Bachelor": {
+          "average_rent": 1204.0,
+          "rental_universe": 1648.0,
+          "vacancy_rate": 0.7
+        },
+        "Total": {
+          "average_rent": 1571.0,
+          "vacancy_rate": 1.4
+        }
+      },
+      "rental_condo": {
+        "1 Bedroom": {
+          "average_rent": 1573.0
+        },
+        "2 Bedroom": {
+          "average_rent": 1819.0
+        }
+      },
+      "townhouse": {
+        "1 Bedroom": {
+          "average_rent": 1142.0,
+          "rental_universe": 2021.0
+        },
+        "2 Bedroom": {
+          "average_rent": 1647.0,
+          "vacancy_rate": 1.1
+        },
+        "3 Bedroom+": {
+          "average_rent": 1839.0
+        },
+        "Total": {
+          "average_rent": 1720.0
+        }
+      }
+    },
+    "2022": {
+      "apartment": {
+        "1 Bedroom": {
+          "average_rent": 1222.0,
+          "rental_universe": 20203.0,
+          "vacancy_rate": 2.8
+        },
+        "2 Bedroom": {
+          "average_rent": 1466.0,
+          "rental_universe": 44723.0,
+          "vacancy_rate": 2.5
+        },
+        "3 Bedroom+": {
+          "average_rent": 1504.0,
+          "vacancy_rate": 2.8
+        },
+        "Bachelor": {
+          "average_rent": 974.0,
+          "rental_universe": 1596.0,
+          "vacancy_rate": 3.2
+        },
+        "Total": {
+          "average_rent": 1335.0,
+          "vacancy_rate": 2.7
+        }
+      },
+      "rental_condo": {
+        "1 Bedroom": {
+          "average_rent": 1382.0
+        },
+        "2 Bedroom": {
+          "average_rent": 1648.0
+        },
+        "Bachelor": {
+          "average_rent": 1109.0
+        }
+      },
+      "townhouse": {
+        "1 Bedroom": {
+          "average_rent": 1049.0,
+          "rental_universe": 2035.0
+        },
+        "2 Bedroom": {
+          "average_rent": 1429.0,
+          "vacancy_rate": 2.9
+        },
+        "3 Bedroom+": {
+          "average_rent": 1649.0
+        },
+        "Total": {
+          "average_rent": 1521.0
+        }
+      }
+    },
+    "2021": {
+      "apartment": {
+        "1 Bedroom": {
+          "average_rent": 1111.0,
+          "rental_universe": 19010.0,
+          "vacancy_rate": 5.1
+        },
+        "2 Bedroom": {
+          "average_rent": 1355.0,
+          "rental_universe": 41995.0,
+          "vacancy_rate": 5.4
+        },
+        "3 Bedroom+": {
+          "average_rent": 1347.0,
+          "vacancy_rate": 3.9
+        },
+        "Bachelor": {
+          "average_rent": 920.0,
+          "rental_universe": 1461.0,
+          "vacancy_rate": 3.4
+        },
+        "Total": {
+          "average_rent": 1222.0,
+          "vacancy_rate": 5.1
+        }
+      },
+      "rental_condo": {
+        "1 Bedroom": {
+          "average_rent": 1364.0
+        },
+        "2 Bedroom": {
+          "average_rent": 1524.0
+        },
+        "Bachelor": {
+          "average_rent": 996.0
+        }
+      },
+      "townhouse": {
+        "1 Bedroom": {
+          "average_rent": 992.0,
+          "rental_universe": 1893.0
+        },
+        "2 Bedroom": {
+          "average_rent": 1307.0,
+          "vacancy_rate": 3.9
+        },
+        "3 Bedroom+": {
+          "average_rent": 1507.0
+        },
+        "Total": {
+          "average_rent": 1384.0
+        }
+      }
+    },
+    "2020": {
+      "apartment": {
+        "1 Bedroom": {
+          "average_rent": 1087.0,
+          "rental_universe": 18291.0,
+          "vacancy_rate": 6.8
+        },
+        "2 Bedroom": {
+          "average_rent": 1323.0,
+          "rental_universe": 40689.0,
+          "vacancy_rate": 6.3
+        },
+        "3 Bedroom+": {
+          "average_rent": 1296.0,
+          "vacancy_rate": 7.3
+        },
+        "Bachelor": {
+          "average_rent": 883.0,
+          "rental_universe": 1473.0,
+          "vacancy_rate": 5.9
+        },
+        "Total": {
+          "average_rent": 1195.0,
+          "vacancy_rate": 6.6
+        }
+      },
+      "rental_condo": {
+        "1 Bedroom": {
+          "average_rent": 1287.0
+        },
+        "2 Bedroom": {
+          "average_rent": 1596.0
+        },
+        "Bachelor": {
+          "average_rent": 1101.0
+        }
+      },
+      "townhouse": {
+        "1 Bedroom": {
+          "average_rent": 1001.0,
+          "rental_universe": 1808.0
+        },
+        "2 Bedroom": {
+          "average_rent": 1287.0,
+          "vacancy_rate": 5.0
+        },
+        "3 Bedroom+": {
+          "average_rent": 1470.0
+        },
+        "Total": {
+          "average_rent": 1368.0
+        }
+      }
+    },
+    "2019": {
+      "apartment": {
+        "1 Bedroom": {
+          "average_rent": 1080.0,
+          "rental_universe": 17712.0,
+          "vacancy_rate": 3.5
+        },
+        "2 Bedroom": {
+          "average_rent": 1305.0,
+          "rental_universe": 39567.0,
+          "vacancy_rate": 4.3
+        },
+        "3 Bedroom+": {
+          "average_rent": 1255.0,
+          "vacancy_rate": 4.8
+        },
+        "Bachelor": {
+          "average_rent": 899.0,
+          "rental_universe": 1434.0,
+          "vacancy_rate": 2.5
+        },
+        "Total": {
+          "average_rent": 1181.0,
+          "vacancy_rate": 3.9
+        }
+      },
+      "rental_condo": {
+        "1 Bedroom": {
+          "average_rent": 1253.0
+        },
+        "2 Bedroom": {
+          "average_rent": 1572.0
+        }
+      },
+      "townhouse": {
+        "1 Bedroom": {
+          "average_rent": 933.0,
+          "rental_universe": 1797.0
+        },
+        "2 Bedroom": {
+          "average_rent": 1202.0,
+          "vacancy_rate": 3.9
+        },
+        "3 Bedroom+": {
+          "average_rent": 1422.0
+        },
+        "Total": {
+          "average_rent": 1295.0
+        }
+      }
+    },
+    "2018": {
+      "apartment": {
+        "1 Bedroom": {
+          "average_rent": 1050.0,
+          "vacancy_rate": 3.6
+        },
+        "2 Bedroom": {
+          "average_rent": 1272.0,
+          "vacancy_rate": 4.3
+        },
+        "3 Bedroom+": {
+          "average_rent": 1244.0,
+          "vacancy_rate": 5.9
+        },
+        "Bachelor": {
+          "average_rent": 879.0,
+          "vacancy_rate": 2.4
+        },
+        "Total": {
+          "average_rent": 1149.0,
+          "vacancy_rate": 3.9
+        }
+      }
+    }
+  },
+  "trends": {
+    "rent_trends": {
+      "apartment_1 Bedroom": [
+        {
+          "year": 2018,
+          "average_rent": 1050.0
+        },
+        {
+          "year": 2019,
+          "average_rent": 1080.0
+        },
+        {
+          "year": 2019,
+          "average_rent": 1080.0
+        },
+        {
+          "year": 2020,
+          "average_rent": 1087.0
+        },
+        {
+          "year": 2020,
+          "average_rent": 1087.0
+        },
+        {
+          "year": 2021,
+          "average_rent": 1111.0
+        },
+        {
+          "year": 2021,
+          "average_rent": 1111.0
+        },
+        {
+          "year": 2022,
+          "average_rent": 1222.0
+        },
+        {
+          "year": 2022,
+          "average_rent": 1222.0
+        },
+        {
+          "year": 2023,
+          "average_rent": 1464.0
+        },
+        {
+          "year": 2023,
+          "average_rent": 1464.0
+        },
+        {
+          "year": 2024,
+          "average_rent": 1585.0
+        }
+      ],
+      "apartment_2 Bedroom": [
+        {
+          "year": 2018,
+          "average_rent": 1272.0
+        },
+        {
+          "year": 2019,
+          "average_rent": 1305.0
+        },
+        {
+          "year": 2019,
+          "average_rent": 1305.0
+        },
+        {
+          "year": 2020,
+          "average_rent": 1323.0
+        },
+        {
+          "year": 2020,
+          "average_rent": 1323.0
+        },
+        {
+          "year": 2021,
+          "average_rent": 1355.0
+        },
+        {
+          "year": 2021,
+          "average_rent": 1355.0
+        },
+        {
+          "year": 2022,
+          "average_rent": 1466.0
+        },
+        {
+          "year": 2022,
+          "average_rent": 1466.0
+        },
+        {
+          "year": 2023,
+          "average_rent": 1695.0
+        },
+        {
+          "year": 2023,
+          "average_rent": 1695.0
+        },
+        {
+          "year": 2024,
+          "average_rent": 1882.0
+        }
+      ],
+      "apartment_3 Bedroom+": [
+        {
+          "year": 2018,
+          "average_rent": 1244.0
+        },
+        {
+          "year": 2019,
+          "average_rent": 1255.0
+        },
+        {
+          "year": 2019,
+          "average_rent": 1255.0
+        },
+        {
+          "year": 2020,
+          "average_rent": 1296.0
+        },
+        {
+          "year": 2020,
+          "average_rent": 1296.0
+        },
+        {
+          "year": 2021,
+          "average_rent": 1347.0
+        },
+        {
+          "year": 2021,
+          "average_rent": 1347.0
+        },
+        {
+          "year": 2022,
+          "average_rent": 1504.0
+        },
+        {
+          "year": 2022,
+          "average_rent": 1504.0
+        },
+        {
+          "year": 2023,
+          "average_rent": 1749.0
+        },
+        {
+          "year": 2023,
+          "average_rent": 1749.0
+        },
+        {
+          "year": 2024,
+          "average_rent": 1975.0
+        }
+      ],
+      "apartment_Bachelor": [
+        {
+          "year": 2018,
+          "average_rent": 879.0
+        },
+        {
+          "year": 2019,
+          "average_rent": 899.0
+        },
+        {
+          "year": 2019,
+          "average_rent": 899.0
+        },
+        {
+          "year": 2020,
+          "average_rent": 883.0
+        },
+        {
+          "year": 2020,
+          "average_rent": 883.0
+        },
+        {
+          "year": 2021,
+          "average_rent": 920.0
+        },
+        {
+          "year": 2021,
+          "average_rent": 920.0
+        },
+        {
+          "year": 2022,
+          "average_rent": 974.0
+        },
+        {
+          "year": 2022,
+          "average_rent": 974.0
+        },
+        {
+          "year": 2023,
+          "average_rent": 1204.0
+        },
+        {
+          "year": 2023,
+          "average_rent": 1204.0
+        },
+        {
+          "year": 2024,
+          "average_rent": 1362.0
+        }
+      ],
+      "apartment_Total": [
+        {
+          "year": 2018,
+          "average_rent": 1149.0
+        },
+        {
+          "year": 2019,
+          "average_rent": 1181.0
+        },
+        {
+          "year": 2019,
+          "average_rent": 1181.0
+        },
+        {
+          "year": 2020,
+          "average_rent": 1195.0
+        },
+        {
+          "year": 2020,
+          "average_rent": 1195.0
+        },
+        {
+          "year": 2021,
+          "average_rent": 1222.0
+        },
+        {
+          "year": 2021,
+          "average_rent": 1222.0
+        },
+        {
+          "year": 2022,
+          "average_rent": 1335.0
+        },
+        {
+          "year": 2022,
+          "average_rent": 1335.0
+        },
+        {
+          "year": 2023,
+          "average_rent": 1571.0
+        },
+        {
+          "year": 2023,
+          "average_rent": 1571.0
+        },
+        {
+          "year": 2024,
+          "average_rent": 1732.0
+        }
+      ],
+      "rental_condo_1 Bedroom": [
+        {
+          "year": 2019,
+          "average_rent": 1253.0
+        },
+        {
+          "year": 2020,
+          "average_rent": 1287.0
+        },
+        {
+          "year": 2021,
+          "average_rent": 1364.0
+        },
+        {
+          "year": 2022,
+          "average_rent": 1382.0
+        },
+        {
+          "year": 2023,
+          "average_rent": 1573.0
+        },
+        {
+          "year": 2024,
+          "average_rent": 1599.0
+        }
+      ],
+      "rental_condo_2 Bedroom": [
+        {
+          "year": 2019,
+          "average_rent": 1572.0
+        },
+        {
+          "year": 2020,
+          "average_rent": 1596.0
+        },
+        {
+          "year": 2021,
+          "average_rent": 1524.0
+        },
+        {
+          "year": 2022,
+          "average_rent": 1648.0
+        },
+        {
+          "year": 2023,
+          "average_rent": 1819.0
+        },
+        {
+          "year": 2024,
+          "average_rent": 1970.0
+        }
+      ],
+      "townhouse_1 Bedroom": [
+        {
+          "year": 2019,
+          "average_rent": 933.0
+        },
+        {
+          "year": 2020,
+          "average_rent": 1001.0
+        },
+        {
+          "year": 2021,
+          "average_rent": 992.0
+        },
+        {
+          "year": 2022,
+          "average_rent": 1049.0
+        },
+        {
+          "year": 2023,
+          "average_rent": 1142.0
+        },
+        {
+          "year": 2024,
+          "average_rent": 1415.0
+        }
+      ],
+      "townhouse_2 Bedroom": [
+        {
+          "year": 2019,
+          "average_rent": 1202.0
+        },
+        {
+          "year": 2020,
+          "average_rent": 1287.0
+        },
+        {
+          "year": 2021,
+          "average_rent": 1307.0
+        },
+        {
+          "year": 2022,
+          "average_rent": 1429.0
+        },
+        {
+          "year": 2023,
+          "average_rent": 1647.0
+        },
+        {
+          "year": 2024,
+          "average_rent": 1812.0
+        }
+      ],
+      "townhouse_3 Bedroom+": [
+        {
+          "year": 2019,
+          "average_rent": 1422.0
+        },
+        {
+          "year": 2020,
+          "average_rent": 1470.0
+        },
+        {
+          "year": 2021,
+          "average_rent": 1507.0
+        },
+        {
+          "year": 2022,
+          "average_rent": 1649.0
+        },
+        {
+          "year": 2023,
+          "average_rent": 1839.0
+        },
+        {
+          "year": 2024,
+          "average_rent": 1979.0
+        }
+      ],
+      "townhouse_Total": [
+        {
+          "year": 2019,
+          "average_rent": 1295.0
+        },
+        {
+          "year": 2020,
+          "average_rent": 1368.0
+        },
+        {
+          "year": 2021,
+          "average_rent": 1384.0
+        },
+        {
+          "year": 2022,
+          "average_rent": 1521.0
+        },
+        {
+          "year": 2023,
+          "average_rent": 1720.0
+        },
+        {
+          "year": 2024,
+          "average_rent": 1880.0
+        }
+      ],
+      "rental_condo_Bachelor": [
+        {
+          "year": 2020,
+          "average_rent": 1101.0
+        },
+        {
+          "year": 2021,
+          "average_rent": 996.0
+        },
+        {
+          "year": 2022,
+          "average_rent": 1109.0
+        }
+      ]
+    },
+    "vacancy_trends": {
+      "apartment_1 Bedroom": [
+        {
+          "year": 2018,
+          "vacancy_rate": 3.6
+        },
+        {
+          "year": 2019,
+          "vacancy_rate": 3.5
+        },
+        {
+          "year": 2019,
+          "vacancy_rate": 3.5
+        },
+        {
+          "year": 2020,
+          "vacancy_rate": 6.8
+        },
+        {
+          "year": 2020,
+          "vacancy_rate": 6.8
+        },
+        {
+          "year": 2021,
+          "vacancy_rate": 5.1
+        },
+        {
+          "year": 2021,
+          "vacancy_rate": 5.1
+        },
+        {
+          "year": 2022,
+          "vacancy_rate": 2.8
+        },
+        {
+          "year": 2022,
+          "vacancy_rate": 2.8
+        },
+        {
+          "year": 2023,
+          "vacancy_rate": 1.5
+        },
+        {
+          "year": 2023,
+          "vacancy_rate": 1.5
+        },
+        {
+          "year": 2024,
+          "vacancy_rate": 4.7
+        }
+      ],
+      "apartment_2 Bedroom": [
+        {
+          "year": 2018,
+          "vacancy_rate": 4.3
+        },
+        {
+          "year": 2019,
+          "vacancy_rate": 4.3
+        },
+        {
+          "year": 2019,
+          "vacancy_rate": 4.3
+        },
+        {
+          "year": 2020,
+          "vacancy_rate": 6.3
+        },
+        {
+          "year": 2020,
+          "vacancy_rate": 6.3
+        },
+        {
+          "year": 2021,
+          "vacancy_rate": 5.4
+        },
+        {
+          "year": 2021,
+          "vacancy_rate": 5.4
+        },
+        {
+          "year": 2022,
+          "vacancy_rate": 2.5
+        },
+        {
+          "year": 2022,
+          "vacancy_rate": 2.5
+        },
+        {
+          "year": 2023,
+          "vacancy_rate": 1.3
+        },
+        {
+          "year": 2023,
+          "vacancy_rate": 1.3
+        },
+        {
+          "year": 2024,
+          "vacancy_rate": 5.1
+        }
+      ],
+      "apartment_3 Bedroom+": [
+        {
+          "year": 2018,
+          "vacancy_rate": 5.9
+        },
+        {
+          "year": 2019,
+          "vacancy_rate": 4.8
+        },
+        {
+          "year": 2019,
+          "vacancy_rate": 4.8
+        },
+        {
+          "year": 2020,
+          "vacancy_rate": 7.3
+        },
+        {
+          "year": 2020,
+          "vacancy_rate": 7.3
+        },
+        {
+          "year": 2021,
+          "vacancy_rate": 3.9
+        },
+        {
+          "year": 2021,
+          "vacancy_rate": 3.9
+        },
+        {
+          "year": 2022,
+          "vacancy_rate": 2.8
+        },
+        {
+          "year": 2022,
+          "vacancy_rate": 2.8
+        },
+        {
+          "year": 2023,
+          "vacancy_rate": 1.4
+        },
+        {
+          "year": 2023,
+          "vacancy_rate": 1.4
+        },
+        {
+          "year": 2024,
+          "vacancy_rate": 3.7
+        }
+      ],
+      "apartment_Bachelor": [
+        {
+          "year": 2018,
+          "vacancy_rate": 2.4
+        },
+        {
+          "year": 2019,
+          "vacancy_rate": 2.5
+        },
+        {
+          "year": 2019,
+          "vacancy_rate": 2.5
+        },
+        {
+          "year": 2020,
+          "vacancy_rate": 5.9
+        },
+        {
+          "year": 2020,
+          "vacancy_rate": 5.9
+        },
+        {
+          "year": 2021,
+          "vacancy_rate": 3.4
+        },
+        {
+          "year": 2021,
+          "vacancy_rate": 3.4
+        },
+        {
+          "year": 2022,
+          "vacancy_rate": 3.2
+        },
+        {
+          "year": 2022,
+          "vacancy_rate": 3.2
+        },
+        {
+          "year": 2023,
+          "vacancy_rate": 0.7
+        },
+        {
+          "year": 2023,
+          "vacancy_rate": 0.7
+        },
+        {
+          "year": 2024,
+          "vacancy_rate": 4.5
+        }
+      ],
+      "apartment_Total": [
+        {
+          "year": 2018,
+          "vacancy_rate": 3.9
+        },
+        {
+          "year": 2019,
+          "vacancy_rate": 3.9
+        },
+        {
+          "year": 2019,
+          "vacancy_rate": 3.9
+        },
+        {
+          "year": 2020,
+          "vacancy_rate": 6.6
+        },
+        {
+          "year": 2020,
+          "vacancy_rate": 6.6
+        },
+        {
+          "year": 2021,
+          "vacancy_rate": 5.1
+        },
+        {
+          "year": 2021,
+          "vacancy_rate": 5.1
+        },
+        {
+          "year": 2022,
+          "vacancy_rate": 2.7
+        },
+        {
+          "year": 2022,
+          "vacancy_rate": 2.7
+        },
+        {
+          "year": 2023,
+          "vacancy_rate": 1.4
+        },
+        {
+          "year": 2023,
+          "vacancy_rate": 1.4
+        },
+        {
+          "year": 2024,
+          "vacancy_rate": 4.8
+        }
+      ],
+      "townhouse_2 Bedroom": [
+        {
+          "year": 2019,
+          "vacancy_rate": 3.9
+        },
+        {
+          "year": 2020,
+          "vacancy_rate": 5.0
+        },
+        {
+          "year": 2021,
+          "vacancy_rate": 3.9
+        },
+        {
+          "year": 2022,
+          "vacancy_rate": 2.9
+        },
+        {
+          "year": 2023,
+          "vacancy_rate": 1.1
+        },
+        {
+          "year": 2024,
+          "vacancy_rate": 1.2
+        }
+      ]
+    }
+  },
+  "current_snapshot": {
+    "by_property_type": {
+      "apartment": {
+        "count": 141,
+        "avg_rent": 1759.31,
+        "rent_range": {
+          "min": 825,
+          "max": 3300
+        },
+        "avg_bedrooms": 1.4
+      },
+      "basement_suite": {
+        "count": 54,
+        "avg_rent": 1345.22,
+        "rent_range": {
+          "min": 1000,
+          "max": 1850
+        },
+        "avg_bedrooms": 1.5
+      },
+      "other": {
+        "count": 27,
+        "avg_rent": 1981.37,
+        "rent_range": {
+          "min": 175,
+          "max": 2500
+        },
+        "avg_bedrooms": 2.3
+      },
+      "room": {
+        "count": 8,
+        "avg_rent": 771.12,
+        "rent_range": {
+          "min": 499,
+          "max": 900
+        },
+        "avg_bedrooms": 1.1
+      },
+      "semi_detached": {
+        "count": 6,
+        "avg_rent": 2012.5,
+        "rent_range": {
+          "min": 1450,
+          "max": 2250
+        },
+        "avg_bedrooms": 2.0
+      },
+      "single_detached": {
+        "count": 58,
+        "avg_rent": 2555.03,
+        "rent_range": {
+          "min": 1300,
+          "max": 8000
+        },
+        "avg_bedrooms": 2.6
+      }
+    },
+    "total_listings": 294,
+    "snapshot_week": "2025-W26"
+  },
+  "affordability": {
+    "apartment_1 Bedroom": {
+      "property_type": "apartment",
+      "bedroom_type": "1 Bedroom",
+      "average_rent": 1585.0,
+      "annual_rent": 19020.0,
+      "required_income": 63400,
+      "as_pct_median_income": 21.4
+    },
+    "apartment_2 Bedroom": {
+      "property_type": "apartment",
+      "bedroom_type": "2 Bedroom",
+      "average_rent": 1882.0,
+      "annual_rent": 22584.0,
+      "required_income": 75280,
+      "as_pct_median_income": 25.4
+    },
+    "apartment_3 Bedroom+": {
+      "property_type": "apartment",
+      "bedroom_type": "3 Bedroom+",
+      "average_rent": 1975.0,
+      "annual_rent": 23700.0,
+      "required_income": 79000,
+      "as_pct_median_income": 26.6
+    },
+    "apartment_Bachelor": {
+      "property_type": "apartment",
+      "bedroom_type": "Bachelor",
+      "average_rent": 1362.0,
+      "annual_rent": 16344.0,
+      "required_income": 54480,
+      "as_pct_median_income": 18.4
+    },
+    "apartment_Total": {
+      "property_type": "apartment",
+      "bedroom_type": "Total",
+      "average_rent": 1732.0,
+      "annual_rent": 20784.0,
+      "required_income": 69280,
+      "as_pct_median_income": 23.4
+    },
+    "rental_condo_1 Bedroom": {
+      "property_type": "rental_condo",
+      "bedroom_type": "1 Bedroom",
+      "average_rent": 1599.0,
+      "annual_rent": 19188.0,
+      "required_income": 63960,
+      "as_pct_median_income": 21.6
+    },
+    "rental_condo_2 Bedroom": {
+      "property_type": "rental_condo",
+      "bedroom_type": "2 Bedroom",
+      "average_rent": 1970.0,
+      "annual_rent": 23640.0,
+      "required_income": 78800,
+      "as_pct_median_income": 26.6
+    },
+    "townhouse_1 Bedroom": {
+      "property_type": "townhouse",
+      "bedroom_type": "1 Bedroom",
+      "average_rent": 1415.0,
+      "annual_rent": 16980.0,
+      "required_income": 56600,
+      "as_pct_median_income": 19.1
+    },
+    "townhouse_2 Bedroom": {
+      "property_type": "townhouse",
+      "bedroom_type": "2 Bedroom",
+      "average_rent": 1812.0,
+      "annual_rent": 21744.0,
+      "required_income": 72480,
+      "as_pct_median_income": 24.4
+    },
+    "townhouse_3 Bedroom+": {
+      "property_type": "townhouse",
+      "bedroom_type": "3 Bedroom+",
+      "average_rent": 1979.0,
+      "annual_rent": 23748.0,
+      "required_income": 79160,
+      "as_pct_median_income": 26.7
+    },
+    "townhouse_Total": {
+      "property_type": "townhouse",
+      "bedroom_type": "Total",
+      "average_rent": 1880.0,
+      "annual_rent": 22560.0,
+      "required_income": 75200,
+      "as_pct_median_income": 25.3
+    }
+  },
+  "insights": [
+    "Bachelor apartment rents increased 13.1% year-over-year",
+    "apartment Bachelor most affordable at $1362.0/month"
+  ]
+}

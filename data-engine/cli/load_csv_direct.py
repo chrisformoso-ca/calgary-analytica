@@ -108,6 +108,9 @@ class SimpleCSVLoader:
             # Determine target table
             target_table = self._determine_target_table(df, csv_file.name)
             
+            # Debug: Print what table was detected
+            logger.info(f"🔍 File: {csv_file.name} -> Detected table: {target_table}")
+            
             if not target_table:
                 return {"success": False, "error": "Could not determine target table"}
             
@@ -121,8 +124,9 @@ class SimpleCSVLoader:
             records_loaded = len(df_prepared)
             
             # Try to handle duplicates gracefully for datasets with unique constraints
-            if target_table in ['service_requests_311', 'building_permits', 'business_licences']:
-                # Use INSERT OR REPLACE for datasets with unique IDs
+            if target_table in ['service_requests_311', 'building_permits', 'business_licences', 'rental_market_annual', 'rental_listings_snapshot']:
+                # Use INSERT OR REPLACE for datasets with unique constraints
+                # For rental data, this handles overlapping years (CMHC) and weekly snapshots (RentFaster)
                 df_prepared.to_sql(target_table, self.conn, if_exists='append', index=False, method='multi')
             else:
                 df_prepared.to_sql(target_table, self.conn, if_exists='append', index=False)
@@ -171,6 +175,14 @@ class SimpleCSVLoader:
         elif any(col in columns for col in ['indicatorname', 'economicindicator', 'unemploymentrate']):
             return 'economic_indicators_monthly'
         
+        # Check for RentFaster data (must come before crime statistics due to 'community' column)
+        elif any(col in columns for col in ['listing_id', 'extraction_week']):
+            return 'rental_listings_snapshot'
+        
+        # Check for CMHC rental data
+        elif any(col in columns for col in ['metric_type', 'bedroom_type', 'quality_indicator']):
+            return 'rental_market_annual'
+        
         # Check for crime statistics
         elif any(col in columns for col in ['crimetype', 'incidentcount', 'community']):
             return 'crime_statistics_monthly'
@@ -180,6 +192,10 @@ class SimpleCSVLoader:
             return 'economic_indicators_monthly'
         elif 'crime' in filename.lower():
             return 'crime_statistics_monthly'
+        elif 'cmhc' in filename.lower():
+            return 'rental_market_annual'
+        elif 'rentfaster' in filename.lower():
+            return 'rental_listings_snapshot'
         elif 'creb' in filename.lower() or 'housing' in filename.lower():
             if 'district' in filename.lower():
                 return 'housing_district_monthly'
@@ -245,14 +261,18 @@ class SimpleCSVLoader:
             df_prepared['source_file'] = filename
         
         # Only add these if they don't already exist (economic data may already have them)
-        # Skip metadata columns for 311 monthly data (simplified schema)
-        if target_table != 'service_requests_311_monthly':
+        # Skip metadata columns for 311 monthly data, rental data, and economic data (simplified schemas)
+        if target_table not in ['service_requests_311_monthly', 'rental_market_annual', 'rental_listings_snapshot', 'economic_indicators_monthly']:
             if 'extracted_date' not in df_prepared.columns:
                 df_prepared['extracted_date'] = datetime.now().isoformat()
             if 'confidence_score' not in df_prepared.columns:
                 df_prepared['confidence_score'] = 1.0  # Human approved
             if 'validation_status' not in df_prepared.columns:
                 df_prepared['validation_status'] = 'approved'
+        
+        # Add validation status for rental data
+        if target_table == 'rental_market_annual' and 'validation_status' not in df_prepared.columns:
+            df_prepared['validation_status'] = 'approved'
         
         # Table-specific preparations
         if target_table == 'service_requests_311_monthly':

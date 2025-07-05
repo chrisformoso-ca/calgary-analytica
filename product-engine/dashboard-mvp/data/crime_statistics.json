@@ -1,0 +1,612 @@
+{
+  "metadata": {
+    "generated_at": "2025-07-04T21:16:06.058309",
+    "version": "1.0",
+    "data_coverage": "2018 to 2025",
+    "note": "Crime statistics help assess neighborhood safety but should be considered with other factors"
+  },
+  "summary": {
+    "communities_tracked": 265,
+    "crime_categories": 3,
+    "total_incidents": 964530.5,
+    "years_covered": "2018-2025"
+  },
+  "trends": {
+    "disorder": [
+      {
+        "year": 2020,
+        "incidents": 103101.5
+      },
+      {
+        "year": 2021,
+        "incidents": 97675.0
+      },
+      {
+        "year": 2022,
+        "incidents": 91288.5
+      },
+      {
+        "year": 2023,
+        "incidents": 91552.5
+      },
+      {
+        "year": 2024,
+        "incidents": 86417.5
+      },
+      {
+        "year": 2025,
+        "incidents": 27936.5
+      }
+    ],
+    "domestic": [
+      {
+        "year": 2020,
+        "incidents": 21507.0
+      },
+      {
+        "year": 2021,
+        "incidents": 21260.0
+      },
+      {
+        "year": 2022,
+        "incidents": 21618.0
+      },
+      {
+        "year": 2023,
+        "incidents": 22637.0
+      },
+      {
+        "year": 2024,
+        "incidents": 22488.0
+      },
+      {
+        "year": 2025,
+        "incidents": 7213.0
+      }
+    ],
+    "property": [
+      {
+        "year": 2020,
+        "incidents": 28617.0
+      },
+      {
+        "year": 2021,
+        "incidents": 24802.5
+      },
+      {
+        "year": 2022,
+        "incidents": 28653.0
+      },
+      {
+        "year": 2023,
+        "incidents": 23465.0
+      },
+      {
+        "year": 2024,
+        "incidents": 19314.5
+      },
+      {
+        "year": 2025,
+        "incidents": 5938.5
+      }
+    ],
+    "violent": [
+      {
+        "year": 2020,
+        "incidents": 9049.5
+      },
+      {
+        "year": 2021,
+        "incidents": 10126.0
+      },
+      {
+        "year": 2022,
+        "incidents": 10161.5
+      },
+      {
+        "year": 2023,
+        "incidents": 10944.0
+      },
+      {
+        "year": 2024,
+        "incidents": 10574.0
+      },
+      {
+        "year": 2025,
+        "incidents": 3290.5
+      }
+    ]
+  },
+  "community_safety": {
+    "KEYSTONE HILLS": {
+      "safety_score": 60.4,
+      "total_incidents": 2.5,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 1,
+      "primary_concern": "Violent crimes"
+    },
+    "TWINHILLS": {
+      "safety_score": 60.2,
+      "total_incidents": 15.0,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 3,
+      "primary_concern": "Violent crimes"
+    },
+    "LEWISBURG": {
+      "safety_score": 60.1,
+      "total_incidents": 25.0,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 2,
+      "primary_concern": "Violent crimes"
+    },
+    "SYMONS VALLEY RANCH": {
+      "safety_score": 59.9,
+      "total_incidents": 47.5,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 2,
+      "primary_concern": "Violent crimes"
+    },
+    "BEL-AIRE": {
+      "safety_score": 59.6,
+      "total_incidents": 75.0,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 3,
+      "primary_concern": "Violent crimes"
+    },
+    "NORTH HAVEN UPPER": {
+      "safety_score": 59.6,
+      "total_incidents": 82.5,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 3,
+      "primary_concern": "Violent crimes"
+    },
+    "CANADA OLYMPIC PARK": {
+      "safety_score": 59.5,
+      "total_incidents": 85.0,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 3,
+      "primary_concern": "Violent crimes"
+    },
+    "MAYFAIR": {
+      "safety_score": 59.5,
+      "total_incidents": 90.0,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 2,
+      "primary_concern": "Violent crimes"
+    },
+    "DIAMOND COVE": {
+      "safety_score": 59.4,
+      "total_incidents": 100.0,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 2,
+      "primary_concern": "Violent crimes"
+    },
+    "GLENDEER BUSINESS PARK": {
+      "safety_score": 59.4,
+      "total_incidents": 100.0,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 3,
+      "primary_concern": "Violent crimes"
+    },
+    "HOTCHKISS": {
+      "safety_score": 59.4,
+      "total_incidents": 102.5,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 2,
+      "primary_concern": "Violent crimes"
+    },
+    "OGDEN SHOPS": {
+      "safety_score": 59.4,
+      "total_incidents": 102.5,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 3,
+      "primary_concern": "Violent crimes"
+    },
+    "ROXBORO": {
+      "safety_score": 59.3,
+      "total_incidents": 105.0,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 3,
+      "primary_concern": "Violent crimes"
+    },
+    "SCARBORO/ SUNALTA WEST": {
+      "safety_score": 59.3,
+      "total_incidents": 105.0,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 3,
+      "primary_concern": "Violent crimes"
+    },
+    "GOLDEN TRIANGLE": {
+      "safety_score": 59.2,
+      "total_incidents": 115.0,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 3,
+      "primary_concern": "Violent crimes"
+    },
+    "POINT MCKAY": {
+      "safety_score": 59.2,
+      "total_incidents": 120.0,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 3,
+      "primary_concern": "Violent crimes"
+    },
+    "RIDEAU PARK": {
+      "safety_score": 59.1,
+      "total_incidents": 125.0,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 3,
+      "primary_concern": "Violent crimes"
+    },
+    "GARRISON GREEN": {
+      "safety_score": 58.9,
+      "total_incidents": 150.0,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 3,
+      "primary_concern": "Violent crimes"
+    },
+    "SKYLINE EAST": {
+      "safety_score": 58.9,
+      "total_incidents": 150.0,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 3,
+      "primary_concern": "Violent crimes"
+    },
+    "STONEY 4": {
+      "safety_score": 58.9,
+      "total_incidents": 152.5,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 3,
+      "primary_concern": "Violent crimes"
+    },
+    "ALPINE PARK": {
+      "safety_score": 58.8,
+      "total_incidents": 165.0,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 3,
+      "primary_concern": "Violent crimes"
+    },
+    "PEGASUS": {
+      "safety_score": 58.8,
+      "total_incidents": 159.5,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 3,
+      "primary_concern": "Violent crimes"
+    },
+    "QUEENS PARK VILLAGE": {
+      "safety_score": 58.8,
+      "total_incidents": 160.0,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 3,
+      "primary_concern": "Violent crimes"
+    },
+    "BONAVISTA DOWNS": {
+      "safety_score": 58.7,
+      "total_incidents": 175.0,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 3,
+      "primary_concern": "Violent crimes"
+    },
+    "SECTION 23": {
+      "safety_score": 58.7,
+      "total_incidents": 175.0,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 3,
+      "primary_concern": "Violent crimes"
+    },
+    "AMBLETON": {
+      "safety_score": 58.6,
+      "total_incidents": 182.5,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 3,
+      "primary_concern": "Violent crimes"
+    },
+    "COACH HILL": {
+      "safety_score": 58.6,
+      "total_incidents": 182.5,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 3,
+      "primary_concern": "Violent crimes"
+    },
+    "MEDICINE HILL": {
+      "safety_score": 58.6,
+      "total_incidents": 176.0,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 3,
+      "primary_concern": "Violent crimes"
+    },
+    "YORKVILLE": {
+      "safety_score": 58.6,
+      "total_incidents": 180.0,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 3,
+      "primary_concern": "Violent crimes"
+    },
+    "BAYVIEW": {
+      "safety_score": 58.5,
+      "total_incidents": 190.0,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 3,
+      "primary_concern": "Violent crimes"
+    },
+    "BRITANNIA": {
+      "safety_score": 58.5,
+      "total_incidents": 192.5,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 3,
+      "primary_concern": "Violent crimes"
+    },
+    "HASKAYNE": {
+      "safety_score": 58.5,
+      "total_incidents": 194.5,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 3,
+      "primary_concern": "Violent crimes"
+    },
+    "EASTFIELD": {
+      "safety_score": 58.3,
+      "total_incidents": 210.0,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 3,
+      "primary_concern": "Violent crimes"
+    },
+    "GLACIER RIDGE": {
+      "safety_score": 58.3,
+      "total_incidents": 207.0,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 3,
+      "primary_concern": "Violent crimes"
+    },
+    "HOMESTEAD": {
+      "safety_score": 58.3,
+      "total_incidents": 216.0,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 3,
+      "primary_concern": "Violent crimes"
+    },
+    "NOSE HILL PARK": {
+      "safety_score": 58.3,
+      "total_incidents": 215.0,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 3,
+      "primary_concern": "Violent crimes"
+    },
+    "AURORA BUSINESS PARK": {
+      "safety_score": 58.2,
+      "total_incidents": 222.5,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 3,
+      "primary_concern": "Violent crimes"
+    },
+    "RANGEVIEW": {
+      "safety_score": 58.2,
+      "total_incidents": 217.5,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 3,
+      "primary_concern": "Violent crimes"
+    },
+    "CRESTMONT": {
+      "safety_score": 58.1,
+      "total_incidents": 230.0,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 3,
+      "primary_concern": "Violent crimes"
+    },
+    "CURRIE BARRACKS": {
+      "safety_score": 58.1,
+      "total_incidents": 230.0,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 3,
+      "primary_concern": "Violent crimes"
+    },
+    "STARFIELD": {
+      "safety_score": 58.1,
+      "total_incidents": 232.5,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 3,
+      "primary_concern": "Violent crimes"
+    },
+    "WOLF WILLOW": {
+      "safety_score": 58.1,
+      "total_incidents": 230.0,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 3,
+      "primary_concern": "Violent crimes"
+    },
+    "SCARBORO": {
+      "safety_score": 57.9,
+      "total_incidents": 255.0,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 3,
+      "primary_concern": "Violent crimes"
+    },
+    "CHRISTIE PARK": {
+      "safety_score": 57.8,
+      "total_incidents": 257.5,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 3,
+      "primary_concern": "Violent crimes"
+    },
+    "PUMP HILL": {
+      "safety_score": 57.7,
+      "total_incidents": 275.0,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 3,
+      "primary_concern": "Violent crimes"
+    },
+    "ROSEMONT": {
+      "safety_score": 57.7,
+      "total_incidents": 272.5,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 3,
+      "primary_concern": "Violent crimes"
+    },
+    "GREENWOOD/GREENBRIAR": {
+      "safety_score": 57.6,
+      "total_incidents": 285.0,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 3,
+      "primary_concern": "Violent crimes"
+    },
+    "PARKLAND": {
+      "safety_score": 57.5,
+      "total_incidents": 292.5,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 3,
+      "primary_concern": "Violent crimes"
+    },
+    "PINE CREEK": {
+      "safety_score": 57.5,
+      "total_incidents": 287.5,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 3,
+      "primary_concern": "Violent crimes"
+    },
+    "STONEY 1": {
+      "safety_score": 57.5,
+      "total_incidents": 292.5,
+      "violent_crimes": 0,
+      "property_crimes": 0,
+      "crime_types": 3,
+      "primary_concern": "Violent crimes"
+    }
+  },
+  "crime_categories": [
+    {
+      "category": "disorder",
+      "total_incidents": 205906.5,
+      "affected_communities": 265,
+      "avg_per_community": 5.3
+    },
+    {
+      "category": "domestic",
+      "total_incidents": 52338.0,
+      "affected_communities": 1,
+      "avg_per_community": 23.7
+    },
+    {
+      "category": "property",
+      "total_incidents": 48718.0,
+      "affected_communities": 264,
+      "avg_per_community": 3.0
+    },
+    {
+      "category": "violent",
+      "total_incidents": 24808.5,
+      "affected_communities": 259,
+      "avg_per_community": 3.0
+    }
+  ],
+  "safest_neighborhoods": [
+    {
+      "community": "KEYSTONE HILLS",
+      "total_incidents": 2.5,
+      "avg_monthly_incidents": 2.5
+    },
+    {
+      "community": "TWINHILLS",
+      "total_incidents": 15.0,
+      "avg_monthly_incidents": 3.0
+    },
+    {
+      "community": "LEWISBURG",
+      "total_incidents": 25.0,
+      "avg_monthly_incidents": 3.6
+    },
+    {
+      "community": "SYMONS VALLEY RANCH",
+      "total_incidents": 47.5,
+      "avg_monthly_incidents": 3.7
+    },
+    {
+      "community": "BEL-AIRE",
+      "total_incidents": 75.0,
+      "avg_monthly_incidents": 3.9
+    },
+    {
+      "community": "NORTH HAVEN UPPER",
+      "total_incidents": 82.5,
+      "avg_monthly_incidents": 4.1
+    },
+    {
+      "community": "CANADA OLYMPIC PARK",
+      "total_incidents": 85.0,
+      "avg_monthly_incidents": 3.7
+    },
+    {
+      "community": "MAYFAIR",
+      "total_incidents": 90.0,
+      "avg_monthly_incidents": 4.3
+    },
+    {
+      "community": "DIAMOND COVE",
+      "total_incidents": 100.0,
+      "avg_monthly_incidents": 4.8
+    },
+    {
+      "community": "GLENDEER BUSINESS PARK",
+      "total_incidents": 100.0,
+      "avg_monthly_incidents": 4.5
+    }
+  ],
+  "year_over_year": {
+    "previous_year": 2023,
+    "current_year": 2024,
+    "change_percent": -6.6,
+    "direction": "decreased"
+  },
+  "insights": [
+    "Overall crime decreased 6.6% from 2023",
+    "KEYSTONE HILLS recorded the fewest incidents among tracked communities",
+    "disorder accounts for the most incidents across the city",
+    "Crime statistics should be considered alongside community size and reporting rates"
+  ]
+}

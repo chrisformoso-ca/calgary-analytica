@@ -1,0 +1,676 @@
+{
+  "metadata": {
+    "generated_at": "2025-07-04T20:24:13.677543",
+    "version": "1.0",
+    "mortgage_rates_updated": "2025-07-01",
+    "note": "Mortgage rates are manually updated pending data source integration"
+  },
+  "current_rates": {
+    "bank_of_canada": {
+      "value": 3.0,
+      "date": "2025-05-01"
+    },
+    "prime": {
+      "value": 4.95,
+      "date": "2025-05-01"
+    },
+    "mortgage": {
+      "five_year_fixed": 6.95,
+      "three_year_fixed": 6.75,
+      "variable": 6.7,
+      "last_updated": "2025-07-01"
+    }
+  },
+  "rate_history": {
+    "bank_of_canada": [
+      {
+        "date": "2020-06-01",
+        "value": 0.5
+      },
+      {
+        "date": "2020-07-01",
+        "value": 0.5
+      },
+      {
+        "date": "2020-08-01",
+        "value": 0.5
+      },
+      {
+        "date": "2020-09-01",
+        "value": 0.5
+      },
+      {
+        "date": "2020-10-01",
+        "value": 0.5
+      },
+      {
+        "date": "2020-11-01",
+        "value": 0.5
+      },
+      {
+        "date": "2020-12-01",
+        "value": 0.5
+      },
+      {
+        "date": "2021-01-01",
+        "value": 0.5
+      },
+      {
+        "date": "2021-02-01",
+        "value": 0.5
+      },
+      {
+        "date": "2021-03-01",
+        "value": 0.5
+      },
+      {
+        "date": "2021-04-01",
+        "value": 0.5
+      },
+      {
+        "date": "2021-05-01",
+        "value": 0.5
+      },
+      {
+        "date": "2021-06-01",
+        "value": 0.5
+      },
+      {
+        "date": "2021-07-01",
+        "value": 0.5
+      },
+      {
+        "date": "2021-08-01",
+        "value": 0.5
+      },
+      {
+        "date": "2021-09-01",
+        "value": 0.5
+      },
+      {
+        "date": "2021-10-01",
+        "value": 0.5
+      },
+      {
+        "date": "2021-11-01",
+        "value": 0.5
+      },
+      {
+        "date": "2021-12-01",
+        "value": 0.5
+      },
+      {
+        "date": "2022-01-01",
+        "value": 0.5
+      },
+      {
+        "date": "2022-02-01",
+        "value": 0.5
+      },
+      {
+        "date": "2022-03-01",
+        "value": 0.75
+      },
+      {
+        "date": "2022-04-01",
+        "value": 1.25
+      },
+      {
+        "date": "2022-05-01",
+        "value": 1.25
+      },
+      {
+        "date": "2022-06-01",
+        "value": 1.7500000000000002
+      },
+      {
+        "date": "2022-07-01",
+        "value": 2.75
+      },
+      {
+        "date": "2022-08-01",
+        "value": 2.75
+      },
+      {
+        "date": "2022-09-01",
+        "value": 3.5000000000000004
+      },
+      {
+        "date": "2022-10-01",
+        "value": 3.5000000000000004
+      },
+      {
+        "date": "2022-11-01",
+        "value": 4.0
+      },
+      {
+        "date": "2022-12-01",
+        "value": 4.5
+      },
+      {
+        "date": "2023-01-01",
+        "value": 4.5
+      },
+      {
+        "date": "2023-02-01",
+        "value": 4.75
+      },
+      {
+        "date": "2023-03-01",
+        "value": 4.75
+      },
+      {
+        "date": "2023-04-01",
+        "value": 4.75
+      },
+      {
+        "date": "2023-05-01",
+        "value": 4.75
+      },
+      {
+        "date": "2023-06-01",
+        "value": 5.0
+      },
+      {
+        "date": "2023-07-01",
+        "value": 5.25
+      },
+      {
+        "date": "2023-08-01",
+        "value": 5.25
+      },
+      {
+        "date": "2023-09-01",
+        "value": 5.25
+      },
+      {
+        "date": "2023-10-01",
+        "value": 5.25
+      },
+      {
+        "date": "2023-11-01",
+        "value": 5.25
+      },
+      {
+        "date": "2023-12-01",
+        "value": 5.25
+      },
+      {
+        "date": "2024-01-01",
+        "value": 5.25
+      },
+      {
+        "date": "2024-02-01",
+        "value": 5.25
+      },
+      {
+        "date": "2024-03-01",
+        "value": 5.25
+      },
+      {
+        "date": "2024-04-01",
+        "value": 5.25
+      },
+      {
+        "date": "2024-05-01",
+        "value": 5.25
+      },
+      {
+        "date": "2024-06-01",
+        "value": 5.0
+      },
+      {
+        "date": "2024-07-01",
+        "value": 4.75
+      },
+      {
+        "date": "2024-08-01",
+        "value": 4.75
+      },
+      {
+        "date": "2024-09-01",
+        "value": 4.5
+      },
+      {
+        "date": "2024-10-01",
+        "value": 4.0
+      },
+      {
+        "date": "2024-11-01",
+        "value": 4.0
+      },
+      {
+        "date": "2024-12-01",
+        "value": 3.5000000000000004
+      },
+      {
+        "date": "2025-01-01",
+        "value": 3.5000000000000004
+      },
+      {
+        "date": "2025-02-01",
+        "value": 3.25
+      },
+      {
+        "date": "2025-03-01",
+        "value": 3.0
+      },
+      {
+        "date": "2025-04-01",
+        "value": 3.0
+      },
+      {
+        "date": "2025-05-01",
+        "value": 3.0
+      }
+    ],
+    "prime_rate": [
+      {
+        "date": "2020-06-01",
+        "value": 2.45
+      },
+      {
+        "date": "2020-07-01",
+        "value": 2.45
+      },
+      {
+        "date": "2020-08-01",
+        "value": 2.45
+      },
+      {
+        "date": "2020-09-01",
+        "value": 2.45
+      },
+      {
+        "date": "2020-10-01",
+        "value": 2.45
+      },
+      {
+        "date": "2020-11-01",
+        "value": 2.45
+      },
+      {
+        "date": "2020-12-01",
+        "value": 2.45
+      },
+      {
+        "date": "2021-01-01",
+        "value": 2.45
+      },
+      {
+        "date": "2021-02-01",
+        "value": 2.45
+      },
+      {
+        "date": "2021-03-01",
+        "value": 2.45
+      },
+      {
+        "date": "2021-04-01",
+        "value": 2.45
+      },
+      {
+        "date": "2021-05-01",
+        "value": 2.45
+      },
+      {
+        "date": "2021-06-01",
+        "value": 2.45
+      },
+      {
+        "date": "2021-07-01",
+        "value": 2.45
+      },
+      {
+        "date": "2021-08-01",
+        "value": 2.45
+      },
+      {
+        "date": "2021-09-01",
+        "value": 2.45
+      },
+      {
+        "date": "2021-10-01",
+        "value": 2.45
+      },
+      {
+        "date": "2021-11-01",
+        "value": 2.45
+      },
+      {
+        "date": "2021-12-01",
+        "value": 2.45
+      },
+      {
+        "date": "2022-01-01",
+        "value": 2.45
+      },
+      {
+        "date": "2022-02-01",
+        "value": 2.45
+      },
+      {
+        "date": "2022-03-01",
+        "value": 2.7
+      },
+      {
+        "date": "2022-04-01",
+        "value": 3.2
+      },
+      {
+        "date": "2022-05-01",
+        "value": 3.2
+      },
+      {
+        "date": "2022-06-01",
+        "value": 3.7000000000000006
+      },
+      {
+        "date": "2022-07-01",
+        "value": 4.7
+      },
+      {
+        "date": "2022-08-01",
+        "value": 4.7
+      },
+      {
+        "date": "2022-09-01",
+        "value": 5.45
+      },
+      {
+        "date": "2022-10-01",
+        "value": 5.45
+      },
+      {
+        "date": "2022-11-01",
+        "value": 5.95
+      },
+      {
+        "date": "2022-12-01",
+        "value": 6.45
+      },
+      {
+        "date": "2023-01-01",
+        "value": 6.45
+      },
+      {
+        "date": "2023-02-01",
+        "value": 6.7
+      },
+      {
+        "date": "2023-03-01",
+        "value": 6.7
+      },
+      {
+        "date": "2023-04-01",
+        "value": 6.7
+      },
+      {
+        "date": "2023-05-01",
+        "value": 6.7
+      },
+      {
+        "date": "2023-06-01",
+        "value": 6.950000000000001
+      },
+      {
+        "date": "2023-07-01",
+        "value": 7.200000000000001
+      },
+      {
+        "date": "2023-08-01",
+        "value": 7.200000000000001
+      },
+      {
+        "date": "2023-09-01",
+        "value": 7.200000000000001
+      },
+      {
+        "date": "2023-10-01",
+        "value": 7.200000000000001
+      },
+      {
+        "date": "2023-11-01",
+        "value": 7.200000000000001
+      },
+      {
+        "date": "2023-12-01",
+        "value": 7.200000000000001
+      },
+      {
+        "date": "2024-01-01",
+        "value": 7.200000000000001
+      },
+      {
+        "date": "2024-02-01",
+        "value": 7.200000000000001
+      },
+      {
+        "date": "2024-03-01",
+        "value": 7.200000000000001
+      },
+      {
+        "date": "2024-04-01",
+        "value": 7.200000000000001
+      },
+      {
+        "date": "2024-05-01",
+        "value": 7.200000000000001
+      },
+      {
+        "date": "2024-06-01",
+        "value": 6.950000000000001
+      },
+      {
+        "date": "2024-07-01",
+        "value": 6.7
+      },
+      {
+        "date": "2024-08-01",
+        "value": 6.7
+      },
+      {
+        "date": "2024-09-01",
+        "value": 6.45
+      },
+      {
+        "date": "2024-10-01",
+        "value": 5.95
+      },
+      {
+        "date": "2024-11-01",
+        "value": 5.95
+      },
+      {
+        "date": "2024-12-01",
+        "value": 5.45
+      },
+      {
+        "date": "2025-01-01",
+        "value": 5.45
+      },
+      {
+        "date": "2025-02-01",
+        "value": 5.2
+      },
+      {
+        "date": "2025-03-01",
+        "value": 4.95
+      },
+      {
+        "date": "2025-04-01",
+        "value": 4.95
+      },
+      {
+        "date": "2025-05-01",
+        "value": 4.95
+      }
+    ]
+  },
+  "payment_scenarios": [
+    {
+      "home_price": 300000,
+      "price_label": "Entry Level",
+      "down_payment_percent": 5,
+      "down_payment_amount": 15000.0,
+      "mortgage_amount": 285000.0,
+      "rate": 6.95,
+      "monthly_payment": 2005.24,
+      "total_interest": 316571.81
+    },
+    {
+      "home_price": 300000,
+      "price_label": "Entry Level",
+      "down_payment_percent": 10,
+      "down_payment_amount": 30000.0,
+      "mortgage_amount": 270000.0,
+      "rate": 6.95,
+      "monthly_payment": 1899.7,
+      "total_interest": 299910.13
+    },
+    {
+      "home_price": 300000,
+      "price_label": "Entry Level",
+      "down_payment_percent": 20,
+      "down_payment_amount": 60000.0,
+      "mortgage_amount": 240000.0,
+      "rate": 6.95,
+      "monthly_payment": 1688.62,
+      "total_interest": 266586.78
+    },
+    {
+      "home_price": 450000,
+      "price_label": "Average Row House",
+      "down_payment_percent": 5,
+      "down_payment_amount": 22500.0,
+      "mortgage_amount": 427500.0,
+      "rate": 6.95,
+      "monthly_payment": 3007.86,
+      "total_interest": 474857.71
+    },
+    {
+      "home_price": 450000,
+      "price_label": "Average Row House",
+      "down_payment_percent": 10,
+      "down_payment_amount": 45000.0,
+      "mortgage_amount": 405000.0,
+      "rate": 6.95,
+      "monthly_payment": 2849.55,
+      "total_interest": 449865.2
+    },
+    {
+      "home_price": 450000,
+      "price_label": "Average Row House",
+      "down_payment_percent": 20,
+      "down_payment_amount": 90000.0,
+      "mortgage_amount": 360000.0,
+      "rate": 6.95,
+      "monthly_payment": 2532.93,
+      "total_interest": 399880.18
+    },
+    {
+      "home_price": 600000,
+      "price_label": "Average Overall",
+      "down_payment_percent": 5,
+      "down_payment_amount": 30000.0,
+      "mortgage_amount": 570000.0,
+      "rate": 6.95,
+      "monthly_payment": 4010.48,
+      "total_interest": 633143.61
+    },
+    {
+      "home_price": 600000,
+      "price_label": "Average Overall",
+      "down_payment_percent": 10,
+      "down_payment_amount": 60000.0,
+      "mortgage_amount": 540000.0,
+      "rate": 6.95,
+      "monthly_payment": 3799.4,
+      "total_interest": 599820.27
+    },
+    {
+      "home_price": 600000,
+      "price_label": "Average Overall",
+      "down_payment_percent": 20,
+      "down_payment_amount": 120000.0,
+      "mortgage_amount": 480000.0,
+      "rate": 6.95,
+      "monthly_payment": 3377.25,
+      "total_interest": 533173.57
+    },
+    {
+      "home_price": 770000,
+      "price_label": "Average Detached",
+      "down_payment_percent": 5,
+      "down_payment_amount": 38500.0,
+      "mortgage_amount": 731500.0,
+      "rate": 6.95,
+      "monthly_payment": 5146.78,
+      "total_interest": 812534.3
+    },
+    {
+      "home_price": 770000,
+      "price_label": "Average Detached",
+      "down_payment_percent": 10,
+      "down_payment_amount": 77000.0,
+      "mortgage_amount": 693000.0,
+      "rate": 6.95,
+      "monthly_payment": 4875.9,
+      "total_interest": 769769.34
+    },
+    {
+      "home_price": 770000,
+      "price_label": "Average Detached",
+      "down_payment_percent": 20,
+      "down_payment_amount": 154000.0,
+      "mortgage_amount": 616000.0,
+      "rate": 6.95,
+      "monthly_payment": 4334.13,
+      "total_interest": 684239.41
+    }
+  ],
+  "stress_test_rates": {
+    "five_year_fixed": 8.95,
+    "variable": 8.7
+  },
+  "rate_environment": {
+    "current_environment": "moderate",
+    "trend": "falling",
+    "historical_context": {
+      "one_year_change": -2.25,
+      "five_year_average": 2.82,
+      "vs_five_year_avg": 0.18
+    }
+  },
+  "affordability_metrics": {
+    "price_300000": {
+      "home_price": 300000,
+      "monthly_payment": 1688.62,
+      "total_housing_cost": 2088.62,
+      "required_income": 78323.0
+    },
+    "price_450000": {
+      "home_price": 450000,
+      "monthly_payment": 2532.93,
+      "total_housing_cost": 3057.93,
+      "required_income": 114672.0
+    },
+    "price_600000": {
+      "home_price": 600000,
+      "monthly_payment": 3377.25,
+      "total_housing_cost": 4027.25,
+      "required_income": 151022.0
+    },
+    "price_770000": {
+      "home_price": 770000,
+      "monthly_payment": 4334.13,
+      "total_housing_cost": 5125.8,
+      "required_income": 192217.0
+    }
+  },
+  "calculator_defaults": {
+    "amortization_years": 25,
+    "payment_frequency": "monthly",
+    "compound_frequency": "semi-annual"
+  }
+}
